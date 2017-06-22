@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="96afc88d4faa7e00af76d0af0310c72f" sys_domain="global" table="x_inthe_cybersecur_risk_assessment" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-03 16:22:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>daafc88d4faa7e00af76d0af0310c72f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_inthe_cybersecur_risk_assessment" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">96afc88d4faa7e00af76d0af0310c72f</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">1b4dc00d4faa7e00af76d0af0310c7bc</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-03 16:22:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-03 16:43:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a949c014fea7e00af76d0af0310c711</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_inthe_cybersecur_risk_assessment" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">96afc88d4faa7e00af76d0af0310c72f</sys_ui_form>
+            <sys_ui_section caption="Business Contacts" display_value="Business Contacts" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">d2949c014fea7e00af76d0af0310c711</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-03 16:43:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-03 16:54:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1807d0814fea7e00af76d0af0310c7d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_inthe_cybersecur_risk_assessment" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">96afc88d4faa7e00af76d0af0310c72f</sys_ui_form>
+            <sys_ui_section caption="Assessment Parameters" display_value="Assessment Parameters" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">d007d0814fea7e00af76d0af0310c7d5</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-03 16:54:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-03 19:01:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c914b4c14f2e7e00af76d0af0310c77a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_inthe_cybersecur_risk_assessment" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">96afc88d4faa7e00af76d0af0310c72f</sys_ui_form>
+            <sys_ui_section caption="Data Summary" display_value="Data Summary" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">8514b4c14f2e7e00af76d0af0310c77a</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-03 19:01:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-03 19:15:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>785770454f2e7e00af76d0af0310c7c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_inthe_cybersecur_risk_assessment" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">96afc88d4faa7e00af76d0af0310c72f</sys_ui_form>
+            <sys_ui_section caption="Off-Shore Resources" display_value="Off-Shore Resources" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">345770454f2e7e00af76d0af0310c7c8</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-03 19:15:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-03 19:31:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1fa7cc54f2e7e00af76d0af0310c72b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_inthe_cybersecur_risk_assessment" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">96afc88d4faa7e00af76d0af0310c72f</sys_ui_form>
+            <sys_ui_section caption="Review Type" display_value="Review Type" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9dfa7cc54f2e7e00af76d0af0310c72a</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-03 19:31:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-03 19:46:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d86ef8494f2e7e00af76d0af0310c788</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_inthe_cybersecur_risk_assessment" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">96afc88d4faa7e00af76d0af0310c72f</sys_ui_form>
+            <sys_ui_section caption="System Architecture" display_value="System Architecture" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">946ef8494f2e7e00af76d0af0310c788</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-03 19:46:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-03 20:26:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d4b7c98d4f2e7e00af76d0af0310c7cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_inthe_cybersecur_risk_assessment" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">96afc88d4faa7e00af76d0af0310c72f</sys_ui_form>
+            <sys_ui_section caption="Network Architecture" display_value="Network Architecture" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">90b7c98d4f2e7e00af76d0af0310c7cb</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-03 20:26:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>8</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-06 20:49:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87f290444fd7ba00af76d0af0310c720</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_inthe_cybersecur_risk_assessment" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">96afc88d4faa7e00af76d0af0310c72f</sys_ui_form>
+            <sys_ui_section caption="Data Flow" display_value="Data Flow" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">2ef250444fd7ba00af76d0af0310c7f9</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-06 20:49:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>9</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-06 20:49:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4bf290444fd7ba00af76d0af0310c720</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_inthe_cybersecur_risk_assessment" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">96afc88d4faa7e00af76d0af0310c72f</sys_ui_form>
+            <sys_ui_section caption="Security Control" display_value="Security Control" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">22f250444fd7ba00af76d0af0310c7fa</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-06 20:49:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>10</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-31 22:29:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67203dce4f0bb200f5f3d49f0310c765</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_inthe_cybersecur_risk_assessment" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">96afc88d4faa7e00af76d0af0310c72f</sys_ui_form>
+            <sys_ui_section caption="Security Review Summary" display_value="Security Review Summary" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">23203dce4f0bb200f5f3d49f0310c765</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-06 20:49:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-03 16:22:01</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96afc88d4faa7e00af76d0af0310c72f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_inthe_cybersecur_risk_assessment</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
+            <sys_update_name>sys_ui_form_sections_96afc88d4faa7e00af76d0af0310c72f</sys_update_name>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-03 16:22:01</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

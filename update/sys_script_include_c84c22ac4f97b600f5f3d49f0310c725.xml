@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_inthe_cybersecur.IHCAppUtils</api_name>
+        <client_callable>false</client_callable>
+        <description>Utility Class for all methods used in scoped app</description>
+        <name>IHCAppUtils</name>
+        <script><![CDATA[var IHCAppUtils = Class.create();
+IHCAppUtils.prototype = {
+    initialize: function() {
+    },
+	
+	getSecurityUsers: function(type){
+	var query = '';
+	var grUser = new GlideRecord('x_inthe_cybersecur_security_persons_directory');
+		grUser.addQuery('u_type', type);
+		grUser.query();
+		while (grUser.next()){
+			if(query.length > 0){
+				query += (',' + grUser.u_user);
+			} else {
+				query = '' + grUser.u_user;
+			}
+		}
+		return 'sys_idIN' + query;
+	
+	},
+	
+	getSolutions: function(org){
+	var query = '';
+	var grSolution = new GlideRecord('x_inthe_cybersecur_solution');
+		grSolution.addQuery('u_organization', org);
+		grSolution.addQuery('u_active', true);
+		grSolution.query();
+		while (grSolution.next()){
+			if(query.length > 0){
+				query += (',' + grSolution.sys_id);
+			} else {
+				query = '' + grSolution.sys_id;
+			}
+		}
+		return 'sys_idIN' + query;
+		
+},
+    type: 'IHCAppUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-06-08 21:19:21</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c84c22ac4f97b600f5f3d49f0310c725</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>IHCAppUtils</sys_name>
+        <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
+        <sys_update_name>sys_script_include_c84c22ac4f97b600f5f3d49f0310c725</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-06-21 16:14:45</sys_updated_on>
+    </sys_script_include>
+</record_update>

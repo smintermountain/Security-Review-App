@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Assessment Parameters" section_id="d007d0814fea7e00af76d0af0310c7d5" sys_domain="global" table="x_inthe_cybersecur_risk_assessment" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_security_review_purpose</element>
+            <position>0</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-03 18:58:15</sys_created_on>
+            <sys_id>c363fc814f2e7e00af76d0af0310c7fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Assessment Parameters" display_value="Assessment Parameters" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">d007d0814fea7e00af76d0af0310c7d5</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-03 18:58:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_review_scope</element>
+            <position>1</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-03 18:58:15</sys_created_on>
+            <sys_id>4763fc814f2e7e00af76d0af0310c7fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Assessment Parameters" display_value="Assessment Parameters" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">d007d0814fea7e00af76d0af0310c7d5</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-03 18:58:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_review_process</element>
+            <position>2</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-03 18:58:15</sys_created_on>
+            <sys_id>c763fc814f2e7e00af76d0af0310c7fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Assessment Parameters" display_value="Assessment Parameters" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">d007d0814fea7e00af76d0af0310c7d5</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-03 18:58:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_assumptions_constraints_tolerances_uncertanities</element>
+            <position>3</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-03 18:58:15</sys_created_on>
+            <sys_id>4b63fc814f2e7e00af76d0af0310c7fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Assessment Parameters" display_value="Assessment Parameters" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">d007d0814fea7e00af76d0af0310c7d5</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-03 18:58:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Assessment Parameters</caption>
+            <header>false</header>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-03 16:54:05</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d007d0814fea7e00af76d0af0310c7d5</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Assessment Parameters</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
+            <sys_update_name>sys_ui_section_d007d0814fea7e00af76d0af0310c7d5</sys_update_name>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-03 18:58:15</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

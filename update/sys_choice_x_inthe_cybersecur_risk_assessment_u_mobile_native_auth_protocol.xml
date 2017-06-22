@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_mobile_native_auth_protocol" table="x_inthe_cybersecur_risk_assessment" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mobile_native_auth_protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OAuth 2.0</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-31 16:14:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>057ad4864f47b200f5f3d49f0310c71f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:22:57</sys_updated_on>
+            <u_task/>
+            <value>OAuth 2.0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mobile_native_auth_protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OpenID Connect</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-31 16:14:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5e8ad4864f47b200f5f3d49f0310c7db</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:22:58</sys_updated_on>
+            <u_task/>
+            <value>OpenID Connect</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mobile_native_auth_protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Federation - SAML 2.0</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-31 16:15:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>db8a1c464f47b200f5f3d49f0310c7df</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:22:58</sys_updated_on>
+            <u_task/>
+            <value>Federation - SAML 2.0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mobile_native_auth_protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Federation - ADFS</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-31 16:15:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fa9a94864f47b200f5f3d49f0310c742</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:22:58</sys_updated_on>
+            <u_task/>
+            <value>Federation - ADFS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mobile_native_auth_protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Step-up Authentication (MFA)</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>4</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-31 16:15:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a8ba94864f47b200f5f3d49f0310c733</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:22:58</sys_updated_on>
+            <u_task/>
+            <value>Step-up Authentication (MFA)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mobile_native_auth_protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>5</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-31 16:16:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>64ca18864f47b200f5f3d49f0310c742</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:22:58</sys_updated_on>
+            <u_task/>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_mobile_native_auth_protocol</element>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-31 16:14:48</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>f98a94864f47b200f5f3d49f0310c741</sys_id>
+            <sys_mod_count>30</sys_mod_count>
+            <sys_name>u_mobile_native_auth_protocol</sys_name>
+            <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
+            <sys_update_name>sys_choice_x_inthe_cybersecur_risk_assessment_u_mobile_native_auth_protocol</sys_update_name>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:22:58</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

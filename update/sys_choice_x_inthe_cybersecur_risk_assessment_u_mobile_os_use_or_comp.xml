@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_mobile_os_use_or_comp" table="x_inthe_cybersecur_risk_assessment" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mobile_os_use_or_comp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>iOS</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 15:35:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a2b155a4f0f7600af76d0af0310c735</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:18:39</sys_updated_on>
+            <u_task/>
+            <value>iOS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mobile_os_use_or_comp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Android</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 15:36:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a72b155a4f0f7600af76d0af0310c75b</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:18:39</sys_updated_on>
+            <u_task/>
+            <value>Android</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mobile_os_use_or_comp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Windows 10</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 15:37:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>595b955a4f0f7600af76d0af0310c7ec</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:18:38</sys_updated_on>
+            <u_task/>
+            <value>Windows 10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mobile_os_use_or_comp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 15:37:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df7b915a4f0f7600af76d0af0310c7d7</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:18:38</sys_updated_on>
+            <u_task/>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_mobile_os_use_or_comp</element>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 15:35:46</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>2b2bdd1a4f0f7600af76d0af0310c789</sys_id>
+            <sys_mod_count>21</sys_mod_count>
+            <sys_name>u_mobile_os_use_or_comp</sys_name>
+            <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
+            <sys_update_name>sys_choice_x_inthe_cybersecur_risk_assessment_u_mobile_os_use_or_comp</sys_update_name>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:18:39</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

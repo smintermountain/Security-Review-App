@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Risk" max_length="40" name="x_inthe_cybersecur_risk" type="collection">
+        <element label="Actual Completion Date" max_length="40" name="u_actual_completion_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Email of Assigned Person" max_length="40" name="u_assigned_to_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Controlled Risk Level" max_length="40" name="u_controlled_risk_level" type="string">
+            <choice>
+                <element label="Low" sequence="0" value="Low"/>
+                <element label="Moderate" sequence="1" value="Moderate"/>
+                <element label="High" sequence="2" value="High"/>
+                <element label="Critical" sequence="3" value="Critical"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Detailed Description" max_length="4000" name="u_description_of_risk" type="string"/>
+        <element label="Expected Completion Date" max_length="40" name="u_expected_completion_date" type="glide_date"/>
+        <element label="Management Action Plan" max_length="32" name="u_management_action_plan" reference="x_inthe_cybersecur_management_action_plan" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Proposed Business Remediation Plan" max_length="4000" name="u_proposed_business_remediation_plan" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Recommended Remediation" max_length="4000" name="u_recommended_remediation" type="string"/>
+        <element label="Remediation Assigned To" max_length="32" name="u_remediation_assigned_to" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Remediation Required in Contract" max_length="40" name="u_remediation_required_in_contract" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Remediation Timeframe" max_length="1000" name="u_remediation_timeframe" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="255" name="u_risk_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Uncontrolled Risk Level" max_length="40" name="u_uncontrolled_risk_level" type="string">
+            <choice>
+                <element label="Low" sequence="0" value="Low"/>
+                <element label="Moderate" sequence="1" value="Moderate"/>
+                <element label="High" sequence="2" value="High"/>
+                <element label="Critical" sequence="3" value="Critical"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_remediation_assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="u_management_action_plan"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_authentication_protocol" table="x_inthe_cybersecur_risk_assessment" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_authentication_protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Header-Based Auth (TAM/ISAM, Authentication Proxy)</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-24 21:31:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2fdfd9b74ff6f600f5f3d49f0310c78c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-24 21:37:50</sys_updated_on>
+            <u_task/>
+            <value>Header-Based Auth (TAM/ISAM, Authentication Proxy)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_authentication_protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Federation – SAML 2.0</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-24 21:32:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2c1061374ff6f600f5f3d49f0310c755</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-24 21:37:50</sys_updated_on>
+            <u_task/>
+            <value>Federation – SAML 2.0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_authentication_protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Federation – OpenID</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-24 21:32:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a920e5b74ff6f600f5f3d49f0310c740</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-24 21:37:50</sys_updated_on>
+            <u_task/>
+            <value>Federation – OpenID</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_authentication_protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Federation – ADFS</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-24 21:33:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>43302db74ff6f600f5f3d49f0310c781</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-24 21:37:50</sys_updated_on>
+            <u_task/>
+            <value>Federation – ADFS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_authentication_protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OAuth 2.0</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>4</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-24 21:33:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f4061b74ff6f600f5f3d49f0310c75f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-24 21:37:51</sys_updated_on>
+            <u_task/>
+            <value>OAuth 2.0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_authentication_protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Step-up Authentication (MFA)</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>5</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-24 21:33:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c6021f74ff6f600f5f3d49f0310c716</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-24 21:37:51</sys_updated_on>
+            <u_task/>
+            <value>Step-up Authentication (MFA)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_authentication_protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>6</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-24 21:33:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b07061374ff6f600f5f3d49f0310c757</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-24 21:37:50</sys_updated_on>
+            <u_task/>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_authentication_protocol</element>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-24 21:31:53</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>2eff59374ff6f600f5f3d49f0310c764</sys_id>
+            <sys_mod_count>16</sys_mod_count>
+            <sys_name>u_authentication_protocol</sys_name>
+            <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
+            <sys_update_name>sys_choice_x_inthe_cybersecur_risk_assessment_u_authentication_protocol</sys_update_name>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-26 15:48:05</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

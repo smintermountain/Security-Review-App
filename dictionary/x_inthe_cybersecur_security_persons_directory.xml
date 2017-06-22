@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="ESC/OSC Directory" max_length="40" name="x_inthe_cybersecur_security_persons_directory" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" dependent="u_region" dependent_on_field="u_region" label="Facility" max_length="40" name="u_facility" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Central Region (CR)" label="Alta View Hospital" sequence="0" value="Alta View Hospital"/>
+                <element dependent_value="South Region (SR)" label="American Fork Hospital" sequence="0" value="American Fork Hospital"/>
+                <element dependent_value="North Region (NR)" label="Bear River Valley Hospital" sequence="0" value="Bear River Valley Hospital"/>
+                <element dependent_value="Central Entities" label="Behavioral Health" sequence="0" value="Behavioral Health"/>
+                <element dependent_value="Southwest Region (SWR)" label="Dixie Regional Medical Center" sequence="0" value="Dixie Regional Medical Center"/>
+                <element dependent_value="SelectHealth" label="Franklin Covey" sequence="0" value="Franklin Covey"/>
+                <element dependent_value="Park City/Heber Region" label="Heber Valley Medical Center" sequence="0" value="Heber Valley Medical Center"/>
+                <element dependent_value="Medical Group" label="Intermountain Medical Group" sequence="0" value="Intermountain Medical Group"/>
+                <element dependent_value="Primary Children's Hospital" label="Primary Children's Hospital" sequence="0" value="Primary Children's Hospital"/>
+                <element dependent_value="North Region (NR)" label="Cassia Regional Medical Center" sequence="1" value="Cassia Regional Medical Center"/>
+                <element dependent_value="Central Region (CR)" label="Central Lab" sequence="1" value="Central Lab"/>
+                <element dependent_value="Central Entities" label="Central Office (KBT)" sequence="1" value="Central Office (KBT)"/>
+                <element dependent_value="South Region (SR)" label="Delta Community Medical Center" sequence="1" value="Delta Community Medical Center"/>
+                <element dependent_value="Southwest Region (SWR)" label="Garfield Memorial Hospital" sequence="1" value="Garfield Memorial Hospital"/>
+                <element dependent_value="Park City/Heber Region" label="Park City Medical Center" sequence="1" value="Park City Medical Center"/>
+                <element dependent_value="SelectHealth" label="SelectHealth" sequence="1" value="SelectHealth"/>
+                <element dependent_value="Primary Children's Hospital" label="Xerox" sequence="1" value="Xerox"/>
+                <element dependent_value="Central Entities" label="Employee Assistance Program (EAP)" sequence="2" value="Employee Assistance Program (EAP)"/>
+                <element dependent_value="South Region (SR)" label="Fillmore Community Medical Center" sequence="2" value="Fillmore Community Medical Center"/>
+                <element dependent_value="Central Region (CR)" label="Intermountain Medical Center" sequence="2" value="Intermountain Medical Center"/>
+                <element dependent_value="North Region (NR)" label="Logan Regional Hospital" sequence="2" value="Logan Regional Hospital"/>
+                <element dependent_value="Southwest Region (SWR)" label="Valley View Medical Center" sequence="2" value="Valley View Medical Center"/>
+                <element dependent_value="Central Entities" label="Employee Service Center" sequence="3" value="Employee Service Center"/>
+                <element dependent_value="Central Region (CR)" label="LDS Hospital" sequence="3" value="LDS Hospital"/>
+                <element dependent_value="North Region (NR)" label="McKay-Dee Hospital Center" sequence="3" value="McKay-Dee Hospital Center"/>
+                <element dependent_value="South Region (SR)" label="Orem Community Hospital" sequence="3" value="Orem Community Hospital"/>
+                <element dependent_value="Central Entities" label="HomeCare" sequence="4" value="HomeCare"/>
+                <element dependent_value="Central Region (CR)" label="Life Flight" sequence="4" value="Life Flight"/>
+                <element dependent_value="South Region (SR)" label="Sanpete Valley Hospital" sequence="4" value="Sanpete Valley Hospital"/>
+                <element dependent_value="Central Entities" label="Homer Warner" sequence="5" value="Homer Warner"/>
+                <element dependent_value="Central Region (CR)" label="Riverton Hospital" sequence="5" value="Riverton Hospital"/>
+                <element dependent_value="South Region (SR)" label="Sevier Valley Medical Center" sequence="5" value="Sevier Valley Medical Center"/>
+                <element dependent_value="Central Entities" label="Information Technology/Lake Park/Parkway Building" sequence="6" value="Information Technology/Lake Park/Parkway Building"/>
+                <element dependent_value="Central Region (CR)" label="The Orthopedic Specialty Hospital (TOSH)" sequence="6" value="The Orthopedic Specialty Hospital (TOSH)"/>
+                <element dependent_value="South Region (SR)" label="Utah Valley Regional Medical Center" sequence="6" value="Utah Valley Regional Medical Center"/>
+                <element dependent_value="Central Entities" label="Kansas City/iCentra" sequence="7" value="Kansas City/iCentra"/>
+                <element dependent_value="Central Entities" label="Kool Span" sequence="8" value="Kool Span"/>
+                <element dependent_value="Central Entities" label="Plano" sequence="9" value="Plano"/>
+                <element dependent_value="Central Entities" label="RCO PFS" sequence="10" value="RCO PFS"/>
+                <element dependent_value="Central Entities" label="Sorensen on 4500 South" sequence="11" value="Sorensen on 4500 South"/>
+                <element dependent_value="Central Entities" label="Supply Chain Center" sequence="12" value="Supply Chain Center"/>
+                <element dependent_value="Central Entities" label="Transformation Lab" sequence="13" value="Transformation Lab"/>
+                <element dependent_value="Central Entities" label="Vault" sequence="14" value="Vault"/>
+                <element dependent_value="Central Entities" label="World Trade Center" sequence="15" value="World Trade Center"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" choice_field="change_control" label="Region" max_length="40" name="u_region" type="choice">
+            <choice>
+                <element label="Central Entities" sequence="0" value="Central Entities"/>
+                <element label="Central Region (CR)" sequence="1" value="Central Region (CR)"/>
+                <element label="Medical Group" sequence="2" value="Medical Group"/>
+                <element label="North Region (NR)" sequence="3" value="North Region (NR)"/>
+                <element label="Park City/Heber Region" sequence="4" value="Park City/Heber Region"/>
+                <element label="Primary Children's Hospital" sequence="5" value="Primary Children's Hospital"/>
+                <element label="SelectHealth" sequence="6" value="SelectHealth"/>
+                <element label="South Region (SR)" sequence="7" value="South Region (SR)"/>
+                <element label="Southwest Region (SWR)" sequence="8" value="Southwest Region (SWR)"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Type" max_length="40" name="u_type" type="choice">
+            <choice>
+                <element label="ESC" sequence="0" value="ESC"/>
+                <element label="OSC" sequence="1" value="OSC"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="User" max_length="32" name="u_user" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <index name="index">
+            <element name="u_user"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Security Review Tasks" max_length="40" name="x_inthe_cybersecur_security_review_tasks" sizeclass="2" type="collection">
+        <element label="Assigned Date" max_length="40" name="u_assigned_date" type="glide_date"/>
+        <element label="Completed Date" max_length="40" name="u_completed_date" type="glide_date"/>
+        <element label="Due Date" max_length="40" name="u_due_date" type="glide_date"/>
+        <element label="New Due Date" max_length="40" name="u_due_date_6" type="due_date"/>
+        <element label="Security Review" max_length="32" name="u_security_review" reference="x_inthe_cybersecur_risk_assessment" type="reference"/>
+    </element>
+</database>

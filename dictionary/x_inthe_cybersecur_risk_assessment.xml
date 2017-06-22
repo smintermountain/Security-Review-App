@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Risk Assessment" max_length="40" name="x_inthe_cybersecur_risk_assessment" type="collection">
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="How Will Access Requests Be Submitted and Tracked" max_length="40" name="u_access_request_submitted_tracked" type="string">
+            <choice>
+                <element label="AccessWeb" sequence="0" value="AccessWeb"/>
+                <element label="Service Catalog" sequence="1" value="Service Catalog"/>
+                <element label="Saviynt" sequence="2" value="Saviynt"/>
+                <element label="Unknown" sequence="3" value="Unknown"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Additional Comments" max_length="4000" name="u_additional_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional System Architecture Notes or Comments" max_length="4000" name="u_additional_system_architecture_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional User Registration and Access Request Comments" max_length="1000" name="u_additional_user_access_request_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional Access Review Comments/Details" max_length="1000" name="u_addl_access_review_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional Contracting Comments/Detail" max_length="1000" name="u_addl_contracting_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional Mobile App Security Comments/Details" max_length="1000" name="u_addl_mobile_app_security_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional Network Security Comments/Details" max_length="1000" name="u_addl_network_security_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional Password Management Comments/Detail" max_length="1000" name="u_addl_password_mgt_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional Privilege Management Comments" max_length="1000" name="u_addl_privilege_mgt_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional Technical Security Assessment Comments/Details" max_length="1000" name="u_addl_technical_security_assessment_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Admin User Passwords Comply with IH Standards" max_length="40" name="u_admin_user_passwords_comply" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is All Covered Information Encrypted Using Approved Standards While At Rest and " max_length="40" name="u_all_covered_info_encrypted" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="All Data Encrypted at Rest" max_length="40" name="u_all_data_encrypted_at_rest" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="All Data Encrypted in Transit" max_length="40" name="u_all_data_encrypted_in_transit" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="All Data on Backup Media or Other External Media are Encrypted" max_length="40" name="u_all_data_on_backup_media_encrypted" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element label="Application" max_length="40" name="u_application" type="boolean"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Approved Data Center Only" max_length="1024" name="u_approved_data_center_only" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="List Facilities" max_length="300" name="u_approved_data_center_or_closet_list" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="App Caches User Credentials" max_length="40" name="u_app_caches_user_credentials" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="App Encrypts Data Separately from Device Encryption" max_length="40" name="u_app_encrypts_data_separately_from_device" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="App Encrypts All Network Communication Between Itself and Servers" max_length="40" name="u_app_encrypts_network_communication" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="App Retains Residual Data on the Device After it is Closed" max_length="40" name="u_app_retains_residual_data_after_closed" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="App Stores Hard-Coded Passwords, Keys, or Other Secrets in Plain Sight" max_length="40" name="u_app_stores_passwords_keys_secrets_plain_sight" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element label="ASC" max_length="32" name="u_asc" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Assumptions, Constraints, Tolerances, Uncertainties" max_length="4000" name="u_assumptions_constraints_tolerances_uncertanities" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Audit Level Requirements" max_length="40" name="u_audit_level_requirements" type="string">
+            <choice>
+                <element label="Level 1" sequence="0" value="Level 1"/>
+                <element label="Level 2" sequence="1" value="Level 2"/>
+                <element label="Level 3" sequence="2" value="Level 3"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Authentication Protocol" max_length="1024" name="u_authentication_protocol" type="glide_list"/>
+        <element label="Other" max_length="40" name="u_authentication_protocol_other" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="BAA Recommended" max_length="40" name="u_baa_recommended" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="Business Owner" max_length="32" name="u_business_owner" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="BYOD" max_length="40" name="u_byod" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="BYOD Comments" max_length="4000" name="u_byod_comments" type="string"/>
+        <element label="Cloud" max_length="40" name="u_cloud" type="boolean"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Cloud Architecture" max_length="1024" name="u_cloud_architecture" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Data Center Location(s)" max_length="300" name="u_cloud_data_center_locations" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Solution Contains Hard-Coded or Embedded Passwords in the Code, Scripts, or Tool" max_length="40" name="u_contains_hard_coded_embedded_passwords" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element label="Covered Record Count in Storage" max_length="40" name="u_covered_record_count_in_storage" type="integer"/>
+        <element label="Covered Record Count Processed Annually" max_length="40" name="u_covered_record_count_processed_annually" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Credentials are Encrypted During Submission" max_length="40" name="u_credentials_encrypted_during_submission" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Cybersecurity Requirements Addendum Required" max_length="40" name="u_cybersecurity_requirements_addendum_required" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Data Elements" max_length="200" name="u_data_elements" type="string"/>
+        <element label="Data Flow Analysis Description" max_length="65536" name="u_data_flow_analysis" type="html"/>
+        <element attributes="edge_encryption_enabled=true" label="Which Data Remains on the Device" max_length="1000" name="u_data_remains_on_device" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Data Transfer Comments" max_length="4000" name="u_data_transfer_comments" type="string"/>
+        <element label="Other" max_length="40" name="u_data_type_other" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Describe the App's User Authentication and Authorization Process" max_length="1000" name="u_describe_app_user_authenticate_authorize_process" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Describe How Device Encryption Will Be Achieved" max_length="1000" name="u_describe_device_encryption_mobile" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Describe Methods of Encryption" max_length="1000" name="u_describe_encryption_methods_rest" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Describe Methods of Encryption" max_length="1000" name="u_describe_encryption_methods_transit" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Describe Network Security Protocols Used/Supported by the System" max_length="1000" name="u_describe_network_security_protocols" type="string"/>
+        <element label="Desktop Application (Thick Client)" max_length="40" name="u_desktop_application_thick_client" type="boolean"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Development Environment" max_length="1024" name="u_development_environment" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Development Language(s)" max_length="1024" name="u_development_language" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Can Device Level Encryption be Guaranteed" max_length="40" name="u_device_level_encryption_guaranteed" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Data Security Administrator Indentified and Assigned" max_length="40" name="u_dsa_identified_and_assigned" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="DSA Recommended" max_length="40" name="u_dsa_recommended" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="DUA Recommended" max_length="40" name="u_dua_recommended" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Each User With Access to the System Uses a Unique ID" max_length="40" name="u_each_user_unique_id" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="App Developer Employs Code Obfuscation Techniques to Prevent Reverse Engineering" max_length="40" name="u_employs_code_obfuscation" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Describe Methods of Encryption" max_length="1000" name="u_encryption_methods_backup_media" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Describe Methods of Encryption" max_length="1000" name="u_encryption_methods_submission" type="string"/>
+        <element label="ePHI" max_length="40" name="u_ephi" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is ePHI de-identified prior to sharing with third party" max_length="40" name="u_ephi_deidentified" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="yes"/>
+                <element label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is ePHI shared with a third party" max_length="40" name="u_ephi_shared" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="yes"/>
+                <element label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="ePHI Share Type" max_length="40" name="u_ephi_share_type" type="string">
+            <choice>
+                <element label="Fully Indentifiable" sequence="0" value="fully_identifiable"/>
+                <element label="Limited Data Set" sequence="1" value="limited_data_set"/>
+            </choice>
+        </element>
+        <element label="ESC" max_length="32" name="u_esc" reference="x_inthe_cybersecur_security_persons_directory" reference_qual="u_type=ESC^EQ" reference_qual_condition="u_type=ESC^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="List Firewall Ports and Network Services Required by the Solution" max_length="1000" name="u_firewall_ports_network_services" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Functional Description" max_length="4000" name="u_functional_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Describe How Admin User Privileges are Managed" max_length="1000" name="u_how_admin_user_privileges_managed" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="How Often are Third-Party Risk Assessments Performed" max_length="255" name="u_how_often_3rd_party_risk_assessments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Describe How Privileges, Permissions, or Entitlements are Provisi" max_length="1000" name="u_how_privileges_permissions_entitlements_provisioned" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Describe How Regular User Privileges are Managed" max_length="1000" name="u_how_regular_user_privileges_managed" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Describe How Users Will Be Provisioned to the System" max_length="1000" name="u_how_users_provisioned" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="How/Where is the App Published" max_length="1000" name="u_how_where_app_published" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Identify Network Enclave" max_length="1000" name="u_identify_network_enclave" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="App Developer has Implemented App Containerization" max_length="40" name="u_implemented_app_containerization" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Information Classification" max_length="40" name="u_information_classification" type="string">
+            <choice>
+                <element label="Category 1" sequence="0" value="category_1"/>
+                <element label="Category 2" sequence="1" value="category_2"/>
+                <element label="Category 3" sequence="2" value="category_3"/>
+                <element label="Category 4" sequence="3" value="category_4"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Information Exchange/Data Transfer" max_length="1024" name="u_info_exchange_data_transfer" type="glide_list"/>
+        <element label="Infrastructure" max_length="40" name="u_infrastructure" type="boolean"/>
+        <element label="Intermountain Managed Devices Only" max_length="40" name="u_intermountain_managed_devices_only" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="IP Address Whitelisting Employed" max_length="40" name="u_ip_address_whitelisting_employed" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element label="IRB" max_length="40" name="u_irb" type="boolean"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="List of DSAs" max_length="1024" name="u_list_of_dsas" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Describe Logging and Auditing Capabilities of the System or Solution" max_length="1000" name="u_logging_auditing_capabilities" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Manually Adjusted Potential Risk Category" max_length="40" name="u_manually_adjusted_potential_risk_category" type="string">
+            <choice>
+                <element label="Low" sequence="0" value="Low"/>
+                <element label="Moderate" sequence="1" value="Moderate"/>
+                <element label="High" sequence="2" value="High"/>
+                <element label="Critical" sequence="3" value="Critical"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Manually Adjusted Review Rigor" max_length="40" name="u_manually_adjusted_review_rigor" type="string">
+            <choice>
+                <element label="Base Review" sequence="0" value="Base Review"/>
+                <element label="Detailed Review" sequence="1" value="Detailed Review"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Manually Adjusted Review Rigor Justification" max_length="4000" name="u_manually_adjusted_review_rigor_justification" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Manually Adjusted Risk Category Justification" max_length="4000" name="u_manually_adjusted_risk_category_justification" type="string"/>
+        <element label="Manufacturer/Third Party Company URL " max_length="1024" name="u_manuf_third_party_company_url" type="url"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="MDM Software Installed on all Mobile Endpoints Using the App" max_length="40" name="u_mdm_software_installed" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Describe Mechanisms Implemented Within the Solution to Monitor for Inappropriate" max_length="1000" name="u_mechanisms_implemented_to_monitor_activity" type="string"/>
+        <element label="Medical Equipment" max_length="40" name="u_medical_equipment" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Describe Mobile Device Authentication and Authorization Process" max_length="1000" name="u_mobiled_device_authenticate_authorize_process" type="string"/>
+        <element label="Mobile App" max_length="40" name="u_mobile_app" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Mobile App Comments" max_length="4000" name="u_mobile_app_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Mobile Auth. Comments/Details" max_length="4000" name="u_mobile_auth_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Describe Mobile Device Registration and De-Registration Processes" max_length="1000" name="u_mobile_device_registration_deregistration_processes" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Authentication Protocol" max_length="1024" name="u_mobile_native_auth_protocol" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Mobile OS Use or Compatibility" max_length="1024" name="u_mobile_os_use_or_comp" type="glide_list"/>
+        <element label="Native AD/Kerberos" max_length="40" name="u_native_ad_kerberos" type="boolean"/>
+        <element label="Native LDAP" max_length="40" name="u_native_ldap" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Network Accessibility" max_length="40" name="u_network_accessibility" type="string">
+            <choice>
+                <element label="Accessible only from internal trusted network" sequence="0" value="internal_trusted_network"/>
+                <element label="Accessible from external untrusted network" sequence="1" value="external_untrusted_network"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Network Architecture Comments and Notes" max_length="4000" name="u_network_architecture_comments_and_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Network Connection" max_length="40" name="u_network_connection" type="string">
+            <choice>
+                <element label="No Direct Network Connected" sequence="0" value="no_direct_network"/>
+                <element label="Connected to Internal Trusted Network Only" sequence="1" value="trusted_network_only"/>
+                <element label="Connected to External Untrusted Network" sequence="2" value="untrusted_network"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Network Connection Technology" max_length="1024" name="u_network_connection_technology" type="glide_list"/>
+        <element label="Offshore Access/Processing" max_length="40" name="u_offshore_access_processing" type="boolean"/>
+        <element label="Offshore Data Storage" max_length="40" name="u_offshore_data_storage" type="boolean"/>
+        <element label="Offshore Support" max_length="40" name="u_offshore_support" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Off-Shore Resources Used" max_length="40" name="u_off_shore_resources_used" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="yes"/>
+                <element label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element label="On-premise" max_length="40" name="u_on_premise" type="boolean"/>
+        <element label="Vendor/Mfr/Business Partner/Third Party Name" max_length="32" name="u_organization" reference="x_inthe_cybersecur_organization" reference_qual="u_active=true^u_type=Organization^EQ" reference_qual_condition="u_active=true^u_type=Organization^EQ" type="reference"/>
+        <element label="OSC" max_length="32" name="u_osc" reference="x_inthe_cybersecur_security_persons_directory" reference_qual="u_type=OSC^EQ" reference_qual_condition="u_type=OSC^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Detail Any Other Relevant Cybersecurity Information (Optional)" max_length="1000" name="u_other_relevant_cybersecurity_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Review Type Comments" max_length="4000" name="u_other_review_type_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Passwords Stored by Third-Party are Encrypted or Hashed Using FIPS 140-2 Validat" max_length="40" name="u_passwords_stored_by_third_party_encrypted" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element label="PCI" max_length="40" name="u_pci" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Results of Penetration Test" max_length="40" name="u_penetration_test_results" type="string">
+            <choice>
+                <element label="No Findings" sequence="0" value="No Findings"/>
+                <element label="Low Risk Findings" sequence="1" value="Low Risk Findings"/>
+                <element label="Moderate Risk Findings" sequence="2" value="Moderate Risk Findings"/>
+                <element label="High Risk Findings" sequence="3" value="High Risk Findings"/>
+                <element label="Critical Risk Findings" sequence="4" value="Critical Risk Findings"/>
+                <element label="N/A" sequence="5" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are Penetration Tests Conducted by a Third-Party" max_length="40" name="u_pen_tests_conducted_by_3rd_party" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="App Developer Performs Vulnerability Scans and/or Penetration Tests Against App" max_length="40" name="u_performs_vulnerability_pen_tests_on_app" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element label="PII" max_length="40" name="u_pii" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Calculated Potential Risk Category" max_length="40" name="u_potential_risk_category" type="string">
+            <choice>
+                <element label="Low" sequence="0" value="Low"/>
+                <element label="Moderate" sequence="1" value="Moderate"/>
+                <element label="HIgh" sequence="2" value="HIgh"/>
+                <element label="Critical" sequence="3" value="Critical"/>
+            </choice>
+        </element>
+        <element label="Calculated Potential Risk Score" max_length="40" name="u_potential_risk_score" type="integer"/>
+        <element choice="1" label="Potential User Count" max_length="40" name="u_potential_user_count" type="integer">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Regular User Passwords Comply with IH Standards" max_length="40" name="u_regular_user_passwords_comply" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Data Center Location(s)" max_length="300" name="u_remote_hosted_data_center_locations" type="string"/>
+        <element label="Remote Hosted Servers" max_length="40" name="u_remote_hosted_servers" type="boolean"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Using Which Methods" max_length="1024" name="u_remote_support_access_methods" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is Remote Support or Access Required by a Third-Party" max_length="40" name="u_remote_support_or_access_required" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Required Review Rigor" max_length="40" name="u_required_review_rigor" type="string">
+            <choice>
+                <element label="Base Review" sequence="0" value="Base Review"/>
+                <element label="Detailed Review" sequence="1" value="Detailed Review"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Residual Risk Category" max_length="40" name="u_residual_risk_category" type="string">
+            <choice>
+                <element label="Low Risk" sequence="0" value="Low Risk"/>
+                <element label="Moderate Risk" sequence="1" value="Moderate Risk"/>
+                <element label="High Risk" sequence="2" value="High Risk"/>
+                <element label="Critical Risk" sequence="3" value="Critical Risk"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Responsible Business Unit" max_length="100" name="u_responsible_business_unit" type="string"/>
+        <element label="Review Completion Date" max_length="40" name="u_review_completion_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Review Process" max_length="4000" name="u_review_process" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Review Scope" max_length="4000" name="u_review_scope" type="string"/>
+        <element label="Other" max_length="40" name="u_review_type_other_2" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Describe the Type of Review Being Performed" max_length="4000" name="u_review_type_other_addl_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Will Scan Results or Summary Results be Provided to Intermountain" max_length="40" name="u_scan_results_provided" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="Security Policy Exception IDs (if relevant)" max_length="100" name="u_security_policy_exception_id" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Security Review/Risk Assessment Purpose" max_length="4000" name="u_security_review_purpose" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Service or Protocol Type" max_length="1024" name="u_service_protocol_type" type="glide_list"/>
+        <element label="Solution" max_length="32" name="u_solution" reference="x_inthe_cybersecur_solution" reference_qual="javascript: new IHCAppUtils().getSolutions(current.u_organization);" type="reference" use_reference_qualifier="advanced"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Does the Solution Comply with SSDLC Requirements" max_length="40" name="u_solution_comply_with_ssdlc" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Solution Isolated Behind Segmentation Firewall" max_length="40" name="u_solution_isolated_behind_firewall" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Solution Provider Conducts Penetration Tests Against the Solution" max_length="40" name="u_solution_provider_conducts_pent_tests" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Solution Provider Conducts Vulnerability Scans Against the Solution" max_length="40" name="u_solution_provider_conducts_vulnerability_scans" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Solution Provider Undergoes Recurring Third-Party Risk Assessments" max_length="40" name="u_solution_provider_undergoes_risk_assessments" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Solution Supports the Performance of Regular User Access Reviews" max_length="40" name="u_solution_supports_performance" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="Not Applicable" sequence="2" value="Not Applicable"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Solution Supports the Performance of Administrative User Access Reviews" max_length="40" name="u_solution_supports_performance_admin_users" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="Not Applicable" sequence="2" value="Not Applicable"/>
+            </choice>
+        </element>
+        <element label="Solution URL (if known, or confluence link)" max_length="1024" name="u_solution_url" type="url"/>
+        <element label="SSDLC" max_length="40" name="u_ssdlc" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional SSDLC Comments" max_length="4000" name="u_ssdlc_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="u_state" type="string">
+            <choice>
+                <element label="Draft" sequence="0" value="1"/>
+                <element label="Open" sequence="1" value="2"/>
+                <element label="Work in Progress" sequence="2" value="3"/>
+                <element label="Awaiting Customer" sequence="3" value="4"/>
+                <element label="Closed Complete" sequence="4" value="5"/>
+                <element label="Cancelled" sequence="5" value="6"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Solution Supports Device Level Authentication and Authorization" max_length="40" name="u_supports_device_level_authentication_authorization" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Solution Supports Device Level Registration" max_length="40" name="u_supports_device_level_registration" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="System Data Location" max_length="40" name="u_system_data_location" type="string">
+            <choice>
+                <element label="Approved Data Center Only" sequence="0" value="approved_data_center_only"/>
+                <element label="Approved Data Center and/or Facility Data Closet" sequence="1" value="approved_data_center_and_or_facility_data_closet"/>
+                <element label="Managed Client Endpoint Only" sequence="2" value="managed_client_endpoint_only"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Does the System Support an Approved IAM Solution" max_length="40" name="u_system_support_approved_iam_solution" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Technical Contact(s)" max_length="1024" name="u_technical_contact" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Results of Technical Vulnerability Assessment" max_length="40" name="u_technical_vulnerability_assessment" type="string">
+            <choice>
+                <element label="No Findings" sequence="0" value="No Findings"/>
+                <element label="Low Risk Findings" sequence="1" value="Low Risk Findings"/>
+                <element label="Moderate Risk Findings" sequence="2" value="Moderate Risk Findings"/>
+                <element label="High Risk Findings" sequence="3" value="High Risk Findings"/>
+                <element label="Critical Risk Findings" sequence="4" value="Critical Risk Findings"/>
+                <element label="N/A" sequence="5" value="NA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Thick Client Auth. Comments/Details" max_length="4000" name="u_thick_client_auth_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Third party contact name, email, phone" max_length="400" name="u_third_party_contact_info" type="string"/>
+        <element label="Manufacturer Product Page" max_length="1024" name="u_url_4" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="If Applicable, Describe How the Vendor or Third-Party Manages Privileges to Inte" max_length="1000" name="u_vendor_third_party_manage_privileges" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are Vulnerability Scans Conducted by a Third-Party" max_length="40" name="u_vulnerability_scans_conducted_by_3rd_party" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Web Based Auth. Comments/Details" max_length="4000" name="u_web_based_auth_comments" type="string"/>
+        <element label="Web-based Client" max_length="40" name="u_web_based_client" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Web Services Auth. Comments/Details" max_length="4000" name="u_web_services_auth_comments" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Authentication Protocol" max_length="1024" name="u_web_services_auth_protocol" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Web Services Comments" max_length="4000" name="u_web_services_comments" type="string"/>
+        <element label="Web Services/Server-to-Server Communication" max_length="40" name="u_web_services_server_to_server_comm" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="App Developer Will Provide App Source Binary" max_length="40" name="u_will_provide_app_source_binary" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Will Test Results or Summary Results be Provided to Intermountain" max_length="40" name="u_will_results_be_provided" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Wireless Connection Protocols Used" max_length="1000" name="u_wireless_protocols_used" type="string"/>
+        <index name="index">
+            <element name="u_solution"/>
+        </index>
+        <index name="index2">
+            <element name="u_business_owner"/>
+        </index>
+        <index name="index3">
+            <element name="u_esc"/>
+        </index>
+        <index name="index4">
+            <element name="u_osc"/>
+        </index>
+        <index name="index5">
+            <element name="u_asc"/>
+        </index>
+        <index name="index6">
+            <element name="u_organization"/>
+        </index>
+    </element>
+</database>

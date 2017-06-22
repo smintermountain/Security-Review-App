@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_development_language" table="x_inthe_cybersecur_risk_assessment" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_development_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Java</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-24 17:51:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>626d60f34f76f600f5f3d49f0310c71b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-31 16:06:25</sys_updated_on>
+            <u_task/>
+            <value>Java</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_development_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>C#/.Net</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-24 17:51:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4e7d60f34f76f600f5f3d49f0310c7bc</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-31 16:06:25</sys_updated_on>
+            <u_task/>
+            <value>C#/.Net</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_development_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-24 17:52:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e9de0f34f76f600f5f3d49f0310c7da</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-31 16:06:25</sys_updated_on>
+            <u_task/>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_development_language</element>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-24 17:51:09</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>c17d20f34f76f600f5f3d49f0310c787</sys_id>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_name>u_development_language</sys_name>
+            <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
+            <sys_update_name>sys_choice_x_inthe_cybersecur_risk_assessment_u_development_language</sys_update_name>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-31 16:06:25</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

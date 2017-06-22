@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_inthe_cybersecur_risk_assessment">u_mobile_app=true^ORu_byod=true^EQ<item endquery="false" field="u_mobile_app" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="u_byod" goto="false" newquery="false" operator="=" or="true" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>false</on_load>
+        <order>1500</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+	g_form.setDisplay('u_mobile_native_auth_protocol', true);
+	g_form.setDisplay('u_mobile_auth_comments', true);
+	g_form.setDisplay('u_mdm_software_installed', true);
+	g_form.setDisplay('u_device_level_encryption_guaranteed', true);
+	g_form.setDisplay('u_describe_device_encryption_mobile', true);
+	g_form.setDisplay('u_implemented_app_containerization', true);
+	g_form.setDisplay('u_app_encrypts_data_separately_from_device', true);
+	g_form.setDisplay('u_app_encrypts_network_communication', true);
+	g_form.setDisplay('u_app_retains_residual_data_after_closed', true);
+	g_form.setDisplay('u_data_remains_on_device', true);
+	g_form.setDisplay('u_app_caches_user_credentials', true);
+	g_form.setDisplay('u_app_stores_passwords_keys_secrets_plain_sight', true);
+	g_form.setDisplay('u_addl_mobile_app_security_comments', true);
+	g_form.setDisplay('u_supports_device_level_registration', true);
+	g_form.setDisplay('u_mobile_device_registration_deregistration_processes', true);
+	g_form.setDisplay('u_supports_device_level_authentication_authorization', true);
+	g_form.setDisplay('u_mobiled_device_authenticate_authorize_process', true);
+	g_form.setDisplay('u_employs_code_obfuscation', true);
+	g_form.setDisplay('u_performs_vulnerability_pen_tests_on_app', true);
+	g_form.setDisplay('u_will_provide_app_source_binary', true);
+	g_form.setDisplay('u_describe_app_user_authenticate_authorize_process', true);
+	g_form.setDisplay('u_how_where_app_published', true);
+	
+
+}]]></script_true>
+        <set_values/>
+        <short_description>(IHC) Mobile App or BYOD is Checked</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-06-01 23:16:17</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2d94c7164f43f200f5f3d49f0310c7f8</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>(IHC) Mobile App or BYOD is Checked</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
+        <sys_update_name>sys_ui_policy_2d94c7164f43f200f5f3d49f0310c7f8</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-06-15 21:42:42</sys_updated_on>
+        <table>x_inthe_cybersecur_risk_assessment</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Business Contacts" section_id="d2949c014fea7e00af76d0af0310c711" sys_domain="global" table="x_inthe_cybersecur_risk_assessment" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_responsible_business_unit</element>
+            <position>0</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-31 22:57:54</sys_created_on>
+            <sys_id>aec679824f4bb200f5f3d49f0310c701</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Business Contacts" display_value="Business Contacts" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">d2949c014fea7e00af76d0af0310c711</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-31 22:57:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_business_owner</element>
+            <position>1</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-31 22:57:54</sys_created_on>
+            <sys_id>22c679824f4bb200f5f3d49f0310c702</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Business Contacts" display_value="Business Contacts" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">d2949c014fea7e00af76d0af0310c711</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-31 22:57:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_technical_contact</element>
+            <position>2</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-31 22:57:54</sys_created_on>
+            <sys_id>a2c679824f4bb200f5f3d49f0310c702</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Business Contacts" display_value="Business Contacts" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">d2949c014fea7e00af76d0af0310c711</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-31 22:57:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-31 22:57:54</sys_created_on>
+            <sys_id>26c679824f4bb200f5f3d49f0310c702</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Business Contacts" display_value="Business Contacts" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">d2949c014fea7e00af76d0af0310c711</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-31 22:57:54</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_esc</element>
+            <position>4</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-31 22:57:54</sys_created_on>
+            <sys_id>a6c679824f4bb200f5f3d49f0310c702</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Business Contacts" display_value="Business Contacts" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">d2949c014fea7e00af76d0af0310c711</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-31 22:57:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_osc</element>
+            <position>5</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-31 22:57:54</sys_created_on>
+            <sys_id>2ac679824f4bb200f5f3d49f0310c702</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Business Contacts" display_value="Business Contacts" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">d2949c014fea7e00af76d0af0310c711</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-31 22:57:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_asc</element>
+            <position>6</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-31 22:57:54</sys_created_on>
+            <sys_id>aac679824f4bb200f5f3d49f0310c702</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Business Contacts" display_value="Business Contacts" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">d2949c014fea7e00af76d0af0310c711</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-31 22:57:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-31 22:57:54</sys_created_on>
+            <sys_id>2ec679824f4bb200f5f3d49f0310c702</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Business Contacts" display_value="Business Contacts" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">d2949c014fea7e00af76d0af0310c711</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-31 22:57:54</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_third_party_contact_info</element>
+            <position>8</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-31 22:57:54</sys_created_on>
+            <sys_id>aec679824f4bb200f5f3d49f0310c702</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Business Contacts" display_value="Business Contacts" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">d2949c014fea7e00af76d0af0310c711</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-31 22:57:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_16</element>
+            <position>9</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-31 22:57:54</sys_created_on>
+            <sys_id>22c679824f4bb200f5f3d49f0310c703</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Business Contacts" display_value="Business Contacts" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">d2949c014fea7e00af76d0af0310c711</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-31 22:57:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Business Contacts</caption>
+            <header>false</header>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-03 16:43:35</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d2949c014fea7e00af76d0af0310c711</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Business Contacts</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
+            <sys_update_name>sys_ui_section_d2949c014fea7e00af76d0af0310c711</sys_update_name>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-03 18:58:15</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

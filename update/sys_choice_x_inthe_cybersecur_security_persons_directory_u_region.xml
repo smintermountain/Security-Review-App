@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_region" table="x_inthe_cybersecur_security_persons_directory" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Central Entities</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_security_persons_directory</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-08 20:52:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>10c6ea684f97b600f5f3d49f0310c737</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-08 20:53:37</sys_updated_on>
+            <u_task/>
+            <value>Central Entities</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Central Region (CR)</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_security_persons_directory</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-08 20:52:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>90c6ea684f97b600f5f3d49f0310c736</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-08 20:53:42</sys_updated_on>
+            <u_task/>
+            <value>Central Region (CR)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Medical Group</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_security_persons_directory</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-15 22:01:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>51b9b6fe4f9f7a00f5f3d49f0310c75a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-15 22:01:25</sys_updated_on>
+            <u_task/>
+            <value>Medical Group</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>North Region (NR)</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_security_persons_directory</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-08 20:52:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1cc6ea684f97b600f5f3d49f0310c736</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-15 22:01:25</sys_updated_on>
+            <u_task/>
+            <value>North Region (NR)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Park City/Heber Region</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_security_persons_directory</name>
+            <sequence>4</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-08 20:52:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1cc6ea684f97b600f5f3d49f0310c737</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-15 22:01:25</sys_updated_on>
+            <u_task/>
+            <value>Park City/Heber Region</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Primary Children's Hospital</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_security_persons_directory</name>
+            <sequence>5</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-15 22:04:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>847ab6fe4f9f7a00f5f3d49f0310c7be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-15 22:04:36</sys_updated_on>
+            <u_task/>
+            <value>Primary Children's Hospital</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SelectHealth</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_security_persons_directory</name>
+            <sequence>6</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-08 20:52:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>18c6ea684f97b600f5f3d49f0310c737</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-15 22:04:36</sys_updated_on>
+            <u_task/>
+            <value>SelectHealth</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>South Region (SR)</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_security_persons_directory</name>
+            <sequence>7</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-08 20:52:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>18c6ea684f97b600f5f3d49f0310c736</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-15 22:04:36</sys_updated_on>
+            <u_task/>
+            <value>South Region (SR)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Southwest Region (SWR)</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_security_persons_directory</name>
+            <sequence>8</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-08 20:52:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>14c6ea684f97b600f5f3d49f0310c737</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-15 22:04:36</sys_updated_on>
+            <u_task/>
+            <value>Southwest Region (SWR)</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_region</element>
+            <name>x_inthe_cybersecur_security_persons_directory</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-08 20:52:17</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>54c6ea684f97b600f5f3d49f0310c736</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_name>u_region</sys_name>
+            <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
+            <sys_update_name>sys_choice_x_inthe_cybersecur_security_persons_directory_u_region</sys_update_name>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-15 22:04:37</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

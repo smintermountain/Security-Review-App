@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_ssdlc" label="SSDLC" language="en" table="x_inthe_cybersecur_risk_assessment">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_ssdlc</element>
+            <help/>
+            <hint/>
+            <label>SSDLC</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <plural>SSDLCs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-18 21:50:44</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>4ccae2f94ff2f200af76d0af0310c78b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>SSDLC</sys_name>
+            <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
+            <sys_update_name>sys_documentation_x_inthe_cybersecur_risk_assessment_u_ssdlc_en</sys_update_name>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-18 21:50:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

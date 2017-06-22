@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="System Architecture" section_id="946ef8494f2e7e00af76d0af0310c788" sys_domain="global" table="x_inthe_cybersecur_risk_assessment" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_desktop_application_thick_client</element>
+            <position>0</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 23:12:11</sys_created_on>
+            <sys_id>69a387164f43f200f5f3d49f0310c7ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Architecture" display_value="System Architecture" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">946ef8494f2e7e00af76d0af0310c788</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:12:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_web_based_client</element>
+            <position>1</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 23:12:11</sys_created_on>
+            <sys_id>e9a387164f43f200f5f3d49f0310c7ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Architecture" display_value="System Architecture" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">946ef8494f2e7e00af76d0af0310c788</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:12:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_on_premise</element>
+            <position>2</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 23:12:11</sys_created_on>
+            <sys_id>6da387164f43f200f5f3d49f0310c7ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Architecture" display_value="System Architecture" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">946ef8494f2e7e00af76d0af0310c788</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:12:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_system_data_location</element>
+            <position>3</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 23:12:11</sys_created_on>
+            <sys_id>eda387164f43f200f5f3d49f0310c7ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Architecture" display_value="System Architecture" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">946ef8494f2e7e00af76d0af0310c788</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:12:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_approved_data_center_only</element>
+            <position>4</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 23:12:11</sys_created_on>
+            <sys_id>61a387164f43f200f5f3d49f0310c7ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Architecture" display_value="System Architecture" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">946ef8494f2e7e00af76d0af0310c788</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:12:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_approved_data_center_or_closet_list</element>
+            <position>5</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 23:12:11</sys_created_on>
+            <sys_id>e1a387164f43f200f5f3d49f0310c7ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Architecture" display_value="System Architecture" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">946ef8494f2e7e00af76d0af0310c788</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:12:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cloud</element>
+            <position>6</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 23:12:11</sys_created_on>
+            <sys_id>65a387164f43f200f5f3d49f0310c7ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Architecture" display_value="System Architecture" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">946ef8494f2e7e00af76d0af0310c788</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:12:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cloud_architecture</element>
+            <position>7</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 23:12:11</sys_created_on>
+            <sys_id>e5a387164f43f200f5f3d49f0310c7ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Architecture" display_value="System Architecture" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">946ef8494f2e7e00af76d0af0310c788</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:12:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cloud_data_center_locations</element>
+            <position>8</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 23:12:11</sys_created_on>
+            <sys_id>69a387164f43f200f5f3d49f0310c7ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Architecture" display_value="System Architecture" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">946ef8494f2e7e00af76d0af0310c788</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:12:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_remote_hosted_servers</element>
+            <position>9</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 23:12:11</sys_created_on>
+            <sys_id>e9a387164f43f200f5f3d49f0310c7ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Architecture" display_value="System Architecture" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">946ef8494f2e7e00af76d0af0310c788</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:12:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_remote_hosted_data_center_locations</element>
+            <position>10</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 23:12:11</sys_created_on>
+            <sys_id>6da387164f43f200f5f3d49f0310c7ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Architecture" display_value="System Architecture" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">946ef8494f2e7e00af76d0af0310c788</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:12:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_web_services_server_to_server_comm</element>
+            <position>11</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 23:12:11</sys_created_on>
+            <sys_id>eda387164f43f200f5f3d49f0310c7ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Architecture" display_value="System Architecture" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">946ef8494f2e7e00af76d0af0310c788</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:12:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_service_protocol_type</element>
+            <position>12</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 23:12:11</sys_created_on>
+            <sys_id>61a387164f43f200f5f3d49f0310c7ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Architecture" display_value="System Architecture" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">946ef8494f2e7e00af76d0af0310c788</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:12:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_web_services_comments</element>
+            <position>13</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 23:12:11</sys_created_on>
+            <sys_id>e1a387164f43f200f5f3d49f0310c7ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Architecture" display_value="System Architecture" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">946ef8494f2e7e00af76d0af0310c788</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:12:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>14</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 23:12:11</sys_created_on>
+            <sys_id>65a387164f43f200f5f3d49f0310c7ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Architecture" display_value="System Architecture" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">946ef8494f2e7e00af76d0af0310c788</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:12:11</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mobile_app</element>
+            <position>15</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 23:12:11</sys_created_on>
+            <sys_id>e5a387164f43f200f5f3d49f0310c7ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Architecture" display_value="System Architecture" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">946ef8494f2e7e00af76d0af0310c788</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:12:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mobile_os_use_or_comp</element>
+            <position>16</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 23:12:11</sys_created_on>
+            <sys_id>69a387164f43f200f5f3d49f0310c7ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Architecture" display_value="System Architecture" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">946ef8494f2e7e00af76d0af0310c788</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:12:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_intermountain_managed_devices_only</element>
+            <position>17</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 23:12:11</sys_created_on>
+            <sys_id>e9a387164f43f200f5f3d49f0310c7ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Architecture" display_value="System Architecture" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">946ef8494f2e7e00af76d0af0310c788</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:12:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mobile_app_comments</element>
+            <position>18</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 23:12:11</sys_created_on>
+            <sys_id>6da387164f43f200f5f3d49f0310c7ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Architecture" display_value="System Architecture" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">946ef8494f2e7e00af76d0af0310c788</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:12:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_byod</element>
+            <position>19</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 23:12:11</sys_created_on>
+            <sys_id>eda387164f43f200f5f3d49f0310c7ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Architecture" display_value="System Architecture" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">946ef8494f2e7e00af76d0af0310c788</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:12:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_byod_comments</element>
+            <position>20</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 23:12:11</sys_created_on>
+            <sys_id>61a387164f43f200f5f3d49f0310c7ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Architecture" display_value="System Architecture" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">946ef8494f2e7e00af76d0af0310c788</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:12:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>21</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 23:12:11</sys_created_on>
+            <sys_id>e1a387164f43f200f5f3d49f0310c7ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Architecture" display_value="System Architecture" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">946ef8494f2e7e00af76d0af0310c788</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:12:11</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_additional_system_architecture_notes</element>
+            <position>22</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-01 23:12:11</sys_created_on>
+            <sys_id>65a387164f43f200f5f3d49f0310c7ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Architecture" display_value="System Architecture" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">946ef8494f2e7e00af76d0af0310c788</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-06-01 23:12:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>System Architecture</caption>
+            <header>false</header>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-05-03 19:46:08</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>946ef8494f2e7e00af76d0af0310c788</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>System Architecture</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
+            <sys_update_name>sys_ui_section_946ef8494f2e7e00af76d0af0310c788</sys_update_name>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-03 19:46:08</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

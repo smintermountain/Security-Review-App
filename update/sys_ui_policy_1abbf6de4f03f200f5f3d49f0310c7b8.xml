@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_inthe_cybersecur_risk_assessment">u_cloud=true^EQ<item endquery="false" field="u_cloud" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>false</on_load>
+        <order>1200</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	g_form.setValue('u_cloud_architecture', '');
+	g_form.setValue('u_cloud_data_center_locations', '');
+
+	g_form.setDisplay('u_cloud_architecture', false);
+	g_form.setDisplay('u_cloud_data_center_locations', false);
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	g_form.setDisplay('u_cloud_architecture', true);
+	g_form.setDisplay('u_cloud_data_center_locations', true);
+
+
+	
+	
+
+}]]></script_true>
+        <set_values/>
+        <short_description>(IHC) Cloud Checked</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-06-01 22:37:34</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1abbf6de4f03f200f5f3d49f0310c7b8</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>(IHC) Cloud Checked</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
+        <sys_update_name>sys_ui_policy_1abbf6de4f03f200f5f3d49f0310c7b8</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-06-15 21:42:41</sys_updated_on>
+        <table>x_inthe_cybersecur_risk_assessment</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

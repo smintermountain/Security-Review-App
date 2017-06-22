@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Organization" max_length="40" name="x_inthe_cybersecur_organization" type="collection">
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Organization Name" max_length="255" name="u_organization_name" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Organization Common Name" max_length="255" name="u_org_common_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Organization Type" max_length="40" name="u_org_type" type="string">
+            <choice>
+                <element label="Consulting" sequence="0" value="Consulting"/>
+                <element label="Institution" sequence="1" value="Institution"/>
+                <element label="Intermountain" sequence="2" value="Intermountain"/>
+                <element label="Manufacturer" sequence="3" value="Manufacturer"/>
+                <element label="Supplier" sequence="4" value="Supplier"/>
+                <element label="Vendor" sequence="5" value="Vendor"/>
+            </choice>
+        </element>
+        <element label="Organization URL" max_length="1024" name="u_org_url" type="url"/>
+    </element>
+</database>
