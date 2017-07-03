@@ -46,7 +46,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>tkaneko</sys_created_by>
         <sys_created_on>2017-05-31 16:41:43</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>48b0200e4f47b200f5f3d49f0310c792</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>Describe How Privileges, Permissions, or Entitlements are Provisi</sys_name>

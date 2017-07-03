@@ -4,7 +4,7 @@
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>tkaneko</sys_created_by>
         <sys_created_on>2017-06-15 20:46:55</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>0ea826be4f5f7a00f5f3d49f0310c742</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_inthe_cybersecur_security_review_tasks.x_inthe_cybersecur.user</sys_name>

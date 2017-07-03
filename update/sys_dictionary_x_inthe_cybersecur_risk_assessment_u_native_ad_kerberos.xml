@@ -46,7 +46,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>tkaneko</sys_created_by>
         <sys_created_on>2017-05-24 21:22:52</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>deedd5774ff6f600f5f3d49f0310c713</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Native AD/Kerberos</sys_name>

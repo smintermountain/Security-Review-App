@@ -46,7 +46,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>tkaneko</sys_created_by>
         <sys_created_on>2017-05-03 19:15:59</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>e677f0454f2e7e00af76d0af0310c73d</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Offshore Data Storage</sys_name>

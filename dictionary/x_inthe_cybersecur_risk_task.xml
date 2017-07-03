@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Risk Task" max_length="40" name="x_inthe_cybersecur_risk_task" sizeclass="1" type="collection">
+    <element audit="true" extends="task" label="Risk Task" max_length="40" name="x_inthe_cybersecur_risk_task" sizeclass="2" type="collection">
         <element label="Assigned Date" max_length="40" name="u_assigned_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Business Mitigation Plan" max_length="4000" name="u_business_mitigation_plan" type="string"/>
         <element label="Completed Date" max_length="40" name="u_completed_date" type="glide_date"/>
         <element label="Due Date" max_length="40" name="u_due_date" type="glide_date"/>
         <element label="Expected Completion Date" max_length="40" name="u_expected_completion_date" type="glide_date"/>
-        <element label="Risk" max_length="32" name="u_parent" reference="x_inthe_cybersecur_risk" type="reference"/>
+        <element label="Risk" max_length="32" name="u_parent" read_only="true" reference="x_inthe_cybersecur_risk" type="reference"/>
     </element>
 </database>

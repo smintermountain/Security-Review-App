@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <link_element/>
+        <name>TEMPLATE626</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-06-29 17:27:18</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>e8314a934fe77e40af76d0af0310c724</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEMPLATE626</sys_name>
+        <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
+        <sys_update_name>sys_template_e8314a934fe77e40af76d0af0310c724</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-06-29 17:27:18</sys_updated_on>
+        <table>x_inthe_cybersecur_risk</table>
+        <template>u_controlled_risk_level=Moderate^u_management_action_plan.u_risk_assessement=168aee2c4f97b600f5f3d49f0310c7b1^u_management_action_plan=c01fcee44f57b600f5f3d49f0310c7ad^u_risk_short_description=risk 1^u_uncontrolled_risk_level=High^u_controlled_risk_level=Moderate^u_management_action_plan.u_risk_assessement=168aee2c4f97b600f5f3d49f0310c7b1^u_management_action_plan=c01fcee44f57b600f5f3d49f0310c7ad^u_risk_short_description=risk 1^u_uncontrolled_risk_level=High^EQ</template>
+        <user display_value="Tyler Kaneko">f6633c034f784600af76d0af0310c74e</user>
+        <view/>
+    </sys_template>
+</record_update>

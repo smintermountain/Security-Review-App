@@ -13,7 +13,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Detailed Description" max_length="4000" name="u_description_of_risk" type="string"/>
         <element label="Expected Completion Date" max_length="40" name="u_expected_completion_date" type="glide_date"/>
-        <element label="Management Action Plan" max_length="32" name="u_management_action_plan" reference="x_inthe_cybersecur_management_action_plan" type="reference"/>
+        <element label="Management Action Plan" max_length="32" name="u_management_action_plan" read_only="true" reference="x_inthe_cybersecur_management_action_plan" type="reference"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Proposed Business Remediation Plan" max_length="4000" name="u_proposed_business_remediation_plan" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Recommended Remediation" max_length="4000" name="u_recommended_remediation" type="string"/>

@@ -48,7 +48,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>tkaneko</sys_created_by>
         <sys_created_on>2017-06-21 15:19:02</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>6927dc744feb3e00f5f3d49f0310c73b</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Organization</sys_name>

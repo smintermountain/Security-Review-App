@@ -309,7 +309,7 @@
             </choice>
         </element>
         <element label="On-premise" max_length="40" name="u_on_premise" type="boolean"/>
-        <element label="Vendor/Mfr/Business Partner/Third Party Name" max_length="32" name="u_organization" reference="x_inthe_cybersecur_organization" reference_qual="u_active=true^u_type=Organization^EQ" reference_qual_condition="u_active=true^u_type=Organization^EQ" type="reference"/>
+        <element hint="Vendor/Manufacturer/Business Partner/Third-Party Name" label="Organization" max_length="32" name="u_organization" reference="x_inthe_cybersecur_organization" reference_qual="u_active=true^EQ" reference_qual_condition="u_active=true^EQ" type="reference"/>
         <element label="OSC" max_length="32" name="u_osc" reference="x_inthe_cybersecur_security_persons_directory" reference_qual="u_type=OSC^EQ" reference_qual_condition="u_type=OSC^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Detail Any Other Relevant Cybersecurity Information (Optional)" max_length="1000" name="u_other_relevant_cybersecurity_info" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Other Review Type Comments" max_length="4000" name="u_other_review_type_comments" type="string"/>
@@ -354,9 +354,8 @@
             </choice>
         </element>
         <element label="Calculated Potential Risk Score" max_length="40" name="u_potential_risk_score" type="integer"/>
-        <element choice="1" label="Potential User Count" max_length="40" name="u_potential_user_count" type="integer">
-            <choice/>
-        </element>
+        <element label="Potential User Count" max_length="40" name="u_potential_user_count" type="integer"/>
+        <element label="Primary Reviewer" max_length="32" name="u_primary_reviewer" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Regular User Passwords Comply with IH Standards" max_length="40" name="u_regular_user_passwords_comply" type="string">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
@@ -400,6 +399,7 @@
                 <element label="No" sequence="1" value="No"/>
             </choice>
         </element>
+        <element label="Secondary Reviewer" max_length="32" name="u_secondary_reviewer" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element label="Security Policy Exception IDs (if relevant)" max_length="100" name="u_security_policy_exception_id" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Security Review/Risk Assessment Purpose" max_length="4000" name="u_security_review_purpose" type="string"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Service or Protocol Type" max_length="1024" name="u_service_protocol_type" type="glide_list"/>
@@ -480,7 +480,7 @@
                 <element label="N/A" sequence="2" value="NA"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="System Data Location" max_length="40" name="u_system_data_location" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="System Data Location" max_length="80" name="u_system_data_location" type="string">
             <choice>
                 <element label="Approved Data Center Only" sequence="0" value="approved_data_center_only"/>
                 <element label="Approved Data Center and/or Facility Data Closet" sequence="1" value="approved_data_center_and_or_facility_data_closet"/>
@@ -541,16 +541,22 @@
             <element name="u_business_owner"/>
         </index>
         <index name="index3">
-            <element name="u_esc"/>
+            <element name="u_primary_reviewer"/>
         </index>
         <index name="index4">
-            <element name="u_osc"/>
+            <element name="u_esc"/>
         </index>
         <index name="index5">
-            <element name="u_asc"/>
+            <element name="u_osc"/>
         </index>
         <index name="index6">
+            <element name="u_asc"/>
+        </index>
+        <index name="index7">
             <element name="u_organization"/>
+        </index>
+        <index name="index8">
+            <element name="u_secondary_reviewer"/>
         </index>
     </element>
 </database>

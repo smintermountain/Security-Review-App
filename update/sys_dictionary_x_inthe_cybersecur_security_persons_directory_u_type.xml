@@ -51,7 +51,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>tkaneko</sys_created_by>
         <sys_created_on>2017-06-08 20:48:03</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>24b5e2284f97b600f5f3d49f0310c779</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Type</sys_name>

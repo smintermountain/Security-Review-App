@@ -46,7 +46,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>tkaneko</sys_created_by>
         <sys_created_on>2017-06-01 15:35:10</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>720b915a4f0f7600af76d0af0310c702</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Mobile OS Use or Compatibility</sys_name>
