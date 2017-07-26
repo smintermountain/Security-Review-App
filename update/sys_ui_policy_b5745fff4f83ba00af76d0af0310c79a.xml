@@ -21,6 +21,9 @@
 }]]></script_false>
         <script_true><![CDATA[function onCondition() {
 	
+	g_form.setSectionDisplay('mobile_app', false);
+	
+	
 	//Clear all values if BYOD and Mobile App are unchecked
 	g_form.setValue('u_mobile_os_use_or_comp', '');
 	g_form.setValue('u_intermountain_managed_devices_only', false);
@@ -36,6 +39,8 @@
 	
 	g_form.setValue('u_app_encrypts_network_communication', '');
 	g_form.setValue('u_app_retains_residual_data_after_closed', '');
+	
+	//If statement needed to avoid dirty form
 	if(g_form.getValue('u_data_remains_on_device')){
 		g_form.setValue('u_data_remains_on_device', '');
 	}
@@ -44,9 +49,11 @@
 	
 	g_form.setValue('u_addl_mobile_app_security_comments', '');
 	g_form.setValue('u_supports_device_level_registration', '');
+	//If statement needed to avoid dirty form
 	if(g_form.getValue('u_mobile_device_registration_deregistration_processes')){
 		g_form.setValue('u_mobile_device_registration_deregistration_processes', '');
 	}
+	
 	g_form.setValue('u_supports_device_level_authentication_authorization', '');
 	g_form.setValue('u_mobiled_device_authenticate_authorize_process', '');
 	
@@ -56,7 +63,8 @@
 	g_form.setValue('u_describe_app_user_authenticate_authorize_process', '');
 	g_form.setValue('u_how_where_app_published', '');
 	
-	
+	/*
+	//commented out when switching to tabbed sections
 	//Hide fields
 	g_form.setDisplay('u_mobile_os_use_or_comp', false);
 	g_form.setDisplay('u_intermountain_managed_devices_only', false);
@@ -87,7 +95,7 @@
 	g_form.setDisplay('u_will_provide_app_source_binary', false);
 	g_form.setDisplay('u_describe_app_user_authenticate_authorize_process', false);
 	g_form.setDisplay('u_how_where_app_published', false);
-	
+	*/
 	
 
 	
@@ -102,7 +110,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b5745fff4f83ba00af76d0af0310c79a</sys_id>
-        <sys_mod_count>57</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_name>(IHC) Mobile App or BYOD is NOT Checked</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
@@ -111,7 +119,7 @@
         <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
         <sys_update_name>sys_ui_policy_b5745fff4f83ba00af76d0af0310c79a</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2017-06-29 21:36:55</sys_updated_on>
+        <sys_updated_on>2017-07-26 18:17:35</sys_updated_on>
         <table>x_inthe_cybersecur_risk_assessment</table>
         <ui_type>10</ui_type>
         <view/>

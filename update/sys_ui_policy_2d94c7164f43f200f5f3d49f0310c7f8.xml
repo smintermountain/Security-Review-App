@@ -20,7 +20,11 @@
 
 }]]></script_false>
         <script_true><![CDATA[function onCondition() {
-
+	
+	g_form.setSectionDisplay('mobile_app', true);
+	
+	/*
+	//commented out when switching to tabbed sections
 	g_form.setDisplay('u_mobile_native_auth_protocol', true);
 	g_form.setDisplay('u_mobile_auth_comments', true);
 	g_form.setDisplay('u_mdm_software_installed', true);
@@ -47,6 +51,7 @@
 	
 	g_form.setDisplay('u_describe_app_user_authenticate_authorize_process', true);
 	g_form.setDisplay('u_how_where_app_published', true);
+	*/
 	
 
 }]]></script_true>
@@ -59,7 +64,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2d94c7164f43f200f5f3d49f0310c7f8</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>(IHC) Mobile App or BYOD is Checked</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
@@ -68,7 +73,7 @@
         <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
         <sys_update_name>sys_ui_policy_2d94c7164f43f200f5f3d49f0310c7f8</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2017-06-29 21:22:21</sys_updated_on>
+        <sys_updated_on>2017-07-26 18:13:36</sys_updated_on>
         <table>x_inthe_cybersecur_risk_assessment</table>
         <ui_type>10</ui_type>
         <view/>

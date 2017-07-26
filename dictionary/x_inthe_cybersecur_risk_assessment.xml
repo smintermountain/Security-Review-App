@@ -28,7 +28,7 @@
                 <element label="N/A" sequence="2" value="NA"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Is All Covered Information Encrypted Using Approved Standards While At Rest and " max_length="40" name="u_all_covered_info_encrypted" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is All Covered Information Encrypted Using Approved Standards While At Rest and" max_length="40" name="u_all_covered_info_encrypted" type="string">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
@@ -69,7 +69,7 @@
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
-                <element label="N/A" sequence="2" value="NA"/>
+                <element label="N/A" sequence="2" value="N/A"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="App Encrypts All Network Communication Between Itself and Servers" max_length="40" name="u_app_encrypts_network_communication" type="string">
@@ -90,7 +90,7 @@
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
-                <element label="N/A" sequence="2" value="NA"/>
+                <element label="N/A" sequence="2" value="N/A"/>
             </choice>
         </element>
         <element label="ASC" max_length="32" name="u_asc" reference="sys_user" type="reference"/>
@@ -126,17 +126,10 @@
         <element label="Covered Record Count in Storage" max_length="40" name="u_covered_record_count_in_storage" type="integer"/>
         <element label="Covered Record Count Processed Annually" max_length="40" name="u_covered_record_count_processed_annually" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Credentials are Encrypted During Submission" max_length="40" name="u_credentials_encrypted_during_submission" type="string">
-            <choice>
-                <element label="Yes" sequence="0" value="Yes"/>
-                <element label="No" sequence="1" value="No"/>
-                <element label="N/A" sequence="2" value="NA"/>
-            </choice>
+            <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Cybersecurity Requirements Addendum Required" max_length="40" name="u_cybersecurity_requirements_addendum_required" type="string">
-            <choice>
-                <element label="Yes" sequence="0" value="Yes"/>
-                <element label="No" sequence="1" value="No"/>
-            </choice>
+            <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Data Elements" max_length="200" name="u_data_elements" type="string"/>
         <element label="Data Flow Analysis Description" max_length="65536" name="u_data_flow_analysis" type="html"/>
@@ -250,12 +243,7 @@
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="List of DSAs" max_length="1024" name="u_list_of_dsas" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" label="Describe Logging and Auditing Capabilities of the System or Solution" max_length="1000" name="u_logging_auditing_capabilities" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Manually Adjusted Potential Risk Category" max_length="40" name="u_manually_adjusted_potential_risk_category" type="string">
-            <choice>
-                <element label="Low" sequence="0" value="Low"/>
-                <element label="Moderate" sequence="1" value="Moderate"/>
-                <element label="High" sequence="2" value="High"/>
-                <element label="Critical" sequence="3" value="Critical"/>
-            </choice>
+            <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Manually Adjusted Review Rigor" max_length="40" name="u_manually_adjusted_review_rigor" type="string">
             <choice>
@@ -265,7 +253,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Manually Adjusted Review Rigor Justification" max_length="4000" name="u_manually_adjusted_review_rigor_justification" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Manually Adjusted Risk Category Justification" max_length="4000" name="u_manually_adjusted_risk_category_justification" type="string"/>
-        <element label="Manufacturer/Third Party Company URL " max_length="1024" name="u_manuf_third_party_company_url" type="url"/>
+        <element label="Manufacturer/Third Party Company URL" max_length="1024" name="u_manuf_third_party_company_url" type="url"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="MDM Software Installed on all Mobile Endpoints Using the App" max_length="40" name="u_mdm_software_installed" type="string">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
@@ -314,11 +302,7 @@
         <element attributes="edge_encryption_enabled=true" label="Detail Any Other Relevant Cybersecurity Information (Optional)" max_length="1000" name="u_other_relevant_cybersecurity_info" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Other Review Type Comments" max_length="4000" name="u_other_review_type_comments" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Passwords Stored by Third-Party are Encrypted or Hashed Using FIPS 140-2 Validat" max_length="40" name="u_passwords_stored_by_third_party_encrypted" type="string">
-            <choice>
-                <element label="Yes" sequence="0" value="Yes"/>
-                <element label="No" sequence="1" value="No"/>
-                <element label="N/A" sequence="2" value="NA"/>
-            </choice>
+            <choice/>
         </element>
         <element label="PCI" max_length="40" name="u_pci" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Results of Penetration Test" max_length="40" name="u_penetration_test_results" type="string">
@@ -341,7 +325,7 @@
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
-                <element label="N/A" sequence="2" value="NA"/>
+                <element label="N/A" sequence="2" value="N/A"/>
             </choice>
         </element>
         <element label="PII" max_length="40" name="u_pii" type="boolean"/>
@@ -426,18 +410,10 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Solution Provider Conducts Vulnerability Scans Against the Solution" max_length="40" name="u_solution_provider_conducts_vulnerability_scans" type="string">
-            <choice>
-                <element label="Yes" sequence="0" value="Yes"/>
-                <element label="No" sequence="1" value="No"/>
-                <element label="N/A" sequence="2" value="NA"/>
-            </choice>
+            <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Solution Provider Undergoes Recurring Third-Party Risk Assessments" max_length="40" name="u_solution_provider_undergoes_risk_assessments" type="string">
-            <choice>
-                <element label="Yes" sequence="0" value="Yes"/>
-                <element label="No" sequence="1" value="No"/>
-                <element label="N/A" sequence="2" value="NA"/>
-            </choice>
+            <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Solution Supports the Performance of Regular User Access Reviews" max_length="40" name="u_solution_supports_performance" type="string">
             <choice>
@@ -447,11 +423,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Solution Supports the Performance of Administrative User Access Reviews" max_length="40" name="u_solution_supports_performance_admin_users" type="string">
-            <choice>
-                <element label="Yes" sequence="0" value="Yes"/>
-                <element label="No" sequence="1" value="No"/>
-                <element label="Not Applicable" sequence="2" value="Not Applicable"/>
-            </choice>
+            <choice/>
         </element>
         <element label="Solution URL (if known, or confluence link)" max_length="1024" name="u_solution_url" type="url"/>
         <element label="SSDLC" max_length="40" name="u_ssdlc" type="boolean"/>
@@ -470,7 +442,7 @@
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
-                <element label="N/A" sequence="2" value="NA"/>
+                <element label="N/A" sequence="2" value="N/A"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Solution Supports Device Level Registration" max_length="40" name="u_supports_device_level_registration" type="string">
@@ -509,10 +481,7 @@
         <element label="Manufacturer Product Page" max_length="1024" name="u_url_4" type="url"/>
         <element attributes="edge_encryption_enabled=true" label="If Applicable, Describe How the Vendor or Third-Party Manages Privileges to Inte" max_length="1000" name="u_vendor_third_party_manage_privileges" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Are Vulnerability Scans Conducted by a Third-Party" max_length="40" name="u_vulnerability_scans_conducted_by_3rd_party" type="string">
-            <choice>
-                <element label="Yes" sequence="0" value="Yes"/>
-                <element label="No" sequence="1" value="No"/>
-            </choice>
+            <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Web Based Auth. Comments/Details" max_length="4000" name="u_web_based_auth_comments" type="string"/>
         <element label="Web-based Client" max_length="40" name="u_web_based_client" type="boolean"/>

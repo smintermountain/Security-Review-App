@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_type" table="x_inthe_cybersecur_solution" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Consulting</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_solution</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 20:25:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2753a0334f840300f5f3d49f0310c7ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 20:25:36</sys_updated_on>
+            <u_task/>
+            <value>Consulting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hardware</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_solution</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 20:25:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb53a0334f840300f5f3d49f0310c7ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 20:25:36</sys_updated_on>
+            <u_task/>
+            <value>Hardware</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Medical Device</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_solution</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 20:25:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ef53a0334f840300f5f3d49f0310c7ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 20:25:36</sys_updated_on>
+            <u_task/>
+            <value>Medical Device</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Research (IRB)</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_solution</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 20:25:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e353a0334f840300f5f3d49f0310c7f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 20:25:36</sys_updated_on>
+            <u_task/>
+            <value>Research-IRB</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SaaS</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_solution</name>
+            <sequence>4</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 20:25:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e753a0334f840300f5f3d49f0310c7f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 20:25:36</sys_updated_on>
+            <u_task/>
+            <value>SaaS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Software</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_solution</name>
+            <sequence>5</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 20:25:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb53a0334f840300f5f3d49f0310c7f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 20:25:36</sys_updated_on>
+            <u_task/>
+            <value>Software</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_solution</name>
+            <sequence>6</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 20:27:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cbc3a4334f840300f5f3d49f0310c7be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 20:27:28</sys_updated_on>
+            <u_task/>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_type</element>
+            <name>x_inthe_cybersecur_solution</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 20:25:36</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>e753a0334f840300f5f3d49f0310c7ef</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>u_type</sys_name>
+            <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
+            <sys_update_name>sys_choice_x_inthe_cybersecur_solution_u_type</sys_update_name>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 20:27:28</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

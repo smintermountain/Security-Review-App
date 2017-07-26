@@ -11,36 +11,43 @@
         <inherit>false</inherit>
         <model_id/>
         <model_table/>
-        <on_load>false</on_load>
+        <on_load>true</on_load>
         <order>2400</order>
-        <reverse_if_false>true</reverse_if_false>
+        <reverse_if_false>false</reverse_if_false>
         <run_scripts>true</run_scripts>
         <script_false><![CDATA[function onCondition() {
 
 }]]></script_false>
         <script_true><![CDATA[function onCondition() {
-	
+	//Clear fields upon condition
 	g_form.setValue('u_network_accessibility', '');
-	g_form.setValue('u_network_connection_technology', '');
+	
+	if(g_form.getValue('u_network_connection_technology') != ''){
+		g_form.setValue('u_network_connection_technology', '');
+	}	
 
 	g_form.setDisplay('u_network_accessibility', false);
 	g_form.setDisplay('u_network_connection_technology', false);
 	
-	//Network Security Field Group
+	//Network Security Field Group	
+	g_form.setSectionDisplay('network', false);
+	//Clear fields upon condition
 	g_form.setValue('u_solution_isolated_behind_firewall', '');
 	g_form.setValue('u_ip_address_whitelisting_employed', '');
 	g_form.setValue('u_firewall_ports_network_services', '');
 	g_form.setValue('u_remote_support_or_access_required', '');
 	g_form.setValue('u_describe_network_security_protocols', '');
 	g_form.setValue('u_addl_network_security_comments', '');
-
+	
+	/*
+	//commenting out when switching to tabbed sections
 	g_form.setDisplay('u_solution_isolated_behind_firewall', false);
 	g_form.setDisplay('u_ip_address_whitelisting_employed', false);
 	g_form.setDisplay('u_firewall_ports_network_services', false);
 	g_form.setDisplay('u_remote_support_or_access_required', false);
 	g_form.setDisplay('u_describe_network_security_protocols', false);
 	g_form.setDisplay('u_addl_network_security_comments', false);
-
+	*/
 }]]></script_true>
         <set_values/>
         <short_description>(IHC) Network Connection Type (Hide and Clear Fields)</short_description>
@@ -51,7 +58,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c3ec84884f97ba00af76d0af0310c726</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_name>(IHC) Network Connection Type (Hide and Clear Fields)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
@@ -60,7 +67,7 @@
         <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
         <sys_update_name>sys_ui_policy_c3ec84884f97ba00af76d0af0310c726</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2017-06-29 20:37:49</sys_updated_on>
+        <sys_updated_on>2017-07-26 18:47:20</sys_updated_on>
         <table>x_inthe_cybersecur_risk_assessment</table>
         <ui_type>10</ui_type>
         <view/>

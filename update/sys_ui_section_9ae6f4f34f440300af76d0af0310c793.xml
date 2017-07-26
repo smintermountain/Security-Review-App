@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Network" section_id="9ae6f4f34f440300af76d0af0310c793" sys_domain="global" table="x_inthe_cybersecur_risk_assessment" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_solution_isolated_behind_firewall</element>
+            <position>0</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 21:51:27</sys_created_on>
+            <sys_id>d10738f34f440300af76d0af0310c79a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Network" display_value="Network" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9ae6f4f34f440300af76d0af0310c793</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 21:51:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_identify_network_enclave</element>
+            <position>1</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 21:51:27</sys_created_on>
+            <sys_id>550738f34f440300af76d0af0310c79a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Network" display_value="Network" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9ae6f4f34f440300af76d0af0310c793</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 21:51:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ip_address_whitelisting_employed</element>
+            <position>2</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 21:51:27</sys_created_on>
+            <sys_id>d50738f34f440300af76d0af0310c79a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Network" display_value="Network" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9ae6f4f34f440300af76d0af0310c793</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 21:51:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_firewall_ports_network_services</element>
+            <position>3</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 21:51:27</sys_created_on>
+            <sys_id>590738f34f440300af76d0af0310c79a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Network" display_value="Network" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9ae6f4f34f440300af76d0af0310c793</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 21:51:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 21:51:27</sys_created_on>
+            <sys_id>d90738f34f440300af76d0af0310c79a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Network" display_value="Network" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9ae6f4f34f440300af76d0af0310c793</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 21:51:27</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_remote_support_or_access_required</element>
+            <position>5</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 21:51:27</sys_created_on>
+            <sys_id>5d0738f34f440300af76d0af0310c79a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Network" display_value="Network" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9ae6f4f34f440300af76d0af0310c793</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 21:51:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_remote_support_access_methods</element>
+            <position>6</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 21:51:27</sys_created_on>
+            <sys_id>dd0738f34f440300af76d0af0310c79a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Network" display_value="Network" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9ae6f4f34f440300af76d0af0310c793</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 21:51:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_describe_network_security_protocols</element>
+            <position>7</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 21:51:27</sys_created_on>
+            <sys_id>510738f34f440300af76d0af0310c79b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Network" display_value="Network" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9ae6f4f34f440300af76d0af0310c793</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 21:51:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 21:51:27</sys_created_on>
+            <sys_id>d10738f34f440300af76d0af0310c79b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Network" display_value="Network" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9ae6f4f34f440300af76d0af0310c793</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 21:51:27</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_addl_network_security_comments</element>
+            <position>9</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 21:51:27</sys_created_on>
+            <sys_id>550738f34f440300af76d0af0310c79b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Network" display_value="Network" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9ae6f4f34f440300af76d0af0310c793</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 21:51:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Network</caption>
+            <header>false</header>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 21:50:58</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ae6f4f34f440300af76d0af0310c793</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Network</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
+            <sys_update_name>sys_ui_section_9ae6f4f34f440300af76d0af0310c793</sys_update_name>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 21:50:58</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

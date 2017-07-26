@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Mobile App" section_id="462778f34f440300af76d0af0310c7c3" sys_domain="global" table="x_inthe_cybersecur_risk_assessment" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mdm_software_installed</element>
+            <position>0</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 22:00:52</sys_created_on>
+            <sys_id>d7293c374f440300af76d0af0310c7f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Mobile App" display_value="Mobile App" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">462778f34f440300af76d0af0310c7c3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 22:00:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_device_level_encryption_guaranteed</element>
+            <position>1</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 22:00:52</sys_created_on>
+            <sys_id>5b293c374f440300af76d0af0310c7f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Mobile App" display_value="Mobile App" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">462778f34f440300af76d0af0310c7c3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 22:00:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_describe_device_encryption_mobile</element>
+            <position>2</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 22:00:52</sys_created_on>
+            <sys_id>db293c374f440300af76d0af0310c7f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Mobile App" display_value="Mobile App" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">462778f34f440300af76d0af0310c7c3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 22:00:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_implemented_app_containerization</element>
+            <position>3</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 22:00:52</sys_created_on>
+            <sys_id>5f293c374f440300af76d0af0310c7f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Mobile App" display_value="Mobile App" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">462778f34f440300af76d0af0310c7c3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 22:00:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_app_encrypts_data_separately_from_device</element>
+            <position>4</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 22:00:52</sys_created_on>
+            <sys_id>df293c374f440300af76d0af0310c7f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Mobile App" display_value="Mobile App" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">462778f34f440300af76d0af0310c7c3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 22:00:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_app_encrypts_network_communication</element>
+            <position>5</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 22:00:52</sys_created_on>
+            <sys_id>53293c374f440300af76d0af0310c7f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Mobile App" display_value="Mobile App" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">462778f34f440300af76d0af0310c7c3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 22:00:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_app_retains_residual_data_after_closed</element>
+            <position>6</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 22:00:52</sys_created_on>
+            <sys_id>d3293c374f440300af76d0af0310c7f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Mobile App" display_value="Mobile App" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">462778f34f440300af76d0af0310c7c3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 22:00:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_data_remains_on_device</element>
+            <position>7</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 22:00:52</sys_created_on>
+            <sys_id>57293c374f440300af76d0af0310c7f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Mobile App" display_value="Mobile App" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">462778f34f440300af76d0af0310c7c3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 22:00:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_app_caches_user_credentials</element>
+            <position>8</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 22:00:52</sys_created_on>
+            <sys_id>d7293c374f440300af76d0af0310c7f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Mobile App" display_value="Mobile App" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">462778f34f440300af76d0af0310c7c3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 22:00:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_app_stores_passwords_keys_secrets_plain_sight</element>
+            <position>9</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 22:00:52</sys_created_on>
+            <sys_id>5b293c374f440300af76d0af0310c7f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Mobile App" display_value="Mobile App" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">462778f34f440300af76d0af0310c7c3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 22:00:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>10</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 22:00:52</sys_created_on>
+            <sys_id>db293c374f440300af76d0af0310c7f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Mobile App" display_value="Mobile App" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">462778f34f440300af76d0af0310c7c3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 22:00:52</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_supports_device_level_registration</element>
+            <position>11</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 22:00:52</sys_created_on>
+            <sys_id>5f293c374f440300af76d0af0310c7f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Mobile App" display_value="Mobile App" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">462778f34f440300af76d0af0310c7c3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 22:00:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mobile_device_registration_deregistration_processes</element>
+            <position>12</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 22:00:52</sys_created_on>
+            <sys_id>df293c374f440300af76d0af0310c7f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Mobile App" display_value="Mobile App" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">462778f34f440300af76d0af0310c7c3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 22:00:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_supports_device_level_authentication_authorization</element>
+            <position>13</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 22:00:52</sys_created_on>
+            <sys_id>53293c374f440300af76d0af0310c7f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Mobile App" display_value="Mobile App" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">462778f34f440300af76d0af0310c7c3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 22:00:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mobiled_device_authenticate_authorize_process</element>
+            <position>14</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 22:00:52</sys_created_on>
+            <sys_id>d3293c374f440300af76d0af0310c7f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Mobile App" display_value="Mobile App" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">462778f34f440300af76d0af0310c7c3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 22:00:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_employs_code_obfuscation</element>
+            <position>15</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 22:00:52</sys_created_on>
+            <sys_id>57293c374f440300af76d0af0310c7f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Mobile App" display_value="Mobile App" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">462778f34f440300af76d0af0310c7c3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 22:00:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_performs_vulnerability_pen_tests_on_app</element>
+            <position>16</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 22:00:52</sys_created_on>
+            <sys_id>d7293c374f440300af76d0af0310c7f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Mobile App" display_value="Mobile App" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">462778f34f440300af76d0af0310c7c3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 22:00:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_will_provide_app_source_binary</element>
+            <position>17</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 22:00:52</sys_created_on>
+            <sys_id>5b293c374f440300af76d0af0310c7f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Mobile App" display_value="Mobile App" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">462778f34f440300af76d0af0310c7c3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 22:00:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_describe_app_user_authenticate_authorize_process</element>
+            <position>18</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 22:00:52</sys_created_on>
+            <sys_id>db293c374f440300af76d0af0310c7f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Mobile App" display_value="Mobile App" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">462778f34f440300af76d0af0310c7c3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 22:00:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_how_where_app_published</element>
+            <position>19</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 22:00:52</sys_created_on>
+            <sys_id>5f293c374f440300af76d0af0310c7f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Mobile App" display_value="Mobile App" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">462778f34f440300af76d0af0310c7c3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 22:00:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>20</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 22:00:52</sys_created_on>
+            <sys_id>df293c374f440300af76d0af0310c7f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Mobile App" display_value="Mobile App" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">462778f34f440300af76d0af0310c7c3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 22:00:52</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_addl_mobile_app_security_comments</element>
+            <position>21</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 22:00:52</sys_created_on>
+            <sys_id>53293c374f440300af76d0af0310c7f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Mobile App" display_value="Mobile App" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">462778f34f440300af76d0af0310c7c3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 22:00:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Mobile App</caption>
+            <header>false</header>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 21:52:02</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>462778f34f440300af76d0af0310c7c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Mobile App</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
+            <sys_update_name>sys_ui_section_462778f34f440300af76d0af0310c7c3</sys_update_name>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 21:52:02</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

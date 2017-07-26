@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="UserRegistration" section_id="da7b6c7f4f040300af76d0af0310c767" sys_domain="global" table="x_inthe_cybersecur_risk_assessment" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dsa_identified_and_assigned</element>
+            <position>0</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 21:01:03</sys_created_on>
+            <sys_id>577b6c7f4f040300af76d0af0310c771</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="UserRegistration" display_value="UserRegistration" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">da7b6c7f4f040300af76d0af0310c767</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 21:01:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_list_of_dsas</element>
+            <position>1</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 21:01:03</sys_created_on>
+            <sys_id>d77b6c7f4f040300af76d0af0310c771</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="UserRegistration" display_value="UserRegistration" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">da7b6c7f4f040300af76d0af0310c767</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 21:01:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_access_request_submitted_tracked</element>
+            <position>2</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 21:01:03</sys_created_on>
+            <sys_id>5b7b6c7f4f040300af76d0af0310c771</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="UserRegistration" display_value="UserRegistration" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">da7b6c7f4f040300af76d0af0310c767</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 21:01:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_each_user_unique_id</element>
+            <position>3</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 21:01:03</sys_created_on>
+            <sys_id>db7b6c7f4f040300af76d0af0310c771</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="UserRegistration" display_value="UserRegistration" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">da7b6c7f4f040300af76d0af0310c767</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 21:01:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_how_users_provisioned</element>
+            <position>4</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 21:01:03</sys_created_on>
+            <sys_id>5f7b6c7f4f040300af76d0af0310c771</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="UserRegistration" display_value="UserRegistration" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">da7b6c7f4f040300af76d0af0310c767</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 21:01:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_additional_user_access_request_comments</element>
+            <position>5</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 21:01:03</sys_created_on>
+            <sys_id>df7b6c7f4f040300af76d0af0310c771</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="UserRegistration" display_value="UserRegistration" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">da7b6c7f4f040300af76d0af0310c767</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 21:01:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 21:01:03</sys_created_on>
+            <sys_id>537b6c7f4f040300af76d0af0310c772</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="UserRegistration" display_value="UserRegistration" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">da7b6c7f4f040300af76d0af0310c767</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 21:01:03</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>UserRegistration</caption>
+            <header>false</header>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-25 21:01:00</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>da7b6c7f4f040300af76d0af0310c767</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>UserRegistration</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
+            <sys_update_name>sys_ui_section_da7b6c7f4f040300af76d0af0310c767</sys_update_name>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-25 21:01:00</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -3,8 +3,22 @@
     <element label="Solution" max_length="40" name="x_inthe_cybersecur_solution" type="collection">
         <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="4000" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="255" name="u_name" type="string"/>
         <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_columns=u_org_common_name,ref_ac_order_by=u_organization_name" label="Organization" max_length="32" name="u_organization" reference="x_inthe_cybersecur_organization" reference_qual="u_active=true^EQ" reference_qual_condition="u_active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Type" max_length="40" name="u_other_type" type="string"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Solution URL" max_length="1024" name="u_solution_url" type="url"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="u_type" type="string">
+            <choice>
+                <element label="Consulting" sequence="0" value="Consulting"/>
+                <element label="Hardware" sequence="1" value="Hardware"/>
+                <element label="Medical Device" sequence="2" value="Medical Device"/>
+                <element label="Research (IRB)" sequence="3" value="Research-IRB"/>
+                <element label="SaaS" sequence="4" value="SaaS"/>
+                <element label="Software" sequence="5" value="Software"/>
+                <element label="Other" sequence="6" value="Other"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="u_organization"/>
         </index>

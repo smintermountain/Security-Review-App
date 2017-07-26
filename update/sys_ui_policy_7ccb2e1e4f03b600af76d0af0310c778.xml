@@ -15,17 +15,34 @@
         <reverse_if_false>true</reverse_if_false>
         <run_scripts>true</run_scripts>
         <script_false><![CDATA[function onCondition() {
-	g_form.setValue('u_authentication_protocol', '');
-	g_form.setValue('u_web_based_auth_comments', '');
+	g_form.setSectionDisplay('web', false);
+	
+	/*
+	//commenting out when moving to tabbed sections
+
 	
 	g_form.setDisplay('u_authentication_protocol', false);
 	g_form.setDisplay('u_web_based_auth_comments', false);
+	*/
+	
+	g_form.setValue('u_authentication_protocol', '');
+	g_form.setValue('u_web_based_auth_comments', '');
+	
 
 	
 }]]></script_false>
         <script_true><![CDATA[function onCondition() {
+	
+	g_form.setSectionDisplay('web', true);
+	
+	
+	/*
+	//commenting out when moving to tabbed sections
 	g_form.setDisplay('u_authentication_protocol', true);
 	g_form.setDisplay('u_web_based_auth_comments', true);
+	*/
+	
+	
 
 	
 	
@@ -40,7 +57,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7ccb2e1e4f03b600af76d0af0310c778</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>(IHC) Web Based Client Checked</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
@@ -49,7 +66,7 @@
         <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
         <sys_update_name>sys_ui_policy_7ccb2e1e4f03b600af76d0af0310c778</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2017-06-29 20:13:46</sys_updated_on>
+        <sys_updated_on>2017-07-26 18:08:05</sys_updated_on>
         <table>x_inthe_cybersecur_risk_assessment</table>
         <ui_type>10</ui_type>
         <view/>

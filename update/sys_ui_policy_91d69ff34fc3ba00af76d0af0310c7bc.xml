@@ -16,8 +16,11 @@
         <run_scripts>true</run_scripts>
         <script_false><![CDATA[function onCondition() {
 	
+	//Reset fields if condition is reversed
 	g_form.setValue('u_mobile_os_use_or_comp','');
 	g_form.setValue('u_intermountain_managed_devices_only',false);
+	
+	//IF statement to handle dirty form
 	if(g_form.getValue('u_mobile_app_comments')){
 		g_form.setValue('u_mobile_app_comments','');
 	}
@@ -44,7 +47,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>91d69ff34fc3ba00af76d0af0310c7bc</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>(IHC) Mobile App is Checked</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
@@ -53,7 +56,7 @@
         <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
         <sys_update_name>sys_ui_policy_91d69ff34fc3ba00af76d0af0310c7bc</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2017-06-29 21:40:47</sys_updated_on>
+        <sys_updated_on>2017-07-26 18:40:12</sys_updated_on>
         <table>x_inthe_cybersecur_risk_assessment</table>
         <ui_type>10</ui_type>
         <view/>
