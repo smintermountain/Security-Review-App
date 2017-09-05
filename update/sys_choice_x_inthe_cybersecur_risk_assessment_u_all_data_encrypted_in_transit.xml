@@ -69,7 +69,7 @@
             <sys_created_on>2017-05-31 18:48:32</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>b73983604f3b3200af76d0af0310c7d9</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_name>u_all_data_encrypted_in_transit</sys_name>
             <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
             <sys_policy/>
@@ -77,7 +77,7 @@
             <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
             <sys_update_name>sys_choice_x_inthe_cybersecur_risk_assessment_u_all_data_encrypted_in_transit</sys_update_name>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-06 21:45:21</sys_updated_on>
+            <sys_updated_on>2017-08-03 21:56:21</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>
