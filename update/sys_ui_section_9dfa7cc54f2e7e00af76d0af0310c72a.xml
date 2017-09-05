@@ -5,13 +5,13 @@
             <element>u_application</element>
             <position>0</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-01 19:31:47</sys_created_on>
-            <sys_id>7831161e4fcf7600af76d0af0310c7c4</sys_id>
+            <sys_created_on>2017-09-05 17:52:59</sys_created_on>
+            <sys_id>35335c514f450700f5f3d49f0310c7af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Review Type" display_value="Review Type" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9dfa7cc54f2e7e00af76d0af0310c72a</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-01 19:31:47</sys_updated_on>
+            <sys_updated_on>2017-09-05 17:52:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>u_medical_equipment</element>
             <position>1</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-01 19:31:47</sys_created_on>
-            <sys_id>f831161e4fcf7600af76d0af0310c7c4</sys_id>
+            <sys_created_on>2017-09-05 17:52:59</sys_created_on>
+            <sys_id>b5335c514f450700f5f3d49f0310c7af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Review Type" display_value="Review Type" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9dfa7cc54f2e7e00af76d0af0310c72a</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-01 19:31:47</sys_updated_on>
+            <sys_updated_on>2017-09-05 17:52:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,223 +33,153 @@
             <element>u_infrastructure</element>
             <position>2</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-01 19:31:47</sys_created_on>
-            <sys_id>7c31161e4fcf7600af76d0af0310c7c4</sys_id>
+            <sys_created_on>2017-09-05 17:52:59</sys_created_on>
+            <sys_id>39335c514f450700f5f3d49f0310c7af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Review Type" display_value="Review Type" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9dfa7cc54f2e7e00af76d0af0310c72a</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-01 19:31:47</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_information_exchange_data_transfer</element>
-            <position>3</position>
-            <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-01 19:31:47</sys_created_on>
-            <sys_id>fc31161e4fcf7600af76d0af0310c7c4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Review Type" display_value="Review Type" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9dfa7cc54f2e7e00af76d0af0310c72a</sys_ui_section>
-            <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-01 19:31:47</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_sftp</element>
-            <position>4</position>
-            <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-01 19:31:47</sys_created_on>
-            <sys_id>7031161e4fcf7600af76d0af0310c7c5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Review Type" display_value="Review Type" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9dfa7cc54f2e7e00af76d0af0310c72a</sys_ui_section>
-            <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-01 19:31:47</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_ftp_s</element>
-            <position>5</position>
-            <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-01 19:31:47</sys_created_on>
-            <sys_id>f031161e4fcf7600af76d0af0310c7c5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Review Type" display_value="Review Type" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9dfa7cc54f2e7e00af76d0af0310c72a</sys_ui_section>
-            <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-01 19:31:47</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_https_s</element>
-            <position>6</position>
-            <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-01 19:31:47</sys_created_on>
-            <sys_id>7431161e4fcf7600af76d0af0310c7c5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Review Type" display_value="Review Type" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9dfa7cc54f2e7e00af76d0af0310c72a</sys_ui_section>
-            <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-01 19:31:47</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_secure_email</element>
-            <position>7</position>
-            <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-01 19:31:47</sys_created_on>
-            <sys_id>f431161e4fcf7600af76d0af0310c7c5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Review Type" display_value="Review Type" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9dfa7cc54f2e7e00af76d0af0310c72a</sys_ui_section>
-            <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-01 19:31:47</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_physical_media</element>
-            <position>8</position>
-            <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-01 19:31:47</sys_created_on>
-            <sys_id>7831161e4fcf7600af76d0af0310c7c5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Review Type" display_value="Review Type" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9dfa7cc54f2e7e00af76d0af0310c72a</sys_ui_section>
-            <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-01 19:31:47</sys_updated_on>
+            <sys_updated_on>2017-09-05 17:52:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_ssdlc</element>
-            <position>9</position>
+            <position>3</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-01 19:31:47</sys_created_on>
-            <sys_id>f831161e4fcf7600af76d0af0310c7c5</sys_id>
+            <sys_created_on>2017-09-05 17:52:59</sys_created_on>
+            <sys_id>b9335c514f450700f5f3d49f0310c7af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Review Type" display_value="Review Type" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9dfa7cc54f2e7e00af76d0af0310c72a</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-01 19:31:47</sys_updated_on>
+            <sys_updated_on>2017-09-05 17:52:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_irb</element>
-            <position>10</position>
+            <position>4</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-01 19:31:47</sys_created_on>
-            <sys_id>7c31161e4fcf7600af76d0af0310c7c5</sys_id>
+            <sys_created_on>2017-09-05 17:52:59</sys_created_on>
+            <sys_id>3d335c514f450700f5f3d49f0310c7af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Review Type" display_value="Review Type" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9dfa7cc54f2e7e00af76d0af0310c72a</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-01 19:31:47</sys_updated_on>
+            <sys_updated_on>2017-09-05 17:52:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_review_type_other_2</element>
-            <position>11</position>
+            <position>5</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-01 19:31:47</sys_created_on>
-            <sys_id>fc31161e4fcf7600af76d0af0310c7c5</sys_id>
+            <sys_created_on>2017-09-05 17:52:59</sys_created_on>
+            <sys_id>bd335c514f450700f5f3d49f0310c7af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Review Type" display_value="Review Type" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9dfa7cc54f2e7e00af76d0af0310c72a</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-01 19:31:47</sys_updated_on>
+            <sys_updated_on>2017-09-05 17:52:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_review_type_other_addl_comments</element>
-            <position>12</position>
+            <position>6</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-01 19:31:47</sys_created_on>
-            <sys_id>7031161e4fcf7600af76d0af0310c7c6</sys_id>
+            <sys_created_on>2017-09-05 17:52:59</sys_created_on>
+            <sys_id>31335c514f450700f5f3d49f0310c7b0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Review Type" display_value="Review Type" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9dfa7cc54f2e7e00af76d0af0310c72a</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-01 19:31:47</sys_updated_on>
+            <sys_updated_on>2017-09-05 17:52:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>13</position>
+            <position>7</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-01 19:31:47</sys_created_on>
-            <sys_id>f031161e4fcf7600af76d0af0310c7c6</sys_id>
+            <sys_created_on>2017-09-05 17:52:59</sys_created_on>
+            <sys_id>b1335c514f450700f5f3d49f0310c7b0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Review Type" display_value="Review Type" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9dfa7cc54f2e7e00af76d0af0310c72a</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-01 19:31:47</sys_updated_on>
+            <sys_updated_on>2017-09-05 17:52:59</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_info_exchange_data_transfer</element>
-            <position>14</position>
+            <element>u_info_exchange_boolean</element>
+            <position>8</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-01 19:31:47</sys_created_on>
-            <sys_id>7431161e4fcf7600af76d0af0310c7c6</sys_id>
+            <sys_created_on>2017-09-05 17:52:59</sys_created_on>
+            <sys_id>35335c514f450700f5f3d49f0310c7b0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Review Type" display_value="Review Type" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9dfa7cc54f2e7e00af76d0af0310c72a</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-01 19:31:47</sys_updated_on>
+            <sys_updated_on>2017-09-05 17:52:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_info_exchange_data_transfer</element>
+            <position>9</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-09-05 17:52:59</sys_created_on>
+            <sys_id>b5335c514f450700f5f3d49f0310c7b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Review Type" display_value="Review Type" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9dfa7cc54f2e7e00af76d0af0310c72a</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-09-05 17:52:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_data_transfer_comments</element>
-            <position>15</position>
+            <position>10</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-01 19:31:47</sys_created_on>
-            <sys_id>f431161e4fcf7600af76d0af0310c7c6</sys_id>
+            <sys_created_on>2017-09-05 17:52:59</sys_created_on>
+            <sys_id>39335c514f450700f5f3d49f0310c7b0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Review Type" display_value="Review Type" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9dfa7cc54f2e7e00af76d0af0310c72a</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-01 19:31:47</sys_updated_on>
+            <sys_updated_on>2017-09-05 17:52:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>16</position>
+            <position>11</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-01 19:31:47</sys_created_on>
-            <sys_id>7831161e4fcf7600af76d0af0310c7c6</sys_id>
+            <sys_created_on>2017-09-05 17:52:59</sys_created_on>
+            <sys_id>b9335c514f450700f5f3d49f0310c7b0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Review Type" display_value="Review Type" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9dfa7cc54f2e7e00af76d0af0310c72a</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-01 19:31:47</sys_updated_on>
+            <sys_updated_on>2017-09-05 17:52:59</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_other_review_type_comments</element>
-            <position>17</position>
+            <position>12</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-01 19:31:47</sys_created_on>
-            <sys_id>f831161e4fcf7600af76d0af0310c7c6</sys_id>
+            <sys_created_on>2017-09-05 17:52:59</sys_created_on>
+            <sys_id>3d335c514f450700f5f3d49f0310c7b0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Review Type" display_value="Review Type" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">9dfa7cc54f2e7e00af76d0af0310c72a</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-01 19:31:47</sys_updated_on>
+            <sys_updated_on>2017-09-05 17:52:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -265,7 +195,7 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>9dfa7cc54f2e7e00af76d0af0310c72a</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_name>Review Type</sys_name>
             <sys_overrides/>
             <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
@@ -274,7 +204,7 @@
             <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
             <sys_update_name>sys_ui_section_9dfa7cc54f2e7e00af76d0af0310c72a</sys_update_name>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-08-03 21:56:20</sys_updated_on>
+            <sys_updated_on>2017-09-05 17:52:59</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>

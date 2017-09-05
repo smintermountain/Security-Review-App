@@ -21,7 +21,7 @@
         <element attributes="edge_encryption_enabled=true" label="Additional Password Management Comments/Detail" max_length="1000" name="u_addl_password_mgt_comments" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Additional Privilege Management Comments" max_length="1000" name="u_addl_privilege_mgt_comments" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Additional Technical Security Assessment Comments/Details" max_length="1000" name="u_addl_technical_security_assessment_comments" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Admin User Passwords Comply with IH Standards" max_length="40" name="u_admin_user_passwords_comply" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Admin User Passwords Comply with Intermountain Standards" max_length="40" name="u_admin_user_passwords_comply" type="string">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
@@ -32,6 +32,7 @@
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="All Data Encrypted at Rest" max_length="40" name="u_all_data_encrypted_at_rest" type="string">
@@ -100,6 +101,7 @@
                 <element label="Level 1" sequence="0" value="Level 1"/>
                 <element label="Level 2" sequence="1" value="Level 2"/>
                 <element label="Level 3" sequence="2" value="Level 3"/>
+                <element label="N/A" sequence="3" value="NA"/>
             </choice>
         </element>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Authentication Protocol" max_length="1024" name="u_authentication_protocol" type="glide_list"/>
@@ -108,6 +110,7 @@
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
             </choice>
         </element>
         <element label="Business Owner" max_length="32" name="u_business_owner" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
@@ -133,9 +136,13 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Cybersecurity Requirements Addendum Required" max_length="40" name="u_cybersecurity_requirements_addendum_required" type="string">
-            <choice/>
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
+            </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Data Elements" max_length="200" name="u_data_elements" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Data Elements" max_length="4000" name="u_data_elements" type="string"/>
         <element label="Data Flow Analysis Description" max_length="65536" name="u_data_flow_analysis" type="html"/>
         <element attributes="edge_encryption_enabled=true" label="Which Data Remains on the Device" max_length="1000" name="u_data_remains_on_device" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Data Transfer Comments" max_length="4000" name="u_data_transfer_comments" type="string"/>
@@ -154,7 +161,7 @@
                 <element label="No" sequence="1" value="No"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Data Security Administrator Indentified and Assigned" max_length="40" name="u_dsa_identified_and_assigned" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Data Security Administrator Identified and Assigned" max_length="40" name="u_dsa_identified_and_assigned" type="string">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
@@ -165,12 +172,14 @@
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="DUA Recommended" max_length="40" name="u_dua_recommended" type="string">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Each User With Access to the System Uses a Unique ID" max_length="40" name="u_each_user_unique_id" type="string">
@@ -211,6 +220,7 @@
         <element label="ESC" max_length="32" name="u_esc" reference="x_inthe_cybersecur_security_persons_directory" reference_qual="u_type=ESC^EQ" reference_qual_condition="u_type=ESC^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="List Firewall Ports and Network Services Required by the Solution" max_length="1000" name="u_firewall_ports_network_services" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Functional Description" max_length="4000" name="u_functional_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Describe How Access Requests Will Be Submitted and Tracked" max_length="4000" name="u_how_access_requests_are_submitted_other" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Describe How Admin User Privileges are Managed" max_length="1000" name="u_how_admin_user_privileges_managed" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="How Often are Third-Party Risk Assessments Performed" max_length="255" name="u_how_often_3rd_party_risk_assessments" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Describe How Privileges, Permissions, or Entitlements are Provisi" max_length="1000" name="u_how_privileges_permissions_entitlements_provisioned" type="string"/>
@@ -225,7 +235,7 @@
                 <element label="N/A" sequence="2" value="NA"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Information Classification" max_length="40" name="u_information_classification" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="category_3" label="Information Classification" max_length="40" name="u_information_classification" type="string">
             <choice>
                 <element label="Category 1" sequence="0" value="category_1"/>
                 <element label="Category 2" sequence="1" value="category_2"/>
@@ -233,7 +243,8 @@
                 <element label="Category 4" sequence="3" value="category_4"/>
             </choice>
         </element>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Information Exchange/Data Transfer" max_length="1024" name="u_info_exchange_data_transfer" type="glide_list"/>
+        <element label="Information Exchange/Data Transfer" max_length="40" name="u_info_exchange_boolean" type="boolean"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Information Exchange/Data Transfer Method(s)" max_length="1024" name="u_info_exchange_data_transfer" type="glide_list"/>
         <element label="Infrastructure" max_length="40" name="u_infrastructure" type="boolean"/>
         <element label="Intermountain Managed Devices Only" max_length="40" name="u_intermountain_managed_devices_only" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="IP Address Whitelisting Employed" max_length="40" name="u_ip_address_whitelisting_employed" type="string">
@@ -248,9 +259,9 @@
         <element attributes="edge_encryption_enabled=true" label="Describe Logging and Auditing Capabilities of the System or Solution" max_length="1000" name="u_logging_auditing_capabilities" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Manually Adjusted Potential Risk Category" max_length="40" name="u_manually_adjusted_potential_risk_category" type="string">
             <choice>
-                <element label="Moderate" sequence="1" value="Moderate"/>
-                <element label="High" sequence="2" value="High"/>
-                <element label="Critical" sequence="3" value="Critical"/>
+                <element label="Moderate" sequence="0" value="Moderate"/>
+                <element label="High" sequence="1" value="High"/>
+                <element label="Critical" sequence="2" value="Critical"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Manually Adjusted Review Rigor" max_length="40" name="u_manually_adjusted_review_rigor" type="string">
@@ -352,7 +363,7 @@
         <element label="Calculated Potential Risk Score" max_length="40" name="u_potential_risk_score" type="integer"/>
         <element label="Potential User Count" max_length="40" name="u_potential_user_count" type="integer"/>
         <element label="Primary Reviewer" max_length="32" name="u_primary_reviewer" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Regular User Passwords Comply with IH Standards" max_length="40" name="u_regular_user_passwords_comply" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Regular User Passwords Comply with Intermountain Standards" max_length="40" name="u_regular_user_passwords_comply" type="string">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
@@ -381,6 +392,7 @@
                 <element label="Moderate Risk" sequence="1" value="Moderate Risk"/>
                 <element label="High Risk" sequence="2" value="High Risk"/>
                 <element label="Critical Risk" sequence="3" value="Critical Risk"/>
+                <element label="N/A" sequence="4" value="NA"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Responsible Business Unit" max_length="100" name="u_responsible_business_unit" type="string"/>
@@ -449,7 +461,7 @@
                 <element label="N/A" sequence="2" value="NA"/>
             </choice>
         </element>
-        <element label="Solution URL (if known, or confluence link)" max_length="1024" name="u_solution_url" type="url"/>
+        <element label="Solution URL (if known, or Confluence link)" max_length="1024" name="u_solution_url" type="url"/>
         <element label="SSDLC" max_length="40" name="u_ssdlc" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Additional SSDLC Comments" max_length="4000" name="u_ssdlc_comments" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="u_state" type="string">
@@ -487,6 +499,7 @@
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
             </choice>
         </element>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Technical Contact(s)" max_length="1024" name="u_technical_contact" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
@@ -508,6 +521,7 @@
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="NA"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Web Based Auth. Comments/Details" max_length="4000" name="u_web_based_auth_comments" type="string"/>
