@@ -15,30 +15,11 @@
         <reverse_if_false>true</reverse_if_false>
         <run_scripts>true</run_scripts>
         <script_false><![CDATA[function onCondition() {
-	
-	g_form.setSectionDisplay('idsolution', false);
-	
-	//Commenting out when using tabbed sections
-	//g_form.setDisplay('u_native_ldap', false);
-	//g_form.setDisplay('u_native_ad_kerberos', false);
-	//g_form.setDisplay('u_authentication_protocol_other', false);
-	//g_form.setDisplay('u_thick_client_auth_comments', false);
-	
-	g_form.setValue('u_native_ldap', false);
-	g_form.setValue('u_native_ad_kerberos', false);
-	g_form.setValue('u_authentication_protocol_other', false);
-	g_form.setValue('u_thick_client_auth_comments', '');
+
 	
 }]]></script_false>
         <script_true><![CDATA[function onCondition() {
-	
-	g_form.setSectionDisplay('idsolution', true);
-	
-	//Commenting out when using tabbed sections
-	//g_form.setDisplay('u_native_ldap', true);
-	//g_form.setDisplay('u_native_ad_kerberos', true);
-	//g_form.setDisplay('u_authentication_protocol_other', true);
-	//g_form.setDisplay('u_thick_client_auth_comments', true);
+
 }]]></script_true>
         <set_values/>
         <short_description>(IHC) Thick Client Checked</short_description>
@@ -49,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fd8d0a5a4fcf7600af76d0af0310c718</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>(IHC) Thick Client Checked</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
@@ -58,7 +39,7 @@
         <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
         <sys_update_name>sys_ui_policy_fd8d0a5a4fcf7600af76d0af0310c718</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2017-07-26 18:07:00</sys_updated_on>
+        <sys_updated_on>2017-09-20 19:08:53</sys_updated_on>
         <table>x_inthe_cybersecur_risk_assessment</table>
         <ui_type>10</ui_type>
         <view/>

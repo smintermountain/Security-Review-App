@@ -5,8 +5,8 @@
             <dependent_value/>
             <element>u_state</element>
             <hint/>
-            <inactive>false</inactive>
-            <label>Draft</label>
+            <inactive>true</inactive>
+            <label>Open</label>
             <language>en</language>
             <name>x_inthe_cybersecur_risk_assessment</name>
             <sequence>0</sequence>
@@ -14,30 +14,10 @@
             <sys_created_on>2017-06-08 19:57:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>972a1a204f97b600f5f3d49f0310c7d2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-08 19:57:19</sys_updated_on>
-            <u_task/>
-            <value>1</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_state</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Open</label>
-            <language>en</language>
-            <name>x_inthe_cybersecur_risk_assessment</name>
-            <sequence>1</sequence>
-            <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-08 19:57:19</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>1f2a1a204f97b600f5f3d49f0310c7d2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-08 19:57:19</sys_updated_on>
+            <sys_updated_on>2017-09-20 21:21:21</sys_updated_on>
             <u_task/>
             <value>2</value>
         </sys_choice>
@@ -46,6 +26,66 @@
             <element>u_state</element>
             <hint/>
             <inactive>false</inactive>
+            <label>In Progress</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-09-20 21:17:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>09d1968e4f9d0700f5f3d49f0310c7e8</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-09-20 21:28:11</sys_updated_on>
+            <u_task/>
+            <value>20</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Waiting for Vendor Call</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-09-20 21:17:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8dd1968e4f9d0700f5f3d49f0310c7e8</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-09-20 21:28:11</sys_updated_on>
+            <u_task/>
+            <value>22</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Closed Complete</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-08 19:57:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b2a1a204f97b600f5f3d49f0310c7d3</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-09-20 21:21:21</sys_updated_on>
+            <u_task/>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>Work in Progress</label>
             <language>en</language>
             <name>x_inthe_cybersecur_risk_assessment</name>
@@ -55,11 +95,11 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>132a1a204f97b600f5f3d49f0310c7d3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-08 19:57:19</sys_updated_on>
+            <sys_updated_on>2017-09-20 21:22:58</sys_updated_on>
             <u_task/>
-            <value>3</value>
+            <value>2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -69,37 +109,157 @@
             <label>Awaiting Customer</label>
             <language>en</language>
             <name>x_inthe_cybersecur_risk_assessment</name>
-            <sequence>3</sequence>
+            <sequence>2</sequence>
             <sys_created_by>tkaneko</sys_created_by>
             <sys_created_on>2017-06-08 19:57:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>172a1a204f97b600f5f3d49f0310c7d3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>8</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-08 19:57:19</sys_updated_on>
+            <sys_updated_on>2017-09-20 21:28:11</sys_updated_on>
             <u_task/>
-            <value>4</value>
+            <value>23</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-08 19:57:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1f2a1a204f97b600f5f3d49f0310c7d3</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-09-20 21:27:47</sys_updated_on>
+            <u_task/>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Draft</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-06-08 19:57:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>972a1a204f97b600f5f3d49f0310c7d2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-09-20 21:27:47</sys_updated_on>
+            <u_task/>
+            <value>1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>u_state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Closed Complete</label>
+            <label>Waiting for Information</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-09-20 21:17:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c1d1968e4f9d0700f5f3d49f0310c7e9</sys_id>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-09-20 21:28:11</sys_updated_on>
+            <u_task/>
+            <value>24</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Clarification Needed</label>
             <language>en</language>
             <name>x_inthe_cybersecur_risk_assessment</name>
             <sequence>4</sequence>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-08 19:57:19</sys_created_on>
+            <sys_created_on>2017-09-20 21:17:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>1b2a1a204f97b600f5f3d49f0310c7d3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>09d1968e4f9d0700f5f3d49f0310c7e9</sys_id>
+            <sys_mod_count>6</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-08 19:57:19</sys_updated_on>
+            <sys_updated_on>2017-09-20 21:28:12</sys_updated_on>
             <u_task/>
-            <value>5</value>
+            <value>25</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On Hold</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>5</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-09-20 21:17:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4dd1968e4f9d0700f5f3d49f0310c7e9</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-09-20 21:28:12</sys_updated_on>
+            <u_task/>
+            <value>26</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>6</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-09-20 21:17:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>81d1968e4f9d0700f5f3d49f0310c7ea</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-09-20 21:28:12</sys_updated_on>
+            <u_task/>
+            <value>27</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rejected</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>7</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-09-20 21:17:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5d1968e4f9d0700f5f3d49f0310c7ea</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-09-20 21:28:12</sys_updated_on>
+            <u_task/>
+            <value>28</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -109,17 +269,17 @@
             <label>Cancelled</label>
             <language>en</language>
             <name>x_inthe_cybersecur_risk_assessment</name>
-            <sequence>5</sequence>
+            <sequence>8</sequence>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-08 19:57:19</sys_created_on>
+            <sys_created_on>2017-09-20 21:21:21</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>1f2a1a204f97b600f5f3d49f0310c7d3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>48c25aca4f9d0700f5f3d49f0310c744</sys_id>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-08 19:57:19</sys_updated_on>
+            <sys_updated_on>2017-09-20 21:28:12</sys_updated_on>
             <u_task/>
-            <value>6</value>
+            <value>29</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>u_state</element>
@@ -129,7 +289,7 @@
             <sys_created_on>2017-06-08 19:57:19</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>ed49c3604f3b3200af76d0af0310c7a5</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>41</sys_mod_count>
             <sys_name>u_state</sys_name>
             <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
             <sys_policy/>
@@ -137,7 +297,7 @@
             <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
             <sys_update_name>sys_choice_x_inthe_cybersecur_risk_assessment_u_state</sys_update_name>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-08-03 21:56:25</sys_updated_on>
+            <sys_updated_on>2017-09-20 21:28:12</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

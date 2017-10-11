@@ -11,6 +11,7 @@
                 <element label="Unknown" sequence="3" value="Unknown"/>
             </choice>
         </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Additional Comments" max_length="4000" name="u_additional_comments" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Additional System Architecture Notes or Comments" max_length="4000" name="u_additional_system_architecture_notes" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Additional User Registration and Access Request Comments" max_length="1000" name="u_additional_user_access_request_comments" type="string"/>
@@ -28,7 +29,7 @@
                 <element label="N/A" sequence="2" value="NA"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Is All Covered Information Encrypted Using Approved Standards While At Rest and" max_length="40" name="u_all_covered_info_encrypted" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is all Covered Information encrypted using approved standards at rest/transit" max_length="40" name="u_all_covered_info_encrypted" type="string">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
@@ -57,7 +58,13 @@
             </choice>
         </element>
         <element label="Application" max_length="40" name="u_application" type="boolean"/>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Approved Data Center Only" max_length="1024" name="u_approved_data_center_only" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" choice="1" label="Approved Data Center Only" max_length="1024" name="u_approved_data_center_only" type="glide_list">
+            <choice>
+                <element label="Lake Park" sequence="1" value="Lake Park"/>
+                <element label="Plano" sequence="2" value="Plano"/>
+                <element label="McKay Dee" sequence="3" value="McKay Dee"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="List Facilities" max_length="300" name="u_approved_data_center_or_closet_list" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="App Caches User Credentials" max_length="40" name="u_app_caches_user_credentials" type="string">
             <choice>
@@ -95,6 +102,7 @@
             </choice>
         </element>
         <element label="ASC" max_length="32" name="u_asc" reference="sys_user" type="reference"/>
+        <element default="javascript: '7f613c0f4f384600af76d0af0310c792' //Danny Bost" label="Assigned to" max_length="32" name="u_assigned_to" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Assumptions, Constraints, Tolerances, Uncertainties" max_length="4000" name="u_assumptions_constraints_tolerances_uncertanities" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Audit Level Requirements" max_length="40" name="u_audit_level_requirements" type="string">
             <choice>
@@ -104,7 +112,17 @@
                 <element label="N/A" sequence="3" value="NA"/>
             </choice>
         </element>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Authentication Protocol" max_length="1024" name="u_authentication_protocol" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" choice="1" label="Authentication Protocol" max_length="1024" name="u_authentication_protocol" type="glide_list">
+            <choice>
+                <element label="Header-Based Auth (TAM/ISAM, Authentication Proxy)" sequence="0" value="Header-Based Auth (TAM/ISAM, Authentication Proxy)"/>
+                <element label="Federation – SAML 2.0" sequence="1" value="Federation – SAML 2.0"/>
+                <element label="Federation – OpenID" sequence="2" value="Federation – OpenID"/>
+                <element label="Federation – ADFS" sequence="3" value="Federation – ADFS"/>
+                <element label="OAuth 2.0" sequence="4" value="OAuth 2.0"/>
+                <element label="Step-up Authentication (MFA)" sequence="5" value="Step-up Authentication (MFA)"/>
+                <element label="Other" sequence="6" value="Other"/>
+            </choice>
+        </element>
         <element label="Other" max_length="40" name="u_authentication_protocol_other" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="BAA Recommended" max_length="40" name="u_baa_recommended" type="string">
             <choice>
@@ -117,7 +135,13 @@
         <element label="BYOD" max_length="40" name="u_byod" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="BYOD Comments" max_length="4000" name="u_byod_comments" type="string"/>
         <element label="Cloud" max_length="40" name="u_cloud" type="boolean"/>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Cloud Architecture" max_length="1024" name="u_cloud_architecture" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" choice="1" label="Cloud Architecture" max_length="1024" name="u_cloud_architecture" type="glide_list">
+            <choice>
+                <element label="IaaS" sequence="0" value="IaaS"/>
+                <element label="PaaS" sequence="1" value="PaaS"/>
+                <element label="SaaS" sequence="2" value="SaaS"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Data Center Location(s)" max_length="300" name="u_cloud_data_center_locations" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Solution Contains Hard-Coded or Embedded Passwords in the Code, Scripts, or Tool" max_length="40" name="u_contains_hard_coded_embedded_passwords" type="string">
             <choice>
@@ -153,8 +177,24 @@
         <element attributes="edge_encryption_enabled=true" label="Describe Methods of Encryption" max_length="1000" name="u_describe_encryption_methods_transit" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Describe Network Security Protocols Used/Supported by the System" max_length="1000" name="u_describe_network_security_protocols" type="string"/>
         <element label="Desktop Application (Thick Client)" max_length="40" name="u_desktop_application_thick_client" type="boolean"/>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Development Environment" max_length="1024" name="u_development_environment" type="glide_list"/>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Development Language(s)" max_length="1024" name="u_development_language" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" choice="1" label="Development Environment" max_length="1024" name="u_development_environment" type="glide_list">
+            <choice>
+                <element label="Visual Studio" sequence="0" value="Visual Studio"/>
+                <element label="Eclipse" sequence="1" value="Eclipse"/>
+                <element label="IntelliJ IDEA" sequence="2" value="IntelliJ IDEA"/>
+                <element label="APEX" sequence="3" value="APEX"/>
+                <element label="iOS Mobile (Xcode)" sequence="4" value="iOS Mobile xCode"/>
+                <element label="iOS Mobile (Swift)" sequence="5" value="iOS Mobile Swift"/>
+                <element label="Other" sequence="6" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" choice="1" label="Development Language(s)" max_length="1024" name="u_development_language" type="glide_list">
+            <choice>
+                <element label="Java" sequence="0" value="Java"/>
+                <element label="C#/.Net" sequence="1" value="C#/.Net"/>
+                <element label="Other" sequence="2" value="Other"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Can Device Level Encryption be Guaranteed" max_length="40" name="u_device_level_encryption_guaranteed" type="string">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
@@ -244,7 +284,16 @@
             </choice>
         </element>
         <element label="Information Exchange/Data Transfer" max_length="40" name="u_info_exchange_boolean" type="boolean"/>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Information Exchange/Data Transfer Method(s)" max_length="1024" name="u_info_exchange_data_transfer" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" choice="1" label="Information Exchange/Data Transfer Method(s)" max_length="1024" name="u_info_exchange_data_transfer" type="glide_list">
+            <choice>
+                <element label="SFTP" sequence="1" value="SFTP"/>
+                <element label="FTP/S" sequence="2" value="FTPS"/>
+                <element label="HTTPS(s)" sequence="3" value="HTTPSs"/>
+                <element label="Secure Email" sequence="4" value="Secure Email"/>
+                <element label="Physical Media" sequence="5" value="Physical Media"/>
+                <element label="Other" sequence="6" value="Other"/>
+            </choice>
+        </element>
         <element label="Infrastructure" max_length="40" name="u_infrastructure" type="boolean"/>
         <element label="Intermountain Managed Devices Only" max_length="40" name="u_intermountain_managed_devices_only" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="IP Address Whitelisting Employed" max_length="40" name="u_ip_address_whitelisting_employed" type="string">
@@ -280,15 +329,31 @@
                 <element label="N/A" sequence="2" value="NA"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Describe Mechanisms Implemented Within the Solution to Monitor for Inappropriate" max_length="1000" name="u_mechanisms_implemented_to_monitor_activity" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Describe mechanisms used to monitor for inappropriate/unauthorized activity" max_length="1000" name="u_mechanisms_implemented_to_monitor_activity" type="string"/>
         <element label="Medical Equipment" max_length="40" name="u_medical_equipment" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Describe Mobile Device Authentication and Authorization Process" max_length="1000" name="u_mobiled_device_authenticate_authorize_process" type="string"/>
         <element label="Mobile App" max_length="40" name="u_mobile_app" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Mobile App Comments" max_length="4000" name="u_mobile_app_comments" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Mobile Auth. Comments/Details" max_length="4000" name="u_mobile_auth_comments" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Describe Mobile Device Registration and De-Registration Processes" max_length="1000" name="u_mobile_device_registration_deregistration_processes" type="string"/>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Authentication Protocol" max_length="1024" name="u_mobile_native_auth_protocol" type="glide_list"/>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Mobile OS Use or Compatibility" max_length="1024" name="u_mobile_os_use_or_comp" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" choice="1" label="Authentication Protocol" max_length="1024" name="u_mobile_native_auth_protocol" type="glide_list">
+            <choice>
+                <element label="OAuth 2.0" sequence="0" value="OAuth 2.0"/>
+                <element label="OpenID Connect" sequence="1" value="OpenID Connect"/>
+                <element label="Federation - SAML 2.0" sequence="2" value="Federation - SAML 2.0"/>
+                <element label="Federation - ADFS" sequence="3" value="Federation - ADFS"/>
+                <element label="Step-up Authentication (MFA)" sequence="4" value="Step-up Authentication (MFA)"/>
+                <element label="Other" sequence="5" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" choice="1" label="Mobile OS Use or Compatibility" max_length="1024" name="u_mobile_os_use_or_comp" type="glide_list">
+            <choice>
+                <element label="iOS" sequence="0" value="iOS"/>
+                <element label="Android" sequence="1" value="Android"/>
+                <element label="Windows 10" sequence="2" value="Windows 10"/>
+                <element label="Other" sequence="3" value="Other"/>
+            </choice>
+        </element>
         <element label="Native AD/Kerberos" max_length="40" name="u_native_ad_kerberos" type="boolean"/>
         <element label="Native LDAP" max_length="40" name="u_native_ldap" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Network Accessibility" max_length="40" name="u_network_accessibility" type="string">
@@ -300,12 +365,17 @@
         <element attributes="edge_encryption_enabled=true" label="Network Architecture Comments and Notes" max_length="4000" name="u_network_architecture_comments_and_notes" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Network Connection" max_length="40" name="u_network_connection" type="string">
             <choice>
-                <element label="No Direct Network Connected" sequence="0" value="no_direct_network"/>
+                <element label="Not Direct Network Connected" sequence="0" value="no_direct_network"/>
                 <element label="Connected to Internal Trusted Network Only" sequence="1" value="trusted_network_only"/>
                 <element label="Connected to External Untrusted Network" sequence="2" value="untrusted_network"/>
             </choice>
         </element>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Network Connection Technology" max_length="1024" name="u_network_connection_technology" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" choice="1" label="Network Connection Technology" max_length="1024" name="u_network_connection_technology" type="glide_list">
+            <choice>
+                <element label="Wired Connection" sequence="0" value="Wired Connection"/>
+                <element label="Wireless" sequence="1" value="Wireless"/>
+            </choice>
+        </element>
         <element label="Offshore Access/Processing" max_length="40" name="u_offshore_access_processing" type="boolean"/>
         <element label="Offshore Data Storage" max_length="40" name="u_offshore_data_storage" type="boolean"/>
         <element label="Offshore Support" max_length="40" name="u_offshore_support" type="boolean"/>
@@ -320,7 +390,7 @@
         <element label="OSC" max_length="32" name="u_osc" reference="x_inthe_cybersecur_security_persons_directory" reference_qual="u_type=OSC^EQ" reference_qual_condition="u_type=OSC^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Detail Any Other Relevant Cybersecurity Information (Optional)" max_length="1000" name="u_other_relevant_cybersecurity_info" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Other Review Type Comments" max_length="4000" name="u_other_review_type_comments" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Passwords Stored by Third-Party are Encrypted or Hashed Using FIPS 140-2 Validat" max_length="40" name="u_passwords_stored_by_third_party_encrypted" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Passwords Stored by 3rd Party are Encrypted/Hashed With FIPS 140-2 Methods" max_length="40" name="u_passwords_stored_by_third_party_encrypted" type="string">
             <choice>
                 <element label="Yes" sequence="1" value="Yes"/>
                 <element label="No" sequence="2" value="No"/>
@@ -372,7 +442,14 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Data Center Location(s)" max_length="300" name="u_remote_hosted_data_center_locations" type="string"/>
         <element label="Remote Hosted Servers" max_length="40" name="u_remote_hosted_servers" type="boolean"/>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Using Which Methods" max_length="1024" name="u_remote_support_access_methods" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" choice="1" label="Using Which Methods" max_length="1024" name="u_remote_support_access_methods" type="glide_list">
+            <choice>
+                <element label="VDI" sequence="0" value="VDI"/>
+                <element label="WebEx" sequence="1" value="WebEx"/>
+                <element label="VPN" sequence="2" value="VPN"/>
+                <element label="Other" sequence="3" value="Other"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Is Remote Support or Access Required by a Third-Party" max_length="40" name="u_remote_support_or_access_required" type="string">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
@@ -410,7 +487,15 @@
         <element label="Secondary Reviewer" max_length="32" name="u_secondary_reviewer" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element label="Security Policy Exception IDs (if relevant)" max_length="100" name="u_security_policy_exception_id" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Security Review/Risk Assessment Purpose" max_length="4000" name="u_security_review_purpose" type="string"/>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Service or Protocol Type" max_length="1024" name="u_service_protocol_type" type="glide_list"/>
+        <element label="SelectHealth App" max_length="40" name="u_selecthealth_app" type="boolean"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" choice="1" label="Service or Protocol Type" max_length="1024" name="u_service_protocol_type" type="glide_list">
+            <choice>
+                <element label="REST" sequence="0" value="REST"/>
+                <element label="SOAP" sequence="1" value="SOAP"/>
+                <element label="HL7" sequence="2" value="HL7"/>
+                <element label="Other" sequence="3" value="Other"/>
+            </choice>
+        </element>
         <element label="Solution" max_length="32" name="u_solution" reference="x_inthe_cybersecur_solution" reference_qual="javascript: new IHCAppUtils().getSolutions(current.u_organization);" type="reference" use_reference_qualifier="advanced"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Does the Solution Comply with SSDLC Requirements" max_length="40" name="u_solution_comply_with_ssdlc" type="string">
             <choice>
@@ -464,14 +549,24 @@
         <element label="Solution URL (if known, or Confluence link)" max_length="1024" name="u_solution_url" type="url"/>
         <element label="SSDLC" max_length="40" name="u_ssdlc" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Additional SSDLC Comments" max_length="4000" name="u_ssdlc_comments" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="u_state" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="20" label="State" max_length="40" name="u_state" type="string">
             <choice>
-                <element label="Draft" sequence="0" value="1"/>
-                <element label="Open" sequence="1" value="2"/>
-                <element label="Work in Progress" sequence="2" value="3"/>
-                <element label="Awaiting Customer" sequence="3" value="4"/>
-                <element label="Closed Complete" sequence="4" value="5"/>
-                <element label="Cancelled" sequence="5" value="6"/>
+                <element label="In Progress" sequence="0" value="20"/>
+                <element label="Waiting for Vendor Call" sequence="1" value="22"/>
+                <element label="Awaiting Customer" sequence="2" value="23"/>
+                <element label="Waiting for Information" sequence="3" value="24"/>
+                <element label="Clarification Needed" sequence="4" value="25"/>
+                <element label="On Hold" sequence="5" value="26"/>
+                <element label="Approved" sequence="6" value="27"/>
+                <element label="Rejected" sequence="7" value="28"/>
+                <element label="Cancelled" sequence="8" value="29"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_state" dependent_on_field="u_state" label="Sub-State" max_length="40" name="u_sub_state" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="20" label="Need to Contact Business Owner/Technical Contact" sequence="0" value="Need to contact business owner/technical contact"/>
+                <element dependent_value="20" label="With Primary Reviewer" sequence="1" value="With primary reviewer"/>
+                <element dependent_value="20" label="With Secondary Reviewer" sequence="2" value="With secondary reviewer"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Solution Supports Device Level Authentication and Authorization" max_length="40" name="u_supports_device_level_authentication_authorization" type="string">
@@ -527,7 +622,16 @@
         <element attributes="edge_encryption_enabled=true" label="Web Based Auth. Comments/Details" max_length="4000" name="u_web_based_auth_comments" type="string"/>
         <element label="Web-based Client" max_length="40" name="u_web_based_client" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Web Services Auth. Comments/Details" max_length="4000" name="u_web_services_auth_comments" type="string"/>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Authentication Protocol" max_length="1024" name="u_web_services_auth_protocol" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" choice="1" label="Authentication Protocol" max_length="1024" name="u_web_services_auth_protocol" type="glide_list">
+            <choice>
+                <element label="OAuth 2.0" sequence="0" value="OAuth 2.0"/>
+                <element label="OpenID Connect" sequence="1" value="OpenID Connect"/>
+                <element label="Federation - SAML 2.0" sequence="2" value="Federation - SAML 2.0"/>
+                <element label="Federation - ADFS" sequence="3" value="Federation - ADFS"/>
+                <element label="WS Trust 1.3 (SAML 2.0 or LTPA)" sequence="4" value="WS Trust 1.3 (SAML 2.0 or LTPA)"/>
+                <element label="Other" sequence="5" value="Other"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Web Services Comments" max_length="4000" name="u_web_services_comments" type="string"/>
         <element label="Web Services/Server-to-Server Communication" max_length="40" name="u_web_services_server_to_server_comm" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="App Developer Will Provide App Source Binary" max_length="40" name="u_will_provide_app_source_binary" type="string">
@@ -545,27 +649,30 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Wireless Connection Protocols Used" max_length="1000" name="u_wireless_protocols_used" type="string"/>
         <index name="index">
-            <element name="u_solution"/>
+            <element name="u_assigned_to"/>
         </index>
         <index name="index2">
-            <element name="u_business_owner"/>
+            <element name="u_solution"/>
         </index>
         <index name="index3">
-            <element name="u_primary_reviewer"/>
+            <element name="u_business_owner"/>
         </index>
         <index name="index4">
-            <element name="u_esc"/>
+            <element name="u_primary_reviewer"/>
         </index>
         <index name="index5">
-            <element name="u_osc"/>
+            <element name="u_esc"/>
         </index>
         <index name="index6">
-            <element name="u_asc"/>
+            <element name="u_osc"/>
         </index>
         <index name="index7">
-            <element name="u_organization"/>
+            <element name="u_asc"/>
         </index>
         <index name="index8">
+            <element name="u_organization"/>
+        </index>
+        <index name="index9">
             <element name="u_secondary_reviewer"/>
         </index>
     </element>

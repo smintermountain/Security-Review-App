@@ -25,6 +25,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Remediation Timeframe" max_length="1000" name="u_remediation_timeframe" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Required PPG, Control, Standard" max_length="4000" name="u_required_ppg_control_standard" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="255" name="u_risk_short_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Uncontrolled Risk Level" max_length="40" name="u_uncontrolled_risk_level" type="string">
             <choice>

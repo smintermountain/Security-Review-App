@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Used to recalculate risk score when value changes</description>
+        <field>u_ephi</field>
+        <global>true</global>
+        <messages/>
+        <name>(IHC) ePHI Changes</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading) {
+      return;
+   }
+	//Call UI Script to run calculation & set set total score field
+   	var totalScore = x_inthe_cybersecur.CalculateRiskScore.calculateScore();
+	var oldScore = g_form.getValue('u_potential_risk_score');
+	//Only update score if it is different
+	if(oldScore != totalScore){
+		g_form.setValue('u_potential_risk_score', totalScore);
+	}	
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-09-12 21:47:27</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1c0c45a74f890300f5f3d49f0310c782</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>(IHC) ePHI Changes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
+        <sys_update_name>sys_script_client_1c0c45a74f890300f5f3d49f0310c782</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-09-12 21:47:27</sys_updated_on>
+        <table>x_inthe_cybersecur_risk_assessment</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Auth N/Z" section_id="fcb2b1ca4f5d0700f5f3d49f0310c723" sys_domain="global" table="x_inthe_cybersecur_risk_assessment" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
+            <sys_id>3fc4ce704fb10340f5f3d49f0310c724</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <text>Thick Client</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
+            <sys_id>bfc4ce704fb10340f5f3d49f0310c724</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <text>Web Services/API</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
+            <sys_id>33c4ce704fb10340f5f3d49f0310c725</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <text>Web-Based Solutions</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
+            <sys_id>b3c4ce704fb10340f5f3d49f0310c725</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <text>Mobile Native Apps</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>3fc4ce704fb10340f5f3d49f0310c724</element>
+            <position>0</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
+            <sys_id>37c4ce704fb10340f5f3d49f0310c725</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_native_ldap</element>
+            <position>1</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
+            <sys_id>b7c4ce704fb10340f5f3d49f0310c725</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_native_ad_kerberos</element>
+            <position>2</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
+            <sys_id>3bc4ce704fb10340f5f3d49f0310c725</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_authentication_protocol_other</element>
+            <position>3</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
+            <sys_id>bbc4ce704fb10340f5f3d49f0310c725</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_thick_client_auth_comments</element>
+            <position>4</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
+            <sys_id>3fc4ce704fb10340f5f3d49f0310c725</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bfc4ce704fb10340f5f3d49f0310c724</element>
+            <position>5</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
+            <sys_id>bfc4ce704fb10340f5f3d49f0310c725</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_web_services_auth_protocol</element>
+            <position>6</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
+            <sys_id>33c4ce704fb10340f5f3d49f0310c726</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_web_services_auth_comments</element>
+            <position>7</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
+            <sys_id>b3c4ce704fb10340f5f3d49f0310c726</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
+            <sys_id>37c4ce704fb10340f5f3d49f0310c726</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>33c4ce704fb10340f5f3d49f0310c725</element>
+            <position>9</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
+            <sys_id>b7c4ce704fb10340f5f3d49f0310c726</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_authentication_protocol</element>
+            <position>10</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
+            <sys_id>3bc4ce704fb10340f5f3d49f0310c726</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_web_based_auth_comments</element>
+            <position>11</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
+            <sys_id>bbc4ce704fb10340f5f3d49f0310c726</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>b3c4ce704fb10340f5f3d49f0310c725</element>
+            <position>12</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
+            <sys_id>3fc4ce704fb10340f5f3d49f0310c726</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mobile_native_auth_protocol</element>
+            <position>13</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
+            <sys_id>bfc4ce704fb10340f5f3d49f0310c726</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mobile_auth_comments</element>
+            <position>14</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
+            <sys_id>33c4ce704fb10340f5f3d49f0310c727</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Auth N/Z</caption>
+            <header>false</header>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-09-20 19:01:19</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fcb2b1ca4f5d0700f5f3d49f0310c723</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Auth N/Z</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
+            <sys_update_name>sys_ui_section_fcb2b1ca4f5d0700f5f3d49f0310c723</sys_update_name>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-09-20 19:01:19</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_script">
+    <sys_ui_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Used to calculate the Risk Score Calculation</description>
+        <global>false</global>
+        <name>x_inthe_cybersecur.CalculateRiskScore</name>
+        <script><![CDATA[var x_inthe_cybersecur = x_inthe_cybersecur || {};
+
+x_inthe_cybersecur.CalculateRiskScore = (function() {
+	"use strict";
+
+//Private function for calculating the risk score
+	function _calculate_score() {
+	var totalScore = 0;
+		
+g_form.clearMessages();		
+//**************INFORMATION CLASSIFICATION****************************
+			var infoClass = g_form.getValue('u_information_classification');
+			var infoClassScore = 0;
+
+			switch (infoClass){
+				case 'category_1' :
+					infoClassScore = 1;
+					totalScore += infoClassScore;
+					break;
+
+				case 'category_2':
+					infoClassScore = 2;
+					totalScore += infoClassScore;
+					break;			
+
+					case 'category_3':
+					infoClassScore = 3;
+					totalScore += infoClassScore;
+					break;	
+
+					case 'category_4':
+					infoClassScore = 4;
+					totalScore += infoClassScore;
+					break;				
+			}
+
+//g_form.addInfoMessage('infoClassScore is ' + infoClassScore);	
+//*****************Potential User Count**************************
+			var userCount = parseInt(g_form.getValue('u_potential_user_count').replace(/\,/g,''), 10);
+			var userCountScore = 0;
+			//alert('userCount data type is ' + typeof userCount);
+			//alert('userCount is ' + userCount);
+			
+			switch(true){
+				case userCount < 100 :
+					userCountScore = 1;
+					totalScore += userCountScore;
+					
+					break;
+					
+				case userCount >= 100 && userCount <= 1000 :
+					userCountScore = 2;
+					totalScore += userCountScore;
+					break;
+
+				case userCount > 1000 :
+					userCountScore = 3;
+					totalScore += userCountScore;
+					break;
+					
+			}
+//g_form.addInfoMessage('userCountScore is ' + userCountScore);	
+//*****************Potential Record Count**************************
+			var recordCount = parseInt(g_form.getValue('u_covered_record_count_in_storage').replace(/\,/g,''), 10);
+			var recordCountScore = 0;
+			//alert('userCount data type is ' + typeof userCount);
+			//alert('userCount is ' + userCount);
+			
+			switch(true){
+				case recordCount < 100 :
+					recordCountScore = 1;
+					totalScore += recordCountScore;
+					
+					break;
+				case recordCount >= 100 && recordCount <= 1000 :
+					recordCountScore = 2;
+					totalScore += recordCountScore;
+				break;
+
+				case recordCount > 1000 :
+					recordCountScore = 3;
+					totalScore += recordCountScore;
+				break;
+
+				}
+//g_form.addInfoMessage('recordCountScore is ' + recordCountScore);			
+//**************************ePHI*******************************************
+			var ephi = g_form.getValue('u_ephi');
+			var ephiScore = 0;
+			
+			switch(ephi){
+				case 'true' :
+					ephiScore = 3;
+					totalScore += ephiScore;
+					break;
+					
+				case 'false' :
+					ephiScore = 0;
+					totalScore += ephiScore;
+					break;
+					
+			}
+//g_form.addInfoMessage('ephiScore is ' + ephiScore);
+//**************************pci*******************************************
+			var pci = g_form.getValue('u_pci');
+			var pciScore = 0;
+			
+			switch(pci){
+				case 'true' :
+					pciScore = 3;
+					totalScore += pciScore;
+					break;
+					
+				case 'false' :
+					pciScore = 0;
+					totalScore += pciScore;
+					break;
+					
+			}
+//g_form.addInfoMessage('pciScore is ' + pciScore);		
+//*************************************Off Shore Calculations***********************
+			var offshoreDataStorage = g_form.getValue('u_offshore_data_storage');
+			var offshoreSupport = g_form.getValue('u_offshore_support');
+			var offshoreAccess = g_form.getValue('u_offshore_access_processing');
+			var offShoreScore = 0;
+
+			switch(true){
+				case offshoreDataStorage == 'true' || offshoreSupport == 'true' || offshoreAccess == 'true' :
+					offShoreScore = 10;
+					totalScore += offShoreScore;
+			}
+		
+//g_form.addInfoMessage('offShoreScore is ' + offShoreScore);		
+//**********************Intermountain Data Center************************************
+			var onPremise = g_form.getValue('u_on_premise');
+			var systemDataLocation = g_form.getValue('u_system_data_location');
+			var remoteHosted = g_form.getValue('u_remote_hosted_servers');
+			var cloud = g_form.getValue('u_cloud');
+			var dataCenterScore = 0;
+		
+			switch(true){
+				case onPremise == 'true' && systemDataLocation == 'approved_data_center_only' && remoteHosted == 'false' :
+					dataCenterScore = 1;
+					totalScore += dataCenterScore;
+					break;
+
+				case onPremise == 'true' && systemDataLocation == 'approved_data_center_and_or_facility_data_closet' && remoteHosted == 'false' :
+					dataCenterScore = 2;
+					totalScore += dataCenterScore;
+					break;
+				
+				case remoteHosted == 'true' :
+					dataCenterScore = 2;
+					totalScore += dataCenterScore;
+					break;
+
+				case cloud == 'true' :
+					dataCenterScore = 2;
+					totalScore += dataCenterScore;
+					break;
+
+			}			
+			
+		
+//g_form.addInfoMessage('dataCenterScore is ' + dataCenterScore);
+//*************************Network Architecture Phase 1*************************
+			var networkConnection = g_form.getValue('u_network_connection');
+			var networkConnectionScore = 0;
+			
+			switch(true){
+				case networkConnection != 'no_direct_network' :
+					networkConnectionScore = 1;
+					totalScore += networkConnectionScore;
+					
+			}
+//g_form.addInfoMessage('networkConnectionScore is ' + networkConnectionScore);		
+//**********************Vendor Managed*****************************************
+			var vendorManagedScore = 0;
+			
+			switch(true){
+				case cloud == 'true' || remoteHosted == 'true' :
+					vendorManagedScore = 2;
+					totalScore += vendorManagedScore;
+					break;
+			}
+//g_form.addInfoMessage('vendorManagedScore is ' + vendorManagedScore);	
+
+g_form.addInfoMessage('Total Score is ' + totalScore);	
+
+	return totalScore;
+		
+	}
+
+
+		return {
+
+		calculateScore : function(){
+			return _calculate_score();
+		},
+		
+		type:  "CalculateRiskScore"
+		
+		};
+})();
+]]></script>
+        <script_name>CalculateRiskScore</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-09-12 16:29:03</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>f9718c234f850300f5f3d49f0310c7cb</sys_id>
+        <sys_mod_count>55</sys_mod_count>
+        <sys_name>x_inthe_cybersecur.CalculateRiskScore</sys_name>
+        <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
+        <sys_update_name>sys_ui_script_f9718c234f850300f5f3d49f0310c7cb</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-09-12 21:34:43</sys_updated_on>
+        <use_scoped_format>true</use_scoped_format>
+    </sys_ui_script>
+</record_update>

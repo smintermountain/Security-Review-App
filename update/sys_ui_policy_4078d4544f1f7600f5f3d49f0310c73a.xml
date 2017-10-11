@@ -16,18 +16,10 @@
         <run_scripts>true</run_scripts>
         <script_false><![CDATA[function onCondition() {
 	
-	//If there is a value in the field then clear it out
-	if(g_form.getValue('u_describe_encryption_methods_rest') != ''){
-		g_form.setValue('u_describe_encryption_methods_rest', '');
-	}
-	
-	g_form.setValue('u_describe_encryption_methods_rest', '');
-	g_form.setDisplay('u_describe_encryption_methods_rest', false);
 
 }]]></script_false>
         <script_true><![CDATA[function onCondition() {
-	g_form.setDisplay('u_describe_encryption_methods_rest', true);
-
+	
 }]]></script_true>
         <set_values/>
         <short_description>(IHC) All data encrypted at rest</short_description>
@@ -38,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4078d4544f1f7600f5f3d49f0310c73a</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>(IHC) All data encrypted at rest</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
@@ -47,7 +39,7 @@
         <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
         <sys_update_name>sys_ui_policy_4078d4544f1f7600f5f3d49f0310c73a</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2017-07-26 18:51:58</sys_updated_on>
+        <sys_updated_on>2017-09-13 19:48:15</sys_updated_on>
         <table>x_inthe_cybersecur_risk_assessment</table>
         <ui_type>10</ui_type>
         <view/>
