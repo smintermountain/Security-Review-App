@@ -4,58 +4,58 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
-            <sys_id>3fc4ce704fb10340f5f3d49f0310c724</sys_id>
+            <sys_created_on>2017-10-25 17:21:50</sys_created_on>
+            <sys_id>bc9b61914f0ec740f5f3d49f0310c767</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_updated_on>2017-10-25 17:21:50</sys_updated_on>
             <text>Thick Client</text>
             <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
-            <sys_id>bfc4ce704fb10340f5f3d49f0310c724</sys_id>
+            <sys_created_on>2017-10-25 17:21:50</sys_created_on>
+            <sys_id>309b61914f0ec740f5f3d49f0310c768</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_updated_on>2017-10-25 17:21:50</sys_updated_on>
             <text>Web Services/API</text>
             <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
-            <sys_id>33c4ce704fb10340f5f3d49f0310c725</sys_id>
+            <sys_created_on>2017-10-25 17:21:50</sys_created_on>
+            <sys_id>b09b61914f0ec740f5f3d49f0310c768</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_updated_on>2017-10-25 17:21:50</sys_updated_on>
             <text>Web-Based Solutions</text>
             <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
-            <sys_id>b3c4ce704fb10340f5f3d49f0310c725</sys_id>
+            <sys_created_on>2017-10-25 17:21:50</sys_created_on>
+            <sys_id>349b61914f0ec740f5f3d49f0310c768</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_updated_on>2017-10-25 17:21:50</sys_updated_on>
             <text>Mobile Native Apps</text>
             <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>3fc4ce704fb10340f5f3d49f0310c724</element>
+            <element>bc9b61914f0ec740f5f3d49f0310c767</element>
             <position>0</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
-            <sys_id>37c4ce704fb10340f5f3d49f0310c725</sys_id>
+            <sys_created_on>2017-10-25 17:21:50</sys_created_on>
+            <sys_id>b49b61914f0ec740f5f3d49f0310c768</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_updated_on>2017-10-25 17:21:50</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -63,13 +63,13 @@
             <element>u_native_ldap</element>
             <position>1</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
-            <sys_id>b7c4ce704fb10340f5f3d49f0310c725</sys_id>
+            <sys_created_on>2017-10-25 17:21:50</sys_created_on>
+            <sys_id>389b61914f0ec740f5f3d49f0310c768</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_updated_on>2017-10-25 17:21:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -77,13 +77,13 @@
             <element>u_native_ad_kerberos</element>
             <position>2</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
-            <sys_id>3bc4ce704fb10340f5f3d49f0310c725</sys_id>
+            <sys_created_on>2017-10-25 17:21:50</sys_created_on>
+            <sys_id>b89b61914f0ec740f5f3d49f0310c768</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_updated_on>2017-10-25 17:21:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -91,13 +91,13 @@
             <element>u_authentication_protocol_other</element>
             <position>3</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
-            <sys_id>bbc4ce704fb10340f5f3d49f0310c725</sys_id>
+            <sys_created_on>2017-10-25 17:21:50</sys_created_on>
+            <sys_id>3c9b61914f0ec740f5f3d49f0310c768</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_updated_on>2017-10-25 17:21:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -105,27 +105,27 @@
             <element>u_thick_client_auth_comments</element>
             <position>4</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
-            <sys_id>3fc4ce704fb10340f5f3d49f0310c725</sys_id>
+            <sys_created_on>2017-10-25 17:21:50</sys_created_on>
+            <sys_id>bc9b61914f0ec740f5f3d49f0310c768</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_updated_on>2017-10-25 17:21:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>bfc4ce704fb10340f5f3d49f0310c724</element>
+            <element>309b61914f0ec740f5f3d49f0310c768</element>
             <position>5</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
-            <sys_id>bfc4ce704fb10340f5f3d49f0310c725</sys_id>
+            <sys_created_on>2017-10-25 17:21:50</sys_created_on>
+            <sys_id>309b61914f0ec740f5f3d49f0310c769</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_updated_on>2017-10-25 17:21:50</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -133,13 +133,13 @@
             <element>u_web_services_auth_protocol</element>
             <position>6</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
-            <sys_id>33c4ce704fb10340f5f3d49f0310c726</sys_id>
+            <sys_created_on>2017-10-25 17:21:50</sys_created_on>
+            <sys_id>b09b61914f0ec740f5f3d49f0310c769</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_updated_on>2017-10-25 17:21:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -147,13 +147,13 @@
             <element>u_web_services_auth_comments</element>
             <position>7</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
-            <sys_id>b3c4ce704fb10340f5f3d49f0310c726</sys_id>
+            <sys_created_on>2017-10-25 17:21:50</sys_created_on>
+            <sys_id>349b61914f0ec740f5f3d49f0310c769</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_updated_on>2017-10-25 17:21:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -161,27 +161,27 @@
             <element>.split</element>
             <position>8</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
-            <sys_id>37c4ce704fb10340f5f3d49f0310c726</sys_id>
+            <sys_created_on>2017-10-25 17:21:50</sys_created_on>
+            <sys_id>b49b61914f0ec740f5f3d49f0310c769</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_updated_on>2017-10-25 17:21:50</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>33c4ce704fb10340f5f3d49f0310c725</element>
+            <element>b09b61914f0ec740f5f3d49f0310c768</element>
             <position>9</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
-            <sys_id>b7c4ce704fb10340f5f3d49f0310c726</sys_id>
+            <sys_created_on>2017-10-25 17:21:50</sys_created_on>
+            <sys_id>389b61914f0ec740f5f3d49f0310c769</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_updated_on>2017-10-25 17:21:50</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -189,13 +189,13 @@
             <element>u_authentication_protocol</element>
             <position>10</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
-            <sys_id>3bc4ce704fb10340f5f3d49f0310c726</sys_id>
+            <sys_created_on>2017-10-25 17:21:50</sys_created_on>
+            <sys_id>b89b61914f0ec740f5f3d49f0310c769</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_updated_on>2017-10-25 17:21:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -203,27 +203,27 @@
             <element>u_web_based_auth_comments</element>
             <position>11</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
-            <sys_id>bbc4ce704fb10340f5f3d49f0310c726</sys_id>
+            <sys_created_on>2017-10-25 17:21:50</sys_created_on>
+            <sys_id>3c9b61914f0ec740f5f3d49f0310c769</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_updated_on>2017-10-25 17:21:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>b3c4ce704fb10340f5f3d49f0310c725</element>
+            <element>349b61914f0ec740f5f3d49f0310c768</element>
             <position>12</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
-            <sys_id>3fc4ce704fb10340f5f3d49f0310c726</sys_id>
+            <sys_created_on>2017-10-25 17:21:50</sys_created_on>
+            <sys_id>bc9b61914f0ec740f5f3d49f0310c769</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_updated_on>2017-10-25 17:21:50</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -231,13 +231,13 @@
             <element>u_mobile_native_auth_protocol</element>
             <position>13</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
-            <sys_id>bfc4ce704fb10340f5f3d49f0310c726</sys_id>
+            <sys_created_on>2017-10-25 17:21:50</sys_created_on>
+            <sys_id>309b61914f0ec740f5f3d49f0310c76a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_updated_on>2017-10-25 17:21:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -245,13 +245,13 @@
             <element>u_mobile_auth_comments</element>
             <position>14</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-10-11 19:39:25</sys_created_on>
-            <sys_id>33c4ce704fb10340f5f3d49f0310c727</sys_id>
+            <sys_created_on>2017-10-25 17:21:50</sys_created_on>
+            <sys_id>b09b61914f0ec740f5f3d49f0310c76a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Auth N/Z" display_value="Auth N/Z" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">fcb2b1ca4f5d0700f5f3d49f0310c723</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-10-11 19:39:25</sys_updated_on>
+            <sys_updated_on>2017-10-25 17:21:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

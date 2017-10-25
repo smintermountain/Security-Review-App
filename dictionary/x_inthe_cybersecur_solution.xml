@@ -5,24 +5,34 @@
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Data Dictionary App Category" max_length="40" name="u_data_dictionary_app_category" type="string">
             <choice>
-                <element label="Choice 1" sequence="0" value="Choice 1"/>
-                <element label="Choice 2" sequence="1" value="Choice 2"/>
-                <element label="Choice 3" sequence="2" value="Choice 3"/>
+                <element label="Data-Center Applications" sequence="0" value="Data-Center Applications"/>
+                <element label="Desktop/Client Applications" sequence="1" value="Desktop/Client Applications"/>
+                <element label="Facility/Data Closet Applications" sequence="2" value="Facility/Data Closet Applications"/>
+                <element label="General" sequence="3" value="General"/>
+                <element label="Interfaces" sequence="4" value="Interfaces"/>
+                <element label="IRB" sequence="5" value="IRB"/>
+                <element label="Medical Devices" sequence="6" value="Medical Devices"/>
+                <element label="Mobile Devices" sequence="7" value="Mobile Devices"/>
+                <element label="Network Applications" sequence="8" value="Network Applications"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Data Dictionary App Type" max_length="40" name="u_data_dictionary_app_type" type="string">
             <choice>
-                <element label="Choice 1" sequence="0" value="Choice 1"/>
-                <element label="Choice 2" sequence="1" value="Choice 2"/>
-                <element label="Choice 3" sequence="2" value="Choice 3"/>
+                <element label="Clinical" sequence="0" value="Clinical"/>
+                <element label="I.S." sequence="1" value="I.S."/>
+                <element label="Financial" sequence="2" value="Financial"/>
+                <element label="General" sequence="3" value="General"/>
+                <element label="Business" sequence="4" value="Business"/>
+                <element label="Administrative" sequence="5" value="Administrative"/>
+                <element label="IRB Review" sequence="6" value="IRB Review"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="4000" name="u_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Facility Used" max_length="400" name="u_facility_used" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Name" max_length="255" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="255" name="u_name" type="string"/>
         <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_columns=u_org_common_name,ref_ac_order_by=u_organization_name" label="Organization" max_length="32" name="u_organization" reference="x_inthe_cybersecur_organization" reference_qual="u_active=true^EQ" reference_qual_condition="u_active=true^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Other Type" max_length="40" name="u_other_type" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Solution URL" max_length="1024" name="u_solution_url" type="url"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Solution URL" max_length="1024" name="u_solution_url" type="url"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="u_type" type="string">
             <choice>
                 <element label="Consulting" sequence="0" value="Consulting"/>

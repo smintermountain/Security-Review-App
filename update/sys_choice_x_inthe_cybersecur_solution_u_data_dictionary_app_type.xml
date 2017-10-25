@@ -6,7 +6,7 @@
             <element>u_data_dictionary_app_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Choice 1</label>
+            <label>Clinical</label>
             <language>en</language>
             <name>x_inthe_cybersecur_solution</name>
             <sequence>0</sequence>
@@ -15,18 +15,18 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>cdac74994f850700f5f3d49f0310c7da</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-09-05 20:53:58</sys_updated_on>
+            <sys_updated_on>2017-10-25 15:41:46</sys_updated_on>
             <u_task/>
-            <value>Choice 1</value>
+            <value>Clinical</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>u_data_dictionary_app_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Choice 2</label>
+            <label>I.S.</label>
             <language>en</language>
             <name>x_inthe_cybersecur_solution</name>
             <sequence>1</sequence>
@@ -35,18 +35,18 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>85ac74994f850700f5f3d49f0310c7db</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-09-05 20:53:58</sys_updated_on>
+            <sys_updated_on>2017-10-25 15:42:07</sys_updated_on>
             <u_task/>
-            <value>Choice 2</value>
+            <value>I.S.</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>u_data_dictionary_app_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Choice 3</label>
+            <label>Financial</label>
             <language>en</language>
             <name>x_inthe_cybersecur_solution</name>
             <sequence>2</sequence>
@@ -55,11 +55,91 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>c9ac74994f850700f5f3d49f0310c7db</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-10-25 15:42:25</sys_updated_on>
+            <u_task/>
+            <value>Financial</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_data_dictionary_app_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>General</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_solution</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-10-25 15:42:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b7e415514f8ac740f5f3d49f0310c722</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-09-05 20:53:58</sys_updated_on>
+            <sys_updated_on>2017-10-25 15:42:55</sys_updated_on>
             <u_task/>
-            <value>Choice 3</value>
+            <value>General</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_data_dictionary_app_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_solution</name>
+            <sequence>4</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-10-25 15:42:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fbe415514f8ac740f5f3d49f0310c722</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-10-25 15:42:55</sys_updated_on>
+            <u_task/>
+            <value>Business</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_data_dictionary_app_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Administrative</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_solution</name>
+            <sequence>5</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-10-25 15:42:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>33e415514f8ac740f5f3d49f0310c723</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-10-25 15:42:55</sys_updated_on>
+            <u_task/>
+            <value>Administrative</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_data_dictionary_app_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IRB Review</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_solution</name>
+            <sequence>6</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-10-25 15:42:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>77e415514f8ac740f5f3d49f0310c723</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-10-25 15:42:55</sys_updated_on>
+            <u_task/>
+            <value>IRB Review</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>u_data_dictionary_app_type</element>
@@ -69,7 +149,7 @@
             <sys_created_on>2017-09-05 20:53:58</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>c1ac74994f850700f5f3d49f0310c7db</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_name>u_data_dictionary_app_type</sys_name>
             <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
             <sys_policy/>
@@ -77,7 +157,7 @@
             <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
             <sys_update_name>sys_choice_x_inthe_cybersecur_solution_u_data_dictionary_app_type</sys_update_name>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-09-05 20:53:58</sys_updated_on>
+            <sys_updated_on>2017-10-25 15:42:55</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name/>
+        <action_name>return_to_primary</action_name>
         <active>true</active>
-        <client>false</client>
+        <client>true</client>
         <comments/>
-        <condition>(current.u_state== '20'&amp;&amp; current.u_sub_state == 'With secondary reviewer')</condition>
+        <condition>(current.u_state== '20'&amp;&amp; (current.u_sub_state == 'With secondary reviewer' || current.u_sub_state == 'With Security Mgt.'))</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_context_menu>false</form_context_menu>
@@ -19,14 +19,36 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <name>Return to Primary</name>
-        <onclick/>
-        <order>-50</order>
-        <script><![CDATA[//Update Security Review Record
-current.u_sub_state = 'With primary reviewer';
-current.u_assigned_to = current.u_primary_reviewer;
-current.update();
+        <onclick>returnToPrimary()</onclick>
+        <order>-100</order>
+        <script><![CDATA[//Client-side 'onclick' function
+function returnToPrimary(){
+	var feedback = g_form.getValue('u_review_feedback');
+	
+	if(feedback == ''){
+		g_form.setMandatory('u_review_feedback', true);
+		g_form.showFieldMsg('u_review_feedback','Feedback is mandatory when returning to Primary Reviewer.','error');
+      return false;  //Abort submission		
+	}
+	
+	//Run the server side script
+	gsftSubmit(null, g_form.getFormElement(), 'return_to_primary');
+}
 
-action.setRedirectURL(current);
+//Server Side Script
+//Ensure call to server-side function with no browser errors
+if (typeof window == 'undefined'){
+   updateTask();
+}	
+
+function updateTask(){
+	//Update Security Review Record
+	current.u_sub_state = 'With primary reviewer';
+	current.u_assigned_to = current.u_primary_reviewer;
+	current.update();
+
+	action.setRedirectURL(current);
+}	
 
 ]]></script>
         <show_insert>false</show_insert>
@@ -40,7 +62,7 @@ action.setRedirectURL(current);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8be0b1b44f710340f5f3d49f0310c7fb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Return to Primary</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
@@ -49,7 +71,7 @@ action.setRedirectURL(current);
         <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
         <sys_update_name>sys_ui_action_8be0b1b44f710340f5f3d49f0310c7fb</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2017-10-11 19:44:31</sys_updated_on>
+        <sys_updated_on>2017-10-25 19:01:27</sys_updated_on>
         <table>x_inthe_cybersecur_risk_assessment</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>true</ui16_compatible>

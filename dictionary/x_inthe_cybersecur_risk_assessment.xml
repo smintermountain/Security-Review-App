@@ -102,7 +102,7 @@
             </choice>
         </element>
         <element label="ASC" max_length="32" name="u_asc" reference="sys_user" type="reference"/>
-        <element default="javascript: '7f613c0f4f384600af76d0af0310c792' //Danny Bost" label="Assigned to" max_length="32" name="u_assigned_to" reference="sys_user" type="reference"/>
+        <element label="Assigned to" max_length="32" name="u_assigned_to" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Assumptions, Constraints, Tolerances, Uncertainties" max_length="4000" name="u_assumptions_constraints_tolerances_uncertanities" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Audit Level Requirements" max_length="40" name="u_audit_level_requirements" type="string">
             <choice>
@@ -474,6 +474,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Responsible Business Unit" max_length="100" name="u_responsible_business_unit" type="string"/>
         <element label="Review Completion Date" max_length="40" name="u_review_completion_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Review Feedback" max_length="4000" name="u_review_feedback" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Review Process" max_length="4000" name="u_review_process" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Review Scope" max_length="4000" name="u_review_scope" type="string"/>
         <element label="Other" max_length="40" name="u_review_type_other_2" type="boolean"/>
@@ -496,7 +497,7 @@
                 <element label="Other" sequence="3" value="Other"/>
             </choice>
         </element>
-        <element label="Solution" max_length="32" name="u_solution" reference="x_inthe_cybersecur_solution" reference_qual="javascript: new IHCAppUtils().getSolutions(current.u_organization);" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Solution Name" max_length="32" name="u_solution" reference="x_inthe_cybersecur_solution" reference_qual="javascript: new IHCAppUtils().getSolutions(current.u_organization);" type="reference" use_reference_qualifier="advanced"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Does the Solution Comply with SSDLC Requirements" max_length="40" name="u_solution_comply_with_ssdlc" type="string">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
@@ -567,6 +568,7 @@
                 <element dependent_value="20" label="Need to Contact Business Owner/Technical Contact" sequence="0" value="Need to contact business owner/technical contact"/>
                 <element dependent_value="20" label="With Primary Reviewer" sequence="1" value="With primary reviewer"/>
                 <element dependent_value="20" label="With Secondary Reviewer" sequence="2" value="With secondary reviewer"/>
+                <element dependent_value="20" label="With Security Mgt." sequence="3" value="With Security Mgt."/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Solution Supports Device Level Authentication and Authorization" max_length="40" name="u_supports_device_level_authentication_authorization" type="string">
@@ -610,6 +612,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Thick Client Auth. Comments/Details" max_length="4000" name="u_thick_client_auth_comments" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Third party contact name, email, phone" max_length="400" name="u_third_party_contact_info" type="string"/>
+        <element default="javascript: '7f613c0f4f384600af76d0af0310c792' //Danny Bost" label="Triage Assignee" max_length="32" name="u_triage_assignee" reference="sys_user" type="reference"/>
         <element label="Manufacturer Product Page" max_length="1024" name="u_url_4" type="url"/>
         <element attributes="edge_encryption_enabled=true" label="If Applicable, Describe How the Vendor or Third-Party Manages Privileges to Inte" max_length="1000" name="u_vendor_third_party_manage_privileges" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Are Vulnerability Scans Conducted by a Third-Party" max_length="40" name="u_vulnerability_scans_conducted_by_3rd_party" type="string">
@@ -664,15 +667,18 @@
             <element name="u_esc"/>
         </index>
         <index name="index6">
-            <element name="u_osc"/>
+            <element name="u_triage_assignee"/>
         </index>
         <index name="index7">
-            <element name="u_asc"/>
+            <element name="u_osc"/>
         </index>
         <index name="index8">
-            <element name="u_organization"/>
+            <element name="u_asc"/>
         </index>
         <index name="index9">
+            <element name="u_organization"/>
+        </index>
+        <index name="index10">
             <element name="u_secondary_reviewer"/>
         </index>
     </element>

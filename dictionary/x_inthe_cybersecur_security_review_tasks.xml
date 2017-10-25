@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Security Review Tasks" max_length="40" name="x_inthe_cybersecur_security_review_tasks" type="collection">
+    <element audit="true" extends="task" label="Security Review Tasks" max_length="40" name="x_inthe_cybersecur_security_review_tasks" sizeclass="2" type="collection">
         <element label="Assigned Date" max_length="40" name="u_assigned_date" type="glide_date"/>
         <element label="Completed Date" max_length="40" name="u_completed_date" type="glide_date"/>
         <element label="Due Date" max_length="40" name="u_due_date" type="glide_date"/>

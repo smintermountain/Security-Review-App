@@ -24,13 +24,13 @@
         <mandatory>false</mandatory>
         <message/>
         <message_html><![CDATA[<p>${u_primary_reviewer.first_name},</p>
-<p>Security review: '${u_functional_description}' is being returned for modification.</p>
+<p>Security review: '${u_solution}' is being returned for modification.</p>
 <p>Please make the following changes and return to the secondary reviewer for review:</p>
-<p>TBD</p>
+<p>${u_review_feedback}</p>
 <p>Tracking and contact information can be found here: ${URI_REF}</p>
 <p>&nbsp;</p>
 <p>&nbsp;This is an auto-generated email. Please do not reply.</p>
-<p>&nbsp;if you have any questions, please contact <a href="mailto:Danny.Bost@imail2.org">Danny.Bost@imail2.org</a></p>
+<p>&nbsp;if you have any questions, please contact&nbsp;${u_triage_assignee.email}</p>
 <p><img title="" src="/ServiceMattersEmails.pngx" alt="" align="bottom" border="" hspace="" vspace="" /></p>]]></message_html>
         <message_list/>
         <message_text/>
@@ -45,7 +45,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>TBD</subject>
+        <subject>Security Review: ${u_solution} Has Been Returned for Modification</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>tkaneko</sys_created_by>
@@ -54,7 +54,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ff390a344fb10340f5f3d49f0310c7b8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>(IHC) Return to  Primary Reviewer</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
@@ -63,7 +63,7 @@
         <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
         <sys_update_name>sysevent_email_action_ff390a344fb10340f5f3d49f0310c7b8</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2017-10-11 20:28:03</sys_updated_on>
+        <sys_updated_on>2017-10-25 18:59:02</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
