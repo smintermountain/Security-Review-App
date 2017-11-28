@@ -2,23 +2,29 @@
 <record_update table="ua_table_licensing_config">
     <ua_table_licensing_config action="INSERT_OR_UPDATE">
         <is_fulfillment>false</is_fulfillment>
-        <name>x_inthe_cybersecur_risk_assessment</name>
-        <owner_condition table="x_inthe_cybersecur_risk_assessment">sys_created_by=javascript:gs.getUserName()^EQ<item endquery="false" field="sys_created_by" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserName()"/>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_inthe_cybersecur_security_persons_directory</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition table="x_inthe_cybersecur_security_persons_directory">sys_created_by=javascript:gs.getUserName()^EQ<item endquery="false" field="sys_created_by" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserName()"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </owner_condition>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>tkaneko</sys_created_by>
-        <sys_created_on>2017-05-03 16:06:58</sys_created_on>
+        <sys_created_on>2017-06-08 20:44:36</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>a3c88b204f3b3200af76d0af0310c7d2</sys_id>
+        <sys_id>371590474f824300f5f3d49f0310c711</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_inthe_cybersecur_risk_assessment</sys_name>
+        <sys_name>x_inthe_cybersecur_security_persons_directory</sys_name>
         <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
-        <sys_update_name>ua_table_licensing_config_a3c88b204f3b3200af76d0af0310c7d2</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_371590474f824300f5f3d49f0310c711</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2017-05-03 16:06:58</sys_updated_on>
+        <sys_updated_on>2017-06-08 20:44:36</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>

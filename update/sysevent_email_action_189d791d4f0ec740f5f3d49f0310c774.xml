@@ -6,6 +6,7 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
+        <category/>
         <collection>x_inthe_cybersecur_risk_assessment</collection>
         <condition/>
         <content_type>text/html</content_type>

@@ -95,6 +95,7 @@
         <x>20</x>
         <y>20</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=424bd5d54fcac740f5f3d49f0310c7b2"/>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Begin">424bd5d54fcac740f5f3d49f0310c7b2</activity>
         <condition>true</condition>
@@ -144,6 +145,7 @@
         <x>1256</x>
         <y>779</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=824bd5d54fcac740f5f3d49f0310c7b0"/>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Create Event">9f680b92c0a801640026553f665b429f</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
@@ -172,6 +174,55 @@
         <x>1145</x>
         <y>539</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=c23e791d4f0ec740f5f3d49f0310c777"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c23e791d4f0ec740f5f3d49f0310c777</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-10-25 18:43:17</sys_created_on>
+        <sys_id>063e791d4f0ec740f5f3d49f0310c777</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-10-25 18:47:11</sys_updated_on>
+        <value>2cde719d4f0ec740f5f3d49f0310c7a4</value>
+        <variable display_value="">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c23e791d4f0ec740f5f3d49f0310c777</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-10-25 18:43:17</sys_created_on>
+        <sys_id>8a3e791d4f0ec740f5f3d49f0310c777</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-10-25 18:43:17</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 2&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="">c35dd3ef0a0a0ba96248a70947e35325</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c23e791d4f0ec740f5f3d49f0310c777</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-10-25 18:43:17</sys_created_on>
+        <sys_id>c63e791d4f0ec740f5f3d49f0310c777</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-10-25 18:43:17</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 1&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="">c35dd0310a0a0ba96248a70936d276b3</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>c23e791d4f0ec740f5f3d49f0310c777</document_key>
@@ -269,6 +320,55 @@
         <x>769</x>
         <y>466</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=ce4bd5d54fcac740f5f3d49f0310c7b4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce4bd5d54fcac740f5f3d49f0310c7b4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-10-25 16:10:39</sys_created_on>
+        <sys_id>024bd5d54fcac740f5f3d49f0310c7b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-10-25 16:10:39</sys_updated_on>
+        <value>7fa886344fb10340f5f3d49f0310c764</value>
+        <variable display_value="">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce4bd5d54fcac740f5f3d49f0310c7b4</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-10-25 16:10:39</sys_created_on>
+        <sys_id>864bd5d54fcac740f5f3d49f0310c7b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-10-25 16:10:39</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 2&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="">c35dd3ef0a0a0ba96248a70947e35325</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce4bd5d54fcac740f5f3d49f0310c7b4</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-10-25 16:10:39</sys_created_on>
+        <sys_id>c24bd5d54fcac740f5f3d49f0310c7b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-10-25 16:10:39</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 1&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="">c35dd0310a0a0ba96248a70936d276b3</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>ce4bd5d54fcac740f5f3d49f0310c7b4</document_key>
@@ -366,6 +466,55 @@
         <x>753</x>
         <y>608</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=295cf15d4f0ec740f5f3d49f0310c7cf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>295cf15d4f0ec740f5f3d49f0310c7cf</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-10-25 18:35:04</sys_created_on>
+        <sys_id>2d5cf15d4f0ec740f5f3d49f0310c7cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-10-25 18:35:04</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 1&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="">c35dd0310a0a0ba96248a70936d276b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>295cf15d4f0ec740f5f3d49f0310c7cf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-10-25 18:35:04</sys_created_on>
+        <sys_id>695cf15d4f0ec740f5f3d49f0310c7cf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-10-25 18:37:34</sys_updated_on>
+        <value>50dcb55d4f0ec740f5f3d49f0310c76e</value>
+        <variable display_value="">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>295cf15d4f0ec740f5f3d49f0310c7cf</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-10-25 18:35:04</sys_created_on>
+        <sys_id>ed5cf15d4f0ec740f5f3d49f0310c7cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-10-25 18:35:04</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 2&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="">c35dd3ef0a0a0ba96248a70947e35325</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>295cf15d4f0ec740f5f3d49f0310c7cf</document_key>
@@ -463,6 +612,55 @@
         <x>1198</x>
         <y>677</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=464bd5d54fcac740f5f3d49f0310c7b0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>464bd5d54fcac740f5f3d49f0310c7b0</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-10-25 16:10:39</sys_created_on>
+        <sys_id>0e4bd5d54fcac740f5f3d49f0310c7b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-10-25 16:10:39</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 2&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="">c35dd3ef0a0a0ba96248a70947e35325</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>464bd5d54fcac740f5f3d49f0310c7b0</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-10-25 16:10:39</sys_created_on>
+        <sys_id>4a4bd5d54fcac740f5f3d49f0310c7b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-10-25 16:10:39</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 1&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="">c35dd0310a0a0ba96248a70936d276b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>464bd5d54fcac740f5f3d49f0310c7b0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-10-25 16:10:39</sys_created_on>
+        <sys_id>864bd5d54fcac740f5f3d49f0310c7b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-10-25 16:10:39</sys_updated_on>
+        <value>455ac2344fb10340f5f3d49f0310c74d</value>
+        <variable display_value="">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>464bd5d54fcac740f5f3d49f0310c7b0</document_key>
@@ -560,6 +758,55 @@
         <x>404</x>
         <y>464</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=424bd5d54fcac740f5f3d49f0310c7b4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>424bd5d54fcac740f5f3d49f0310c7b4</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-10-25 16:10:39</sys_created_on>
+        <sys_id>0a4bd5d54fcac740f5f3d49f0310c7b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-10-25 16:10:39</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 2&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="">c35dd3ef0a0a0ba96248a70947e35325</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>424bd5d54fcac740f5f3d49f0310c7b4</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-10-25 16:10:39</sys_created_on>
+        <sys_id>464bd5d54fcac740f5f3d49f0310c7b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-10-25 16:10:39</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 1&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="">c35dd0310a0a0ba96248a70936d276b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>424bd5d54fcac740f5f3d49f0310c7b4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-10-25 16:10:39</sys_created_on>
+        <sys_id>824bd5d54fcac740f5f3d49f0310c7b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-10-25 16:10:39</sys_updated_on>
+        <value>fa0e25744f710340f5f3d49f0310c702</value>
+        <variable display_value="">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>424bd5d54fcac740f5f3d49f0310c7b4</document_key>
@@ -657,6 +904,55 @@
         <x>200</x>
         <y>291</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=c24bd5d54fcac740f5f3d49f0310c7b1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c24bd5d54fcac740f5f3d49f0310c7b1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-10-25 16:10:39</sys_created_on>
+        <sys_id>064bd5d54fcac740f5f3d49f0310c7b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-10-25 16:10:39</sys_updated_on>
+        <value>4c9119a04fb9cf00f5f3d49f0310c78e</value>
+        <variable display_value="">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c24bd5d54fcac740f5f3d49f0310c7b1</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-10-25 16:10:39</sys_created_on>
+        <sys_id>8a4bd5d54fcac740f5f3d49f0310c7b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-10-25 16:10:39</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 2&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="">c35dd3ef0a0a0ba96248a70947e35325</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c24bd5d54fcac740f5f3d49f0310c7b1</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-10-25 16:10:39</sys_created_on>
+        <sys_id>c64bd5d54fcac740f5f3d49f0310c7b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-10-25 16:10:39</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 1&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="">c35dd0310a0a0ba96248a70936d276b3</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>c24bd5d54fcac740f5f3d49f0310c7b1</document_key>
@@ -754,6 +1050,37 @@
         <x>329</x>
         <y>375</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=864bd5d54fcac740f5f3d49f0310c7b3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>864bd5d54fcac740f5f3d49f0310c7b3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-10-25 16:10:39</sys_created_on>
+        <sys_id>8a4bd5d54fcac740f5f3d49f0310c7b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-10-25 16:10:39</sys_updated_on>
+        <value>u_state=20^u_sub_state=With secondary reviewer^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>864bd5d54fcac740f5f3d49f0310c7b3</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-10-25 16:10:39</sys_created_on>
+        <sys_id>c64bd5d54fcac740f5f3d49f0310c7b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-10-25 16:10:39</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>864bd5d54fcac740f5f3d49f0310c7b3</document_key>
@@ -833,6 +1160,7 @@ answer = true;&#13;
         <x>1015</x>
         <y>423</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=424bd5d54fcac740f5f3d49f0310c7b3"/>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Return to Primary Review">424bd5d54fcac740f5f3d49f0310c7b3</activity>
         <condition>true</condition>
@@ -882,6 +1210,7 @@ answer = true;&#13;
         <x>1234</x>
         <y>435</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=642f759d4f0ec740f5f3d49f0310c78e"/>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Return to Primary Review">642f759d4f0ec740f5f3d49f0310c78e</activity>
         <condition>true</condition>
@@ -931,6 +1260,42 @@ answer = true;&#13;
         <x>517</x>
         <y>566</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=4e4bd5d54fcac740f5f3d49f0310c7b5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4e4bd5d54fcac740f5f3d49f0310c7b5</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-10-25 16:10:39</sys_created_on>
+        <sys_id>424bd5d54fcac740f5f3d49f0310c7b6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-10-25 18:31:03</sys_updated_on>
+        <value>u_sub_state=With primary reviewer^ORu_sub_state=With Security Mgt.^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4e4bd5d54fcac740f5f3d49f0310c7b5</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-10-25 16:10:39</sys_created_on>
+        <sys_id>8e4bd5d54fcac740f5f3d49f0310c7b5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-10-25 18:31:03</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+&#13;
+answer = true;&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>4e4bd5d54fcac740f5f3d49f0310c7b5</document_key>
@@ -1036,6 +1401,42 @@ answer = true;&#13;
         <x>966</x>
         <y>597</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=8f2cb5994f0ec740f5f3d49f0310c731"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8f2cb5994f0ec740f5f3d49f0310c731</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-10-25 18:34:21</sys_created_on>
+        <sys_id>832cb5994f0ec740f5f3d49f0310c732</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-10-25 18:41:28</sys_updated_on>
+        <value>u_state=27^ORu_sub_state=With primary reviewer^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8f2cb5994f0ec740f5f3d49f0310c731</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-10-25 18:34:20</sys_created_on>
+        <sys_id>cf2cb5994f0ec740f5f3d49f0310c731</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-10-25 18:34:20</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+&#13;
+answer = true;&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>8f2cb5994f0ec740f5f3d49f0310c731</document_key>
@@ -1141,6 +1542,37 @@ answer = true;&#13;
         <x>130</x>
         <y>200</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=864bd5d54fcac740f5f3d49f0310c7b2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>864bd5d54fcac740f5f3d49f0310c7b2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-10-25 16:10:39</sys_created_on>
+        <sys_id>8a4bd5d54fcac740f5f3d49f0310c7b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-10-25 16:10:39</sys_updated_on>
+        <value>u_state=20^u_sub_state=With primary reviewer^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>864bd5d54fcac740f5f3d49f0310c7b2</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-10-25 16:10:39</sys_created_on>
+        <sys_id>c64bd5d54fcac740f5f3d49f0310c7b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-10-25 16:10:39</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>864bd5d54fcac740f5f3d49f0310c7b2</document_key>
