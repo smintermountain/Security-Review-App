@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_to_state" table="x_inthe_cybersecur_status_tracking" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_to_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In Progress</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_status_tracking</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-11-29 18:09:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de3602644f3ec340f5f3d49f0310c713</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-11-29 18:09:55</sys_updated_on>
+            <u_task/>
+            <value>20</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_to_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Waiting for Vendor Call</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_status_tracking</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-11-29 18:09:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>623602644f3ec340f5f3d49f0310c715</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-11-29 18:09:55</sys_updated_on>
+            <u_task/>
+            <value>22</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_to_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting Customer</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_status_tracking</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-11-29 18:09:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>223602644f3ec340f5f3d49f0310c716</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-11-29 18:09:55</sys_updated_on>
+            <u_task/>
+            <value>23</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_to_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Waiting for Information</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_status_tracking</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-11-29 18:09:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ee3602644f3ec340f5f3d49f0310c716</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-11-29 18:09:55</sys_updated_on>
+            <u_task/>
+            <value>24</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_to_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Clarification Needed</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_status_tracking</name>
+            <sequence>4</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-11-29 18:09:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>663602644f3ec340f5f3d49f0310c724</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-11-29 18:09:55</sys_updated_on>
+            <u_task/>
+            <value>25</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_to_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On Hold</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_status_tracking</name>
+            <sequence>5</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-11-29 18:09:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>263602644f3ec340f5f3d49f0310c725</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-11-29 18:09:55</sys_updated_on>
+            <u_task/>
+            <value>26</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_to_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_status_tracking</name>
+            <sequence>6</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-11-29 18:09:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e23602644f3ec340f5f3d49f0310c726</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-11-29 18:09:55</sys_updated_on>
+            <u_task/>
+            <value>27</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_to_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rejected</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_status_tracking</name>
+            <sequence>7</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-11-29 18:09:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a23602644f3ec340f5f3d49f0310c727</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-11-29 18:09:55</sys_updated_on>
+            <u_task/>
+            <value>28</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_to_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_status_tracking</name>
+            <sequence>8</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-11-29 18:09:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>623602644f3ec340f5f3d49f0310c728</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-11-29 18:09:55</sys_updated_on>
+            <u_task/>
+            <value>29</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_to_state</element>
+            <name>x_inthe_cybersecur_status_tracking</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-11-29 18:09:55</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>da3602644f3ec340f5f3d49f0310c714</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_to_state</sys_name>
+            <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
+            <sys_update_name>sys_choice_x_inthe_cybersecur_status_tracking_u_to_state</sys_update_name>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-11-29 18:09:55</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -150,6 +150,7 @@
                 <element label="N/A" sequence="2" value="NA"/>
             </choice>
         </element>
+        <element label="Contract Reviewer" max_length="32" name="u_contract_reviewer" reference="sys_user" type="reference"/>
         <element label="Covered Record Count in Storage" max_length="40" name="u_covered_record_count_in_storage" type="integer"/>
         <element label="Covered Record Count Processed Annually" max_length="40" name="u_covered_record_count_processed_annually" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Credentials are Encrypted During Submission" max_length="40" name="u_credentials_encrypted_during_submission" type="string">
@@ -433,6 +434,7 @@
         <element label="Calculated Potential Risk Score" max_length="40" name="u_potential_risk_score" type="integer"/>
         <element label="Potential User Count" max_length="40" name="u_potential_user_count" type="integer"/>
         <element label="Primary Reviewer" max_length="32" name="u_primary_reviewer" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Project Manager" max_length="32" name="u_project_manager" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Regular User Passwords Comply with Intermountain Standards" max_length="40" name="u_regular_user_passwords_comply" type="string">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
@@ -474,7 +476,15 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Responsible Business Unit" max_length="100" name="u_responsible_business_unit" type="string"/>
         <element label="Review Completion Date" max_length="40" name="u_review_completion_date" type="glide_date"/>
+        <element label="Review Deadline" max_length="40" name="u_review_deadline" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Review Feedback" max_length="4000" name="u_review_feedback" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Normal" label="Review Priority" max_length="40" name="u_review_priority" type="string">
+            <choice>
+                <element label="Low" sequence="0" value="Low"/>
+                <element label="Normal" sequence="1" value="Normal"/>
+                <element label="High" sequence="2" value="High"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Review Process" max_length="4000" name="u_review_process" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Review Scope" max_length="4000" name="u_review_scope" type="string"/>
         <element label="Other" max_length="40" name="u_review_type_other_2" type="boolean"/>
@@ -563,6 +573,7 @@
                 <element label="Cancelled" sequence="8" value="29"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Status Notes" max_length="4000" name="u_status_notes" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_state" dependent_on_field="u_state" label="Sub-State" max_length="40" name="u_sub_state" type="string" use_dependent_field="true">
             <choice>
                 <element dependent_value="20" label="Need to Contact Business Owner/Technical Contact" sequence="0" value="Need to contact business owner/technical contact"/>
@@ -571,6 +582,8 @@
                 <element dependent_value="20" label="With Security Mgt." sequence="3" value="With Security Mgt."/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Supply Chain ID" max_length="255" name="u_supply_chain_id" type="string"/>
+        <element label="Supply Chain Item Link" max_length="1024" name="u_supply_chain_item_link" type="url"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Solution Supports Device Level Authentication and Authorization" max_length="40" name="u_supports_device_level_authentication_authorization" type="string">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
@@ -658,28 +671,34 @@
             <element name="u_solution"/>
         </index>
         <index name="index3">
-            <element name="u_business_owner"/>
-        </index>
-        <index name="index4">
             <element name="u_primary_reviewer"/>
         </index>
-        <index name="index5">
-            <element name="u_esc"/>
+        <index name="index4">
+            <element name="u_contract_reviewer"/>
         </index>
-        <index name="index6">
+        <index name="index5">
             <element name="u_triage_assignee"/>
         </index>
-        <index name="index7">
+        <index name="index6">
             <element name="u_osc"/>
         </index>
+        <index name="index7">
+            <element name="u_secondary_reviewer"/>
+        </index>
         <index name="index8">
-            <element name="u_asc"/>
+            <element name="u_business_owner"/>
         </index>
         <index name="index9">
-            <element name="u_organization"/>
+            <element name="u_esc"/>
         </index>
         <index name="index10">
-            <element name="u_secondary_reviewer"/>
+            <element name="u_asc"/>
+        </index>
+        <index name="index11">
+            <element name="u_organization"/>
+        </index>
+        <index name="index12">
+            <element name="u_project_manager"/>
         </index>
     </element>
 </database>

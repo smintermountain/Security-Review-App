@@ -32,12 +32,12 @@
         <sys_created_by>tkaneko</sys_created_by>
         <sys_created_on>2017-10-25 16:10:39</sys_created_on>
         <sys_id>4a4bd5d54fcac740f5f3d49f0310c7af</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2017-10-25 19:22:25</sys_updated_on>
+        <sys_updated_on>2017-11-29 17:14:40</sys_updated_on>
         <table>x_inthe_cybersecur_risk_assessment</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="(IHC) Security Review Fulfillment">480b4d2c4f79cf00f5f3d49f0310c70c</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">

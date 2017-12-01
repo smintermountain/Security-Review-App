@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Status Tracking" max_length="40" name="x_inthe_cybersecur_status_tracking" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Change By" max_length="40" name="change_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="From State" max_length="40" name="from_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="From Sub-State" max_length="40" name="from_sub_state" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="State Change Time" max_length="40" name="state_change_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="To State" max_length="40" name="to_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="To Sub-State" max_length="40" name="to_sub_state" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Risk Assessment ID" max_length="32" name="u_risk_assessment_id" reference="x_inthe_cybersecur_risk_assessment" type="reference"/>
+        <index name="index">
+            <element name="u_risk_assessment_id"/>
+        </index>
+    </element>
+</database>
