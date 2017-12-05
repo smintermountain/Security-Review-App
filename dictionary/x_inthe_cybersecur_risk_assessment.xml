@@ -167,11 +167,28 @@
                 <element label="N/A" sequence="2" value="NA"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Data Dictionary Final Risk Ranking" max_length="40" name="u_data_dictionary_final_risk_ranking" type="string">
+            <choice>
+                <element label="Low" sequence="0" value="Low"/>
+                <element label="Moderate" sequence="1" value="Moderate"/>
+                <element label="High" sequence="2" value="High"/>
+                <element label="Critical" sequence="3" value="Critical"/>
+            </choice>
+        </element>
+        <element label="Data Dictionary ID" max_length="40" name="u_data_dictionary_id" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Data Elements" max_length="4000" name="u_data_elements" type="string"/>
         <element label="Data Flow Analysis Description" max_length="65536" name="u_data_flow_analysis" type="html"/>
         <element attributes="edge_encryption_enabled=true" label="Which Data Remains on the Device" max_length="1000" name="u_data_remains_on_device" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Data Transfer Comments" max_length="4000" name="u_data_transfer_comments" type="string"/>
         <element label="Other" max_length="40" name="u_data_type_other" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Data Dictionary Calculated Risk Category" max_length="40" name="u_dd_calculated_risk_category" type="string">
+            <choice>
+                <element label="Low" sequence="0" value="Low"/>
+                <element label="Moderate" sequence="1" value="Moderate"/>
+                <element label="High" sequence="2" value="High"/>
+                <element label="Critical" sequence="3" value="Critical"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Describe the App's User Authentication and Authorization Process" max_length="1000" name="u_describe_app_user_authenticate_authorize_process" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Describe How Device Encryption Will Be Achieved" max_length="1000" name="u_describe_device_encryption_mobile" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Describe Methods of Encryption" max_length="1000" name="u_describe_encryption_methods_rest" type="string"/>
@@ -305,6 +322,7 @@
             </choice>
         </element>
         <element label="IRB" max_length="40" name="u_irb" type="boolean"/>
+        <element label="Legacy Security Review ID" max_length="40" name="u_legacy_security_review_id" type="integer"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="List of DSAs" max_length="1024" name="u_list_of_dsas" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" label="Describe Logging and Auditing Capabilities of the System or Solution" max_length="1000" name="u_logging_auditing_capabilities" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Manually Adjusted Potential Risk Category" max_length="40" name="u_manually_adjusted_potential_risk_category" type="string">
@@ -486,6 +504,18 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Review Process" max_length="4000" name="u_review_process" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Review Request Source" max_length="40" name="u_review_request_source" type="string">
+            <choice>
+                <element label="Data Dictionary" sequence="0" value="Data Dictionary"/>
+                <element label="IRB" sequence="1" value="IRB"/>
+                <element label="Management" sequence="2" value="Management"/>
+                <element label="Projects" sequence="3" value="Projects"/>
+                <element label="SCO" sequence="4" value="SCO"/>
+                <element label="SIRP" sequence="5" value="SIRP"/>
+                <element label="SSDLC" sequence="6" value="SSDLC"/>
+                <element label="Other" sequence="7" value="Other"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Review Scope" max_length="4000" name="u_review_scope" type="string"/>
         <element label="Other" max_length="40" name="u_review_type_other_2" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Describe the Type of Review Being Performed" max_length="4000" name="u_review_type_other_addl_comments" type="string"/>
@@ -507,6 +537,7 @@
                 <element label="Other" sequence="3" value="Other"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="SIRP ID" max_length="40" name="u_sirp_id" type="string"/>
         <element label="Solution Name" max_length="32" name="u_solution" reference="x_inthe_cybersecur_solution" reference_qual="javascript: new IHCAppUtils().getSolutions(current.u_organization);" type="reference" use_reference_qualifier="advanced"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Does the Solution Comply with SSDLC Requirements" max_length="40" name="u_solution_comply_with_ssdlc" type="string">
             <choice>

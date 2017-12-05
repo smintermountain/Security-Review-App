@@ -48,7 +48,7 @@
         <sys_created_by>tkaneko</sys_created_by>
         <sys_created_on>2017-05-31 18:57:06</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>b82590474f824300f5f3d49f0310c7db</sys_id>
+        <sys_id>0da0e5e24f72c700af76d0af0310c731</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>All Data on Backup Media or Other External Media are Encrypted</sys_name>
         <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
@@ -57,7 +57,7 @@
         <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
         <sys_update_name>sys_dictionary_x_inthe_cybersecur_risk_assessment_u_all_data_on_backup_media_encrypted</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-10-30 21:34:10</sys_updated_on>
+        <sys_updated_on>2017-12-05 20:34:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

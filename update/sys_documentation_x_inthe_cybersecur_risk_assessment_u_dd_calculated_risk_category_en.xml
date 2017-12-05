@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_dd_calculated_risk_category" label="Data Dictionary Calculated Risk Category" language="en" table="x_inthe_cybersecur_risk_assessment">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_dd_calculated_risk_category</element>
+            <help/>
+            <hint/>
+            <label>Data Dictionary Calculated Risk Category</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <plural>Data Dictionary Calculated Risk Categories</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-12-05 20:55:48</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>4bb56daa4f72c700af76d0af0310c749</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Data Dictionary Calculated Risk Category</sys_name>
+            <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
+            <sys_update_name>sys_documentation_x_inthe_cybersecur_risk_assessment_u_dd_calculated_risk_category_en</sys_update_name>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-12-05 20:55:48</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

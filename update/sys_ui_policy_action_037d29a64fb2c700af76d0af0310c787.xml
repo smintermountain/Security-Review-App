@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_supply_chain_id</field>
+        <mandatory>false</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-12-05 21:29:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>037d29a64fb2c700af76d0af0310c787</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_supply_chain_id</sys_name>
+        <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
+        <sys_update_name>sys_ui_policy_action_037d29a64fb2c700af76d0af0310c787</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-12-05 21:29:40</sys_updated_on>
+        <table>x_inthe_cybersecur_risk_assessment</table>
+        <ui_policy display_value="(IHC) Review Request Source is Data Dictionary">367da5a64fb2c700af76d0af0310c764</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>
