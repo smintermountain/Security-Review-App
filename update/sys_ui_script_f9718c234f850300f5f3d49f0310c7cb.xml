@@ -192,7 +192,7 @@ g_form.clearMessages();
 			}
 //g_form.addInfoMessage('vendorManagedScore is ' + vendorManagedScore);	
 
-g_form.addInfoMessage('Total Score is ' + totalScore);	
+//g_form.addInfoMessage('Total Score is ' + totalScore);	
 
 	return totalScore;
 		
@@ -216,7 +216,7 @@ g_form.addInfoMessage('Total Score is ' + totalScore);
         <sys_created_on>2017-09-12 16:29:03</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>f9718c234f850300f5f3d49f0310c7cb</sys_id>
-        <sys_mod_count>55</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_name>x_inthe_cybersecur.CalculateRiskScore</sys_name>
         <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
         <sys_policy/>
@@ -224,7 +224,7 @@ g_form.addInfoMessage('Total Score is ' + totalScore);
         <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
         <sys_update_name>sys_ui_script_f9718c234f850300f5f3d49f0310c7cb</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2017-09-12 21:34:43</sys_updated_on>
+        <sys_updated_on>2017-12-12 19:12:28</sys_updated_on>
         <use_scoped_format>true</use_scoped_format>
     </sys_ui_script>
 </record_update>

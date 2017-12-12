@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_inthe_hr_case_mg.admin" name="x_inthe_hr_case_mg.admin">1303e0bd4f740340f5f3d49f0310c74e</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-12-05 21:52:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>49c2756e4fb2c700af76d0af0310c7cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1303e0bd4f740340f5f3d49f0310c74e</sys_name>
+        <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
+        <sys_update_name>sys_embedded_help_role_49c2756e4fb2c700af76d0af0310c7cc</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-12-05 21:52:45</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

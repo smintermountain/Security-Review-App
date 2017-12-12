@@ -4,25 +4,25 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-12-05 21:21:28</sys_created_on>
-            <sys_id>0b9be1264fb2c700af76d0af0310c7c7</sys_id>
+            <sys_created_on>2017-12-12 19:04:38</sys_created_on>
+            <sys_id>e66f89b84fcb4700af76d0af0310c734</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-12-05 21:21:28</sys_updated_on>
+            <sys_updated_on>2017-12-12 19:04:38</sys_updated_on>
             <text>****Section Details go here*****</text>
             <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>0b9be1264fb2c700af76d0af0310c7c7</element>
+            <element>e66f89b84fcb4700af76d0af0310c734</element>
             <position>0</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-12-05 21:21:28</sys_created_on>
-            <sys_id>cb9be1264fb2c700af76d0af0310c7c7</sys_id>
+            <sys_created_on>2017-12-12 19:04:38</sys_created_on>
+            <sys_id>aa6f89b84fcb4700af76d0af0310c734</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Data Flow" display_value="Data Flow" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">2ef250444fd7ba00af76d0af0310c7f9</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-12-05 21:21:28</sys_updated_on>
+            <sys_updated_on>2017-12-12 19:04:38</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -30,13 +30,13 @@
             <element>u_data_flow_analysis</element>
             <position>1</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-12-05 21:21:28</sys_created_on>
-            <sys_id>4f9be1264fb2c700af76d0af0310c7c7</sys_id>
+            <sys_created_on>2017-12-12 19:04:38</sys_created_on>
+            <sys_id>2e6f89b84fcb4700af76d0af0310c734</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Data Flow" display_value="Data Flow" name="x_inthe_cybersecur_risk_assessment" sys_domain="global" view="Default view">2ef250444fd7ba00af76d0af0310c7f9</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-12-05 21:21:28</sys_updated_on>
+            <sys_updated_on>2017-12-12 19:04:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
