@@ -170,17 +170,43 @@ g_form.clearMessages();
 			
 		
 //g_form.addInfoMessage('dataCenterScore is ' + dataCenterScore);
-//*************************Network Architecture Phase 1*************************
+//*************************Network Architecture*************************
+//Modified on 12-12-2017 with revised pseudocode from Tyler Wilcox		
 			var networkConnection = g_form.getValue('u_network_connection');
 			var networkConnectionScore = 0;
 			
 			switch(true){
-				case networkConnection != 'no_direct_network' :
+				case networkConnection == 'no_direct_network' :
+					networkConnectionScore = 0;
+					totalScore += networkConnectionScore;
+					break;
+				case networkConnection == 'trusted_network_only' :
 					networkConnectionScore = 1;
 					totalScore += networkConnectionScore;
+					break;
+				case networkConnection == 'untrusted_network' :
+					networkConnectionScore = 2;
+					totalScore += networkConnectionScore;
+					break;					
 					
 			}
-//g_form.addInfoMessage('networkConnectionScore is ' + networkConnectionScore);		
+//g_form.addInfoMessage('networkConnectionScore is ' + networkConnectionScore);
+//*************************Network Accessibility*************************
+//Added on 12-12-2017 with revised pseudocode from Tyler Wilcox
+			var networkAccessibility = g_form.getValue('u_network_accessibility');
+			var networkAccessibilityScore = 0;
+			
+			switch(true){
+				case networkAccessibility == 'internal_trusted_network' :
+					networkAccessibilityScore = 1;
+					totalScore += networkAccessibilityScore;
+					break;
+				case networkAccessibility == 'external_untrusted_network' :
+					networkAccessibilityScore = 2;
+					totalScore += networkAccessibilityScore;
+					break;					
+			}
+//g_form.addInfoMessage('networkAccessibilityScore is ' + networkAccessibilityScore);			
 //**********************Vendor Managed*****************************************
 			var vendorManagedScore = 0;
 			
@@ -192,7 +218,7 @@ g_form.clearMessages();
 			}
 //g_form.addInfoMessage('vendorManagedScore is ' + vendorManagedScore);	
 
-//g_form.addInfoMessage('Total Score is ' + totalScore);	
+g_form.addInfoMessage('Risk Score has been calculated to ' + totalScore);	
 
 	return totalScore;
 		
@@ -216,7 +242,7 @@ g_form.clearMessages();
         <sys_created_on>2017-09-12 16:29:03</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>f9718c234f850300f5f3d49f0310c7cb</sys_id>
-        <sys_mod_count>56</sys_mod_count>
+        <sys_mod_count>58</sys_mod_count>
         <sys_name>x_inthe_cybersecur.CalculateRiskScore</sys_name>
         <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
         <sys_policy/>
@@ -224,7 +250,7 @@ g_form.clearMessages();
         <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
         <sys_update_name>sys_ui_script_f9718c234f850300f5f3d49f0310c7cb</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2017-12-12 19:12:28</sys_updated_on>
+        <sys_updated_on>2017-12-12 20:04:19</sys_updated_on>
         <use_scoped_format>true</use_scoped_format>
     </sys_ui_script>
 </record_update>
