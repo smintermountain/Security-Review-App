@@ -26,18 +26,38 @@
             <element>u_review_request_source</element>
             <hint/>
             <inactive>false</inactive>
-            <label>IRB</label>
+            <label>DXC</label>
             <language>en</language>
             <name>x_inthe_cybersecur_risk_assessment</name>
             <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-06-07 20:14:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>11b0853d4f2ed780af76d0af0310c7a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-06-07 20:14:02</sys_updated_on>
+            <u_task/>
+            <value>DXC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_review_request_source</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IRB</label>
+            <language>en</language>
+            <name>x_inthe_cybersecur_risk_assessment</name>
+            <sequence>2</sequence>
             <sys_created_by>tkaneko</sys_created_by>
             <sys_created_on>2017-12-05 20:50:49</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>719461aa4f72c700af76d0af0310c709</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-12-05 20:50:49</sys_updated_on>
+            <sys_updated_on>2018-06-07 20:14:03</sys_updated_on>
             <u_task/>
             <value>IRB</value>
         </sys_choice>
@@ -49,15 +69,15 @@
             <label>Management</label>
             <language>en</language>
             <name>x_inthe_cybersecur_risk_assessment</name>
-            <sequence>2</sequence>
+            <sequence>3</sequence>
             <sys_created_by>tkaneko</sys_created_by>
             <sys_created_on>2017-12-05 20:50:49</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>fd9461aa4f72c700af76d0af0310c709</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-12-05 20:50:49</sys_updated_on>
+            <sys_updated_on>2018-06-07 20:14:03</sys_updated_on>
             <u_task/>
             <value>Management</value>
         </sys_choice>
@@ -69,15 +89,15 @@
             <label>Projects</label>
             <language>en</language>
             <name>x_inthe_cybersecur_risk_assessment</name>
-            <sequence>3</sequence>
+            <sequence>4</sequence>
             <sys_created_by>tkaneko</sys_created_by>
             <sys_created_on>2017-12-05 20:50:49</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>7d9461aa4f72c700af76d0af0310c70a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-12-05 20:50:49</sys_updated_on>
+            <sys_updated_on>2018-06-07 20:14:03</sys_updated_on>
             <u_task/>
             <value>Projects</value>
         </sys_choice>
@@ -89,15 +109,15 @@
             <label>SCO</label>
             <language>en</language>
             <name>x_inthe_cybersecur_risk_assessment</name>
-            <sequence>4</sequence>
+            <sequence>5</sequence>
             <sys_created_by>tkaneko</sys_created_by>
             <sys_created_on>2017-12-05 20:50:49</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f99461aa4f72c700af76d0af0310c70b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-12-05 20:50:49</sys_updated_on>
+            <sys_updated_on>2018-06-07 20:14:03</sys_updated_on>
             <u_task/>
             <value>SCO</value>
         </sys_choice>
@@ -109,15 +129,15 @@
             <label>SIRP</label>
             <language>en</language>
             <name>x_inthe_cybersecur_risk_assessment</name>
-            <sequence>5</sequence>
+            <sequence>6</sequence>
             <sys_created_by>tkaneko</sys_created_by>
             <sys_created_on>2017-12-05 20:50:49</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>799461aa4f72c700af76d0af0310c70c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-12-05 20:50:49</sys_updated_on>
+            <sys_updated_on>2018-06-07 20:14:03</sys_updated_on>
             <u_task/>
             <value>SIRP</value>
         </sys_choice>
@@ -129,15 +149,15 @@
             <label>SSDLC</label>
             <language>en</language>
             <name>x_inthe_cybersecur_risk_assessment</name>
-            <sequence>6</sequence>
+            <sequence>7</sequence>
             <sys_created_by>tkaneko</sys_created_by>
             <sys_created_on>2017-12-05 20:50:49</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f59461aa4f72c700af76d0af0310c70d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-12-05 20:50:49</sys_updated_on>
+            <sys_updated_on>2018-06-07 20:14:03</sys_updated_on>
             <u_task/>
             <value>SSDLC</value>
         </sys_choice>
@@ -149,15 +169,15 @@
             <label>Other</label>
             <language>en</language>
             <name>x_inthe_cybersecur_risk_assessment</name>
-            <sequence>7</sequence>
+            <sequence>8</sequence>
             <sys_created_by>tkaneko</sys_created_by>
             <sys_created_on>2017-12-05 21:27:07</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>21ec2d664fb2c700af76d0af0310c7d0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-12-05 21:27:07</sys_updated_on>
+            <sys_updated_on>2018-06-07 20:14:03</sys_updated_on>
             <u_task/>
             <value>Other</value>
         </sys_choice>

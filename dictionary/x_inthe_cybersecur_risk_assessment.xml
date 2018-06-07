@@ -507,13 +507,14 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="Review Request Source" max_length="40" name="u_review_request_source" type="string">
             <choice>
                 <element label="Data Dictionary" sequence="0" value="Data Dictionary"/>
-                <element label="IRB" sequence="1" value="IRB"/>
-                <element label="Management" sequence="2" value="Management"/>
-                <element label="Projects" sequence="3" value="Projects"/>
-                <element label="SCO" sequence="4" value="SCO"/>
-                <element label="SIRP" sequence="5" value="SIRP"/>
-                <element label="SSDLC" sequence="6" value="SSDLC"/>
-                <element label="Other" sequence="7" value="Other"/>
+                <element label="DXC" sequence="1" value="DXC"/>
+                <element label="IRB" sequence="2" value="IRB"/>
+                <element label="Management" sequence="3" value="Management"/>
+                <element label="Projects" sequence="4" value="Projects"/>
+                <element label="SCO" sequence="5" value="SCO"/>
+                <element label="SIRP" sequence="6" value="SIRP"/>
+                <element label="SSDLC" sequence="7" value="SSDLC"/>
+                <element label="Other" sequence="8" value="Other"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Review Scope" max_length="4000" name="u_review_scope" type="string"/>

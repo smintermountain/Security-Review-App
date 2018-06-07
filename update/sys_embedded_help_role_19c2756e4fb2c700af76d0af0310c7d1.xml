@@ -2,7 +2,7 @@
 <record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
-        <role display_value="x_inthe_hr_case_mg.user" name="x_inthe_hr_case_mg.user">64482c744f2f3e00f5f3d49f0310c774</role>
+        <role/>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2017-12-05 21:52:45</sys_created_on>
