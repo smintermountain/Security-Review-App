@@ -271,7 +271,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="ePHI Share Type" max_length="40" name="u_ephi_share_type" type="string">
             <choice>
-                <element label="Fully Indentifiable" sequence="0" value="fully_identifiable"/>
+                <element label="Fully Identifiable" sequence="0" value="fully_identifiable"/>
                 <element label="Limited Data Set" sequence="1" value="limited_data_set"/>
             </choice>
         </element>

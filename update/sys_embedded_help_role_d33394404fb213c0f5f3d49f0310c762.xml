@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="sn_dd_cybersecurityreview_integrations" name="sn_dd_cybersecurityreview_integrations">5f3394404fb213c0f5f3d49f0310c760</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2018-06-14 16:41:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d33394404fb213c0f5f3d49f0310c762</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5f3394404fb213c0f5f3d49f0310c760</sys_name>
+        <sys_package display_value="Cybersecurity Review" source="x_inthe_cybersecur">a43c48094faa7e00af76d0af0310c764</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cybersecurity Review">a43c48094faa7e00af76d0af0310c764</sys_scope>
+        <sys_update_name>sys_embedded_help_role_d33394404fb213c0f5f3d49f0310c762</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2018-06-14 16:41:43</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

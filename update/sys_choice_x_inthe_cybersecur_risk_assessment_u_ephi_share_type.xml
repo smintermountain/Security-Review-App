@@ -6,7 +6,7 @@
             <element>u_ephi_share_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Fully Indentifiable</label>
+            <label>Fully Identifiable</label>
             <language>en</language>
             <name>x_inthe_cybersecur_risk_assessment</name>
             <sequence>0</sequence>
@@ -15,9 +15,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>5ec574054f2e7e00af76d0af0310c777</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-05-03 19:08:35</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>ltwilcox</sys_updated_by>
+            <sys_updated_on>2018-06-14 16:49:50</sys_updated_on>
             <u_task/>
             <value>fully_identifiable</value>
         </sys_choice>
